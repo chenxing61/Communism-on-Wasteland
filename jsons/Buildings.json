@@ -31,12 +31,10 @@
     "cityHealth": 10,
     "cost": 20,
     "uniques": [
-        "[+1 Food] per [3] population [in this city]",
-        "[+2 Production] per [3] population [in this city]",
-        "[+1 Science] per [3] population [in this city]",
-        "[+1 Culture] per [3] population [in this city]",
+
+        "[+1 Production] per [3] population [in this city]",
         "[25]% Food is carried over after population increases [in this city]",
-        "New [Military] units start with [15] Experience [in this city]"
+        "New [Military] units start with [5] Experience [in this city]"
         "[+1 Food] [in this city] <with [Salt]>",
         "[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
         "Destroyed when the city is captured"
