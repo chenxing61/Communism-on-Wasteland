@@ -21,19 +21,18 @@
 		"outerColor": [178, 34, 34],
 		"innerColor": [238, 238, 0],
 		"style": "",
-		"uniqueName": "Sprits of revolution",
+		"uniqueName": "Sprits of the Long March",
 		"uniques": [
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Civil Service]",
 			"Starts with [Collectivism] adopted",
-            "[Personnel] units gain the [Guerilla Warfare I] promotion",
+                        "[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
-            "[+25]% XP gained from combat",
-            "[-25]% tile improvement construction time",
-                                                "[2] Movement",
-			"Each city founded increases culture cost of policies [+50]% less than normal"
-            "Cannot build [Enslaved] units",
+                        "[+25]% XP gained from combat",
+                        "[1] Movement",
+			"Each city founded increases culture cost of policies [+25]% less than normal"
+                        "Cannot build [Enslaved] units",
 		],
 		"cities": [
 			"Neo Yan'an",
