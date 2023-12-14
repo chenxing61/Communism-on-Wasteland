@@ -1,0 +1,79 @@
+[
+{
+    "name": "Elite Militia",
+    "unitType": "Shooter",
+    "range": 1,
+    "movement": 2,
+    "strength": 30,
+    "rangedStrength": 30,
+    "interceptRange": 1,
+    "cost": 75,
+    "requiredTech": "The Wheel",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Rifleman",
+    "uniqueTo":  "United Commune of People",
+    "replaces": "Gunman",
+    "hurryCostModifier": 20,
+    "uniques": [
+        "Personnel",
+        "Consumes [1] [Weapons]"
+    ],
+    "promotions": [
+        "Forage",
+        "Guerilla Warfare I"
+    ],
+    "attackSound": "shot"
+},
+
+{
+    "name": "Red Vanguards",
+    "unitType": "Armor",
+    "movement": 4,
+    "strength": 60,
+    "cost": 250,
+    "requiredTech": "Combined Arms",
+    "upgradesTo": "Modern Armor",
+    "uniqueTo":  "United Commune of People",
+    "obsoleteTech": "Advanced Materials",
+    "uniques": [
+        "Can move after attacking",
+        "[-10]% Strength <vs cities> <when attacking>",
+        "No defensive terrain bonus",
+        "Only available <if [Factory] is constructed>",
+        "Consumes [1] [Oil]",
+        "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+        "Suppression"
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "tankshot"
+},
+
+{
+    "name": "Wind of the East",
+    "unitType": "Siege",
+    "range": 2,
+    "movement": 5,
+    "strength": 35,
+    "rangedStrength": 45,
+    "cost": 350,
+    "requiredTech": "Lasers",
+    "uniqueTo":  "United Commune of People",
+    "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "[+150]% Strength <vs [Armor] units>",
+        "May withdraw before melee ([50]%)",
+        "Only available <if [Factory] is constructed>",
+        "Consumes [1] [Oil]",
+        "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+        "Logistics"
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "missile"
+}
+
+]
