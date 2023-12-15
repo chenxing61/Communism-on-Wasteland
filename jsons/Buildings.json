@@ -81,7 +81,7 @@
         "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
         "Only available <if [Search for Survivors] is constructed>",
         "Can only be built [in capital]",
-        "Only available <in cities without a [Strengthened mass line]>",
+        "Only available <in cities without a [Strengthened Mass Line]>",
         "Destroyed when the city is captured"
        
     ],
@@ -103,7 +103,7 @@
         "[+25]% Production when constructing [All] buildings [in all cities]",
         "Only available <if [Search for Survivors] is constructed>",
         "Can only be built [in capital]",
-        "Only available <in cities without a [Global liberation command]>",
+        "Only available <in cities without a [Global Liberation Command]>",
         "Destroyed when the city is captured"
         
     ],
