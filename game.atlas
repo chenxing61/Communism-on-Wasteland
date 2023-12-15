@@ -18,7 +18,7 @@ BuildIcons/Global Liberation Command
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildIcons/Strengthened mass line
+BuildIcons/Strengthened Mass Line
   rotate: false
   xy: 4, 4
   size: 100, 100
@@ -32,7 +32,7 @@ ReligionIcons/Maoism
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/United Commune of people
+NationIcons/United Commune of People
   rotate: false
   xy: 112, 220
   size: 100, 100
