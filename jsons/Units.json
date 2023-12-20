@@ -24,7 +24,26 @@
     ],
     "attackSound": "shot"
 },
-
+{
+    "name": "'No mercy' Cannon",
+    "unitType": "Shooter",
+    "range": 1,
+    "movement": 2,
+    "strength": 22,
+    "rangedStrength": 25,
+    "cost": 50,
+    "hurryCostModifier": 20,
+    "requiredTech": "Steel",
+    "replaces": "Crossbowman",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Gunman",
+    "uniques": [
+        "Low Tech",
+        "[+50]% Strength <vs [Low Tech] units>",
+        "[+100]% Strength <vs cities>"
+    ],
+    "attackSound": "cannon"
+},
 {
     "name": "Red Vanguards",
     "unitType": "Armor",
@@ -34,6 +53,7 @@
     "requiredTech": "Combined Arms",
     "upgradesTo": "Modern Armor",
     "uniqueTo":  "United Commune of People",
+    "replaces": "Tank",
     "obsoleteTech": "Advanced Materials",
     "uniques": [
         "Can move after attacking",
@@ -49,31 +69,29 @@
     "hurryCostModifier": 20,
     "attackSound": "tankshot"
 },
-
 {
     "name": "Wind of the East",
     "unitType": "Siege",
-    "range": 2,
-    "movement": 5,
-    "strength": 35,
-    "rangedStrength": 45,
+    "movement": 3,
+    "strength": 25,
+    "rangedStrength": 40,
+    "range": 3,
     "cost": 350,
-    "requiredTech": "Lasers",
     "uniqueTo":  "United Commune of People",
+    "requiredTech": "Rocketry",
+    "replaces": "Rocket Artillery",
     "uniques": [
-        "Can move after attacking",
+        "[+100]% Strength <vs cities> <when attacking>",
         "No defensive terrain bonus",
-        "[+150]% Strength <vs [Armor] units>",
-        "May withdraw before melee ([50]%)",
+        "[-50]% Strength <vs [Helicopter] units>",
+        "May withdraw before melee ([25]%)",
         "Only available <if [Factory] is constructed>",
+        "Can carry [1] [Missile] units",
         "Consumes [1] [Oil]",
         "Never appears as a Barbarian unit"
     ],
-    "promotions": [
-        "Logistics"
-    ],
+    "promotions": ["Artillery","Logistics"],
     "hurryCostModifier": 20,
-    "attackSound": "missile"
-}
-
+    "attackSound": "artillery"
+},
 ]

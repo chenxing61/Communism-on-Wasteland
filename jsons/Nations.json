@@ -3,7 +3,7 @@
 		"name": "United Commune of People",
 		"leaderName": "Li de sheng",
 		"adjective": ["Commuists'"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Neutral",
 		"favoredReligion": "Maoism",
 
 		"startIntroPart1": "Working men of all Countries, unite! The revolution will continue, even though the human history has reached its lowest point. Capitalism, reactionary forces remains. Fight back all at once!",
@@ -24,7 +24,7 @@
 		"uniqueName": "Sprits of revolution",
 		"uniques": [
 			"Starts with [Writing]",
-			"Starts with [Construction]",
+			"Starts with [Secrets of the Past]",
 			"Starts with [Civil Service]",
 			"Starts with [Collectivism] adopted",
             "[+25]% XP gained from combat",
@@ -47,7 +47,8 @@
             "Neo Shanghai",
             "Neo Tianjing",
             "Neo Xi'an",
-            "Neo Guangzhou"
+            "Neo Guangzhou",
+			"Red Dream Town"
 
 		],
 		"civilopediaText": [
