@@ -2,18 +2,12 @@
 {
     "name": "Elite Militia",
     "unitType": "Shooter",
-    "range": 1,
+    "cost": 75,
     "movement": 2,
     "strength": 30,
+    "range": 1,
     "rangedStrength": 30,
     "interceptRange": 1,
-    "cost": 75,
-    "requiredTech": "The Wheel",
-    "obsoleteTech": "Replaceable Parts",
-    "upgradesTo": "Rifleman",
-    "uniqueTo":  "United Commune of People",
-    "replaces": "Gunman",
-    "hurryCostModifier": 20,
     "uniques": [
         "Personnel",
         "Consumes [1] [Weapons]"
@@ -22,39 +16,41 @@
         "Forage",
         "Guerilla Warfare I"
     ],
-    "attackSound": "shot"
+    "requiredTech": "The Wheel",
+    "obsoleteTech": "Replaceable Parts",
+    "upgradesTo": "Rifleman",
+    "uniqueTo":  "United Commune of People",
+    "replaces": "Gunman",
+    "attackSound": "shot",
+    "hurryCostModifier": 20
 },
 {
     "name": "'No mercy' Cannon",
     "unitType": "Shooter",
-    "range": 1,
+    "cost": 50,
     "movement": 2,
     "strength": 22,
-    "rangedStrength": 25,
-    "cost": 50,
-    "hurryCostModifier": 20,
-    "requiredTech": "Steel",
-    "replaces": "Crossbowman",
-    "obsoleteTech": "Rifling",
-    "upgradesTo": "Gunman",
+    "range": 1,
+    "rangedStrength": 27,
     "uniques": [
         "Low Tech",
         "[+50]% Strength <vs [Low Tech] units>",
         "[+100]% Strength <vs cities>"
     ],
+    "requiredTech": "Steel",
+    "replaces": "Crossbowman",
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Gunman",
+    "uniqueTo":  "United Commune of People",
+    "hurryCostModifier": 20,
     "attackSound": "cannon"
 },
 {
     "name": "Red Vanguards",
     "unitType": "Armor",
+    "cost": 250,
     "movement": 4,
     "strength": 60,
-    "cost": 250,
-    "requiredTech": "Combined Arms",
-    "upgradesTo": "Modern Armor",
-    "uniqueTo":  "United Commune of People",
-    "replaces": "Tank",
-    "obsoleteTech": "Advanced Materials",
     "uniques": [
         "Can move after attacking",
         "[-10]% Strength <vs cities> <when attacking>",
@@ -66,20 +62,22 @@
     "promotions": [
         "Suppression"
     ],
+    "requiredTech": "Combined Arms",
+    "upgradesTo": "Modern Armor",
+    "uniqueTo":  "United Commune of People",
+    "replaces": "Tank",
+    "obsoleteTech": "Advanced Materials",
     "hurryCostModifier": 20,
     "attackSound": "tankshot"
 },
 {
     "name": "Wind of the East",
     "unitType": "Siege",
+    "cost": 350,
     "movement": 3,
     "strength": 25,
     "rangedStrength": 40,
     "range": 3,
-    "cost": 350,
-    "uniqueTo":  "United Commune of People",
-    "requiredTech": "Rocketry",
-    "replaces": "Rocket Artillery",
     "uniques": [
         "[+100]% Strength <vs cities> <when attacking>",
         "No defensive terrain bonus",
@@ -91,6 +89,9 @@
         "Never appears as a Barbarian unit"
     ],
     "promotions": ["Artillery","Logistics"],
+    "uniqueTo":  "United Commune of People",
+    "requiredTech": "Rocketry",
+    "replaces": "Rocket Artillery",
     "hurryCostModifier": 20,
     "attackSound": "artillery"
 },
