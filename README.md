@@ -1,2 +1,4 @@
-# Deciv-sub-mob-commuism-that-aint-toxic
-经过原作者和我们的努力，这两个mod最终得以运行并整合在一起
+# Deciv-sub-mod-Communism-on-Wasteland
+Now finally fixed
+
+Credit to 孑然冰菓 for bug fixes
