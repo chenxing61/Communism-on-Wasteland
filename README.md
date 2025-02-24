@@ -1,2 +1,2 @@
 # Deciv-sub-mob-commuism-that-aint-toxic
-A mod for Deciv-redux which is a mod for Unciv, I guess it works.
+经过原作者和我们的努力，这两个mod最终得以运行并整合在一起

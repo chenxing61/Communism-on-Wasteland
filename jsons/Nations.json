@@ -28,7 +28,7 @@
 			"Starts with [Civil Service]",
 			"Starts with [Collectivism] adopted",
             "[+25]% XP gained from combat",
-            "[-25]% tile improvement construction time",
+            "[-25]% construction time for [all] improvements",
 			"Each city founded increases culture cost of policies [33]% less than normal",
             "Cannot build [Enslaved] units"
 		],

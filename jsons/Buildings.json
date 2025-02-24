@@ -1,5 +1,5 @@
 [
-{
+ {
     "name": "Wasteland Socialist Authority",
     "isWonder": true,
     "uniqueTo": "United Commune of People",
@@ -15,7 +15,7 @@
         "[1] free [Worker] units appear",
         "[1] free [Elite Militia] units appear",
         "Gain a free [Communist Cooperative] [in this city]",
-        "Can only be built [in capital]",
+        "Can only be built <in [Capital] cities>",
         "Destroyed when the city is captured"
     ],
     "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
@@ -24,8 +24,8 @@
             "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. - Old poem from a great person"
         }
     ]
-},
-{
+ },
+ {
     "name": "Communist Cooperative",
     "replaces": "Food Store",
     "isWonder": false,
@@ -47,8 +47,8 @@
             "text": "...restabilishing a basis for common ownership. - Command 05 from the Socialist Authority"
         }
     ]
-},
-{
+ },
+ {
     "name": "Liberation Camp",
     "replaces": "Work Camp",
     "uniqueTo": "United Commune of People",
@@ -68,8 +68,8 @@
         }
     ],
     "requiredTech": "Construction"
-},
-{
+ },
+ {
     "name": "Global Liberation Command",
     "replaces": "Congress",
     "uniqueTo": "United Commune of People",
@@ -81,7 +81,7 @@
         "New [Military] units start with [10] Experience [in all cities]",
         "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital]",
+        "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Strengthened Mass Line]>",
         "Destroyed when the city is captured"
     ],
@@ -90,8 +90,8 @@
             "text": "The wasteland is filled with scums and exploiters and enslavers, its time to shed a light upon this dark age."
         }
     ]
-},
-{
+ },
+ {
     "name": "Strengthened Mass Line",
     "cost": 67,
     "culture": 3,
@@ -102,7 +102,7 @@
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[+15]% Production when constructing [All] buildings [in all cities]",
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built [in capital]",
+        "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Global Liberation Command]>",
         "Destroyed when the city is captured"
     ],

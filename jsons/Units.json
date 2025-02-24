@@ -82,7 +82,7 @@
         "[+100]% Strength <vs cities> <when attacking>",
         "No defensive terrain bonus",
         "[-50]% Strength <vs [Helicopter] units>",
-        "May withdraw before melee ([25]%)",
+        "Withdraws before melee combat <with [25]% chance>",
         "Only available <if [Factory] is constructed>",
         "Can carry [1] [Missile] units",
         "Consumes [1] [Oil]",
