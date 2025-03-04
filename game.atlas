@@ -1,95 +1,103 @@
+
 game.png
-size: 2048, 128
+size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Communist Cooperative
   rotate: false
-  xy: 4, 4
+  xy: 4, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Council of People's Commissars
   rotate: false
-  xy: 112, 4
+  xy: 524, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Global Liberation Command
   rotate: false
-  xy: 328, 4
+  xy: 112, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Strengthened Mass Line
   rotate: false
-  xy: 868, 4
+  xy: 220, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Stavka of the Supreme High Command
   rotate: false
-  xy: 976, 4
+  xy: 524, 524
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Russian Soviet Republice
   rotate: false
-  xy: 652, 4
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Maoism
   rotate: false
-  xy: 436, 4
+  xy: 524, 632
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United Commune of People
   rotate: false
-  xy: 436, 4
+  xy: 524, 632
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Socialism
   rotate: false
-  xy: 760, 4
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Troskysim
   rotate: false
-  xy: 1084, 4
+  xy: 632, 632
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/'No mercy' Cannon
+  rotate: false
+  xy: 4, 328
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Elite Militia
   rotate: false
-  xy: 220, 4
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Vanguards
   rotate: false
-  xy: 544, 4
+  xy: 632, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wind of the East
   rotate: false
-  xy: 1192, 4
+  xy: 740, 740
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
