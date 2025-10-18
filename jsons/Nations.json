@@ -5,21 +5,17 @@
 		"adjective": ["Commuists'"],
 		"preferredVictoryType": "Neutral",
 		"favoredReligion": "Maoism",
-
-		"startIntroPart1": "Working men of all Countries, unite! The revolution will continue, even though the human history has reached its lowest point. Capitalism, reactionary forces remains. Fight back all at once!",
+		"startIntroPart1": "The Underground Great Wall project started back 80 years ago. It keeps growing relentlessly, Until the end of the world. \nWorking men of all Countries, unite! The revolution will continue, even though the human history has reached its lowest point. Capitalism, reactionary forces remains. Fight back all at once!",
 		"startIntroPart2": "Break the chain!",
 		"declaringWar": "Liberation is imminent.",
 		"attacked": "All reactionary force are mere fake tigers made out of paper, and you will strand in ocean of the people's war.",
 		"defeated": "The revolution wont die, as long as there are exploits, there will be revolt.",
 		"introduction": "I'm Li de sheng, I stand for proletarians of the world, if you are not reactionary scum, we could have some allies.",
 		"neutralHello": "Chairman is speaking.",
-		"neutralHello": "The people are listening.",
 		"hateHello": "You are to be hanged on a lamp post, if you even have any.",
-		"hateHello": "Whats the matter, imperial scum?",
-		"tradeRequest": "Trading materials is good for development, isn't it?",
-
-		"outerColor": [255,33,33],
-		"innerColor": [255,218,65],
+		"tradeRequest": "Trading materials is good for rebuilding this mess, isn't it?",
+		"outerColor": [243,0,0],
+		"innerColor": [255,219,74],
 		"style": "",
 		"uniqueName": "Sprits of revolution",
 		"uniques": [
@@ -30,6 +26,7 @@
             "[+25]% XP gained from combat",
             "[-25]% construction time for [all] improvements",
 			"Each city founded increases culture cost of policies [33]% less than normal",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
             "Cannot build [Enslaved] units"
 		],
 		"cities": [
@@ -44,10 +41,10 @@
 			"Freedom city",
 			"Foundation city",
 			"Anti-imperialist city",
-           		"Neo Shanghai",
-           	 	"Neo Tianjing",
-           	 	"Neo Xi'an",
-            		"Neo Guangzhou",
+           	"Neo Shanghai",
+           	"Neo Tianjing",
+           	"Neo Xi'an",
+            "Neo Guangzhou",
 			"Red Dream Town"
 
 		],

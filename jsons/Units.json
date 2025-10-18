@@ -1,98 +1,140 @@
 [
-{
-    "name": "Elite Militia",
-    "unitType": "Shooter",
-    "cost": 75,
-    "movement": 2,
-    "strength": 30,
-    "range": 1,
-    "rangedStrength": 30,
-    "interceptRange": 1,
-    "uniques": [
-        "Personnel",
-        "Consumes [1] [Weapons]"
-    ],
-    "promotions": [
-        "Forage",
-        "Guerilla Warfare I"
-    ],
-    "requiredTech": "The Wheel",
-    "obsoleteTech": "Replaceable Parts",
-    "upgradesTo": "Rifleman",
-    "uniqueTo":  "United Commune of People",
-    "replaces": "Gunman",
-    "attackSound": "shot",
-    "hurryCostModifier": 20
-},
-{
-    "name": "'No mercy' Cannon",
-    "unitType": "Shooter",
-    "cost": 50,
-    "movement": 2,
-    "strength": 22,
-    "range": 1,
-    "rangedStrength": 27,
-    "uniques": [
-        "Low Tech",
-        "[+50]% Strength <vs [Low Tech] units>",
-        "[+100]% Strength <vs cities>"
-    ],
-    "requiredTech": "Steel",
-    "replaces": "Crossbowman",
-    "obsoleteTech": "Rifling",
-    "upgradesTo": "Gunman",
-    "uniqueTo":  "United Commune of People",
-    "hurryCostModifier": 20,
-    "attackSound": "cannon"
-},
-{
-    "name": "Red Vanguards",
-    "unitType": "Armor",
-    "cost": 250,
-    "movement": 4,
-    "strength": 60,
-    "uniques": [
-        "Can move after attacking",
-        "[-10]% Strength <vs cities> <when attacking>",
-        "No defensive terrain bonus",
-        "Only available <if [Factory] is constructed>",
-        "Consumes [1] [Oil]",
-        "Never appears as a Barbarian unit"
-    ],
-    "promotions": [
-        "Suppression"
-    ],
-    "requiredTech": "Combined Arms",
-    "upgradesTo": "Modern Armor",
-    "uniqueTo":  "United Commune of People",
-    "replaces": "Tank",
-    "obsoleteTech": "Advanced Materials",
-    "hurryCostModifier": 20,
-    "attackSound": "tankshot"
-},
-{
-    "name": "Wind of the East",
-    "unitType": "Siege",
-    "cost": 350,
-    "movement": 3,
-    "strength": 25,
-    "rangedStrength": 40,
-    "range": 3,
-    "uniques": [
-        "[+100]% Strength <vs cities> <when attacking>",
-        "No defensive terrain bonus",
-        "[-50]% Strength <vs [Helicopter] units>",
-        "Withdraws before melee combat <with [25]% chance>",
-        "Only available <if [Factory] is constructed>",
-        "Can carry [1] [Missile] units",
-        "Consumes [1] [Oil]",
-        "Never appears as a Barbarian unit"
-    ],
-    "promotions": ["Artillery","Logistics"],
-    "uniqueTo":  "United Commune of People",
-    "requiredTech": "Rocketry",
-    "replaces": "Rocket Artillery",
-    "hurryCostModifier": 20,
-    "attackSound": "artillery"
-},
+    {
+		"name": "PLA Infantry Division",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 35,
+		"interceptRange": 1,
+		"uniques": ["Unbuildable",
+                    "Personnel",
+                    "Consumes [1] [Weapons]"],
+        "promotions": [
+                    "Entrench",
+                    "Assault"
+        ],
+        "civilopediaText": [
+            {
+                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We were suppose prepare even more. - Li De Sheng"
+            }
+        ],
+        "upgradesTo": "NBC Infantry",
+		"attackSound": "machinegun"
+	},
+    {
+        "name": "Elite Militia",
+        "unitType": "Shooter",
+        "cost": 75,
+        "uniqueTo":  "United Commune of People",
+        "movement": 2,
+        "strength": 30,
+        "range": 1,
+        "rangedStrength": 30,
+        "interceptRange": 1,
+        "uniques": [
+            "Personnel",
+            "Consumes [1] [Weapons]"
+        ],
+        "promotions": [
+            "Forage",
+            "Guerilla Warfare I"
+        ],
+        "requiredTech": "The Wheel",
+        "obsoleteTech": "Replaceable Parts",
+        "upgradesTo": "Rifleman",
+        "replaces": "Gunman",
+        "attackSound": "shot",
+        "civilopediaText": [
+            {
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
+            }
+        ]
+    },
+    {
+        "name": "'No mercy' Cannon",
+        "unitType": "Shooter",
+        "cost": 50,
+        "uniqueTo":  "United Commune of People",
+        "movement": 2,
+        "strength": 22,
+        "range": 1,
+        "rangedStrength": 27,
+        "uniques": [
+            "Low Tech",
+            "[+50]% Strength <vs [Low Tech] units>",
+            "[+100]% Strength <vs cities>"
+        ],
+        "requiredTech": "Steel",
+        "replaces": "Crossbowman",
+        "obsoleteTech": "Rifling",
+        "upgradesTo": "Gunman",
+        "hurryCostModifier": 20,
+        "attackSound": "cannon",
+        "civilopediaText": [
+            {
+                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people. - On Protracted War(1938)"
+            }
+        ]
+    },
+    {
+        "name": "Red Vanguards",
+        "unitType": "Armor",
+        "cost": 250,
+        "uniqueTo":  "United Commune of People",
+        "movement": 4,
+        "strength": 60,
+        "uniques": [
+            "Only available <if [Factory] is constructed>",
+            "Can move after attacking",
+            "[-25]% Strength <vs cities> <when attacking>",
+            "[+10]% Strength <when adjacent to a [Shooter] unit>",
+            "No defensive terrain bonus",
+            "Consumes [1] [Oil]",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": [
+            "Smokescreen"
+        ],
+        "requiredTech": "Combined Arms",
+        "upgradesTo": "Modern Armor",
+        "replaces": "Tank",
+        "obsoleteTech": "Advanced Materials",
+        "hurryCostModifier": 20,
+        "attackSound": "tankshot",
+        "civilopediaText": [
+            {
+                "text": "Before the world's end, the brits gave up all their tanks. I dont know what they were thinking but here we are. We have a autoloading red beast with 3 machineguns once more. - Memoir of an old soldier."
+            }
+        ]
+    },
+    {
+        "name": "Wind of the East",
+        "unitType": "Siege",
+        "cost": 350,
+        "uniqueTo":  "United Commune of People",
+        "replaces": "Rocket Artillery",
+        "movement": 3,
+        "strength": 25,
+        "rangedStrength": 40,
+        "range": 3,
+        "uniques": [
+            "Only available <if [Factory] is constructed>",
+            "[+100]% Strength <vs cities> <when attacking>",
+            "[-50]% Strength <vs [Helicopter] units>",
+            "[+10]% Strength <when adjacent to a [Shooter] unit>",
+            "No defensive terrain bonus",
+            "Withdraws before melee combat <with [25]% chance>",
+            "Can carry [1] [Missile] units",
+            "Consumes [1] [Oil]",
+            "Never appears as a Barbarian unit"
+        ],
+        "promotions": ["Artillery","Logistics"],
+        "requiredTech": "Rocketry",
+        "hurryCostModifier": 20,
+        "attackSound": "artillery",
+        "civilopediaText": [
+            {
+                "text": "Strikes fear into their heart. - Propaganda Material"
+            }
+        ]
+    }
 ]

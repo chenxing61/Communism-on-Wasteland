@@ -1,20 +1,23 @@
 [
  {
-    "name": "Wasteland Socialist Authority",
+    "name": "The Underground Great Wall",
     "isWonder": true,
     "uniqueTo": "United Commune of People",
     "specialistSlots": { "Administrator": 1 },
     "gold": 1,
     "production": 2,
+    "food":2,
     "faith": 2,
     "cityHealth": 40,
     "cost": 1,
     "uniques": [
         "Provides [1] [Power]",
-        "Provides [1] [Weapons]",
-        "[1] free [Worker] units appear",
+        "Provides [2] [Weapons]",
+        "[+2] population [in capital]",
+        "[1] free [Civilian Convoy] units appear",
+        "[1] free [PLA Infantry Division] units appear",
         "[1] free [Elite Militia] units appear",
-        "Gain a free [Communist Cooperative] [in this city]",
+        "Gain a free [Socialist Cooperative] [in this city]",
         "Can only be built <in [Capital] cities>",
         "Destroyed when the city is captured"
     ],
@@ -26,20 +29,20 @@
     ]
  },
  {
-    "name": "Communist Cooperative",
-    "replaces": "Food Store",
-    "isWonder": false,
+    "name": "Socialist Cooperative",
     "uniqueTo": "United Commune of People",
-    "cityHealth": 10,
-    "food": 1,
+    "replaces": "Food Store",
     "cost": 25,
+    "food": 1,
+    "cityHealth": 10,
     "uniques": [
-
         "[+1 Production] per [3] population [in this city]",
-        "New [Military] units start with [5] Experience [in this city]",
+        "New [Military] units start with [5] XP [in this city]",
         "[25]% Food is carried over after population increases [in this city]",
         "[+1 Food] [in this city] <with [Salt]>",
         "[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+		"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+		"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
         "Destroyed when the city is captured"
     ],
     "civilopediaText": [
@@ -50,11 +53,10 @@
  },
  {
     "name": "Liberation Camp",
-    "replaces": "Work Camp",
     "uniqueTo": "United Commune of People",
-    "happiness": 1,
+    "replaces": "Work Camp",
     "maintenance": 1,
-    "hurryCostModifier": 0,
+    "happiness": 1,
     "uniques": [
         "Consumes [1] [Slaves]",
         "[+1] population [in this city]",
@@ -71,18 +73,18 @@
  },
  {
     "name": "Global Liberation Command",
-    "replaces": "Congress",
     "uniqueTo": "United Commune of People",
+    "replaces": "Congress",
     "cost": 67,
-    "production": 3,
     "requiredTech": "Civil Service",
     "uniques": [
-        "[+10]% Production when constructing [Military] units [in all cities]",
-        "New [Military] units start with [10] Experience [in all cities]",
-        "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
         "Only available <if [Search for Survivors] is constructed>",
         "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Strengthened Mass Line]>",
+        "[+25]% Production when constructing [Civilian] units [in all cities]",
+        "[+25]% Production when constructing [Military] units [in all cities]",
+        "New [Military] units start with [10] XP [in all cities]",
+        "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
         "Destroyed when the city is captured"
     ],
     "civilopediaText": [
@@ -93,12 +95,12 @@
  },
  {
     "name": "Strengthened Mass Line",
-    "cost": 67,
-    "culture": 3,
-    "replaces": "Council",
     "uniqueTo": "United Commune of People",
+    "replaces": "Council",
+    "cost": 67,
     "requiredTech": "Civil Service",
     "uniques": [
+        "[+1 Production] per [4] population [in all cities]",
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[+15]% Production when constructing [All] buildings [in all cities]",
         "Only available <if [Search for Survivors] is constructed>",
@@ -107,9 +109,9 @@
         "Destroyed when the city is captured"
     ],
     "civilopediaText": [
-        {
-            "text": "By focusing on unity, we shall stand as a new lighthouse for the working class."
-        }
-    ]
-}
+            {
+                "text": "By focusing on unity, we shall stand as a new lighthouse for the working class."
+            }
+        ]
+    }
 ]
