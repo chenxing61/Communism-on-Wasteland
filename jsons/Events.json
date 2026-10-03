@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Fate of China - Emergency Action",
+        "text": "The year is 2050, our glorious nation, the people's republic of China were in a nuclear war. Luckily, our forefathers constructed a series of defence officially called 'The Third Line Construction' in the 1970s. Nicknamed [The Underground Great Wall]. It was constantly maintenaned and expanded under tense international conflicts up until the final moment. We have been relying on these legacy for about 20 years. Until now, the radiation level has gone down remarkablly and we need to bear the responsibility of raising the red flag again.",
+        "choices": [
+            {
+                "text": "Time to plan our breakout",
+                "uniques": [
+                    "Triggers a [Fate of China - Military Presence] event",
+                    "Comment [You have [10] Vault resource to spend, choose wisely to make yourself a good start.]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Military Presence",
+        "text": "Most of the Military Force either perished in nuclear attacks or are unable to contact us. Although a plan to scrape the wasteland for our veterans is in the work, we must ensure we can protect ourselves.",
+        "choices": [
+            {
+                "text": "We need more intelligence before we could make any decisions",
+                "uniques": [
+                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China - Resettlement] event",
+
+                    "[1] free [Forward Observer] units appear",
+                    "[1] free [PLA Infantry Division] units appear"
+                ]
+            },
+            {
+                "text": "We will have to estabilish a new military force",
+                "uniques": [
+                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China - Resettlement] event",
+
+                    "Comment [[The Underground Great Wall] Provide [1] more [Weapon]]",
+                    "Comment [[Socialist Cooperative] Provide [5] more [Military] units XP in their cities]",
+                    "Gain a free [Breakout Event Flag: Army Building] [in Capital] <hidden from users>",
+                    "[1] free [PLA Infantry Division] units appear",
+                    "[1] free [Elite Militia] units appear"
+                ]
+            },
+            {
+                "text": "We can halt overspending on [Military] in order to focus on building up other aspects",
+                "uniques": [
+                    "Only available when above [2] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [2] [Vault Resource]",
+                    "Triggers a [Fate of China - Resettlement] event",
+                    
+                    "Instantly provide [10] [Party Unity]",
+                    "[1] free [PLA Infantry Division] units appear"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Resettlement",
+        "text": "[The Underground Great Wall] is overflowing with refugees. We had implement strict rationing, birth control and housing policy to keep the resource spending sustainable. Resettling the surface would aliviate most of these problem, but the problem of keeping the morale, security and public safety would take a lot of our focus in the near future.",
+        "choices": [
+            {
+                "text": "We need to reclaim our land to creat a economic base and some strategic depth first and foremost. Management issue can be discussed later.",
+                "uniques": [
+                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China - Underground Research Progress] event",
+
+                    "Adopt [Restorers]",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "We need to carefully manage production and population growth to ensure our future growth.",
+                "uniques": [
+                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China - Underground Research Progress] event",
+
+                    "Comment [[The Underground Great Wall] Provides [3] more [Happiness]]",
+                    "Comment [[The Underground Great Wall] Provides [2] more [Production]]",
+                    "Gain a free [Breakout Event Flag: Careful Management] [in Capital] <hidden from users>",
+                    "Adopt [Shared Vision]",
+                    "Instantly provide [10] [Party Unity]",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "We must focus on rebuilding out agricultural and water supply base faster than everything else",
+                "uniques": [
+                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China - Underground Research Progress] event",
+
+                    "Gain a free [Greenhouse] [in Capital]",
+                    "Gain a free [Water Storage] [in Capital]",
+                    "[+3] population [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Underground Research Progress",
+        "text": "During our times in the underground. We still managed to preserve many knowledge about industrial production and recieve datas about the contaminated surface by sending drones and radio waves.",
+        "choices": [
+            {
+                "text": "Focus our research efforts on adapting to the new surface condition",
+                "uniques": [
+                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China - Vault Door Opens] event",
+
+                    "Research [50]% of [Botany]",
+                    "Research [25]% of [Oceanography]",
+                    "Research [75]% of [Mining]"
+                ]
+            },
+            {
+                "text": "Focus our research efforts on recovering our industrial capability",
+                "uniques": [
+                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China - Vault Door Opens] event",
+
+                    "Discover [Mining]",
+                    "Research [50]% of [Engineering]",
+                    "Research [25]% of [Steam Power]",
+                    "Research [25]% of [Manufacturing]"
+                ]
+            },
+            {
+                "text": "We cannot sacrifice too much resources on the research",
+                "uniques": [
+                    "Only available when above [2] [Vault Resource] <hidden from users>",
+                    "Instantly consumes [2] [Vault Resource]",
+                    "Triggers a [Fate of China - Vault Door Opens] event",
+                    "Comment [Disable the starting science debuff on every city]",
+                    "Gain a free [Breakout Event Flag: Education] [in Capital] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Vault Door Opens",
+        "text": "After all the decisions has been set. Li De Sheng. Current Party Chairman of [The Underground Great Wall] facility let out a long sign. There are still a long way to go recovering lost territories and past glory is meaningless in the face of the brutal reality. He glimpsed at the wall behind him. Where the the photo of Marx, Engles, Lenin, Mao Ze Dong resides.",
+        "choices": [
+            {
+                "text": "We will get there eventually",
+                "uniques": [
+                    "Gain [100] [Gold] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
+                    "Gain [25] [Science] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
+                    "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
+                    "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Revision",
+        "text": "The vault library is ",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+]

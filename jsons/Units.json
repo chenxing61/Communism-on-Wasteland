@@ -1,6 +1,7 @@
 [
     {
 		"name": "PLA Infantry Division",
+        "uniqueTo":  "United Commune of People",
 		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 35,
@@ -22,9 +23,9 @@
 	},
     {
         "name": "Elite Militia",
+        "uniqueTo":  "United Commune of People",
         "unitType": "Shooter",
         "cost": 75,
-        "uniqueTo":  "United Commune of People",
         "movement": 2,
         "strength": 30,
         "range": 1,
@@ -34,15 +35,15 @@
             "Personnel",
             "Consumes [1] [Weapons]"
         ],
-        "promotions": [
-            "Forage",
-            "Guerilla Warfare I"
-        ],
         "requiredTech": "The Wheel",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Rifleman",
         "replaces": "Gunman",
         "attackSound": "shot",
+        "promotions": [
+            "Forage",
+            "Guerilla Warfare I"
+        ],
         "civilopediaText": [
             {
                 "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
@@ -84,11 +85,12 @@
         "strength": 60,
         "uniques": [
             "Only available <if [Factory] is constructed>",
-            "Can move after attacking",
-            "[-25]% Strength <vs cities> <when attacking>",
-            "[+10]% Strength <when adjacent to a [Shooter] unit>",
-            "No defensive terrain bonus",
             "Consumes [1] [Oil]",
+            "[-25]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            //Positive
+            "[+33]% Strength <when adjacent to a [Shooter] unit> <when defending>",
+            "Can move after attacking",
             "Never appears as a Barbarian unit"
         ],
         "promotions": [
@@ -113,19 +115,23 @@
         "uniqueTo":  "United Commune of People",
         "replaces": "Rocket Artillery",
         "movement": 3,
-        "strength": 25,
-        "rangedStrength": 40,
+        "strength": 35,
+        "rangedStrength": 45,
         "range": 3,
         "uniques": [
+            "Can upgrade to [Missile Artillery]",
+			"Can upgrade to [Gauss Cannon]",
             "Only available <if [Factory] is constructed>",
-            "[+100]% Strength <vs cities> <when attacking>",
-            "[-50]% Strength <vs [Helicopter] units>",
-            "[+10]% Strength <when adjacent to a [Shooter] unit>",
-            "No defensive terrain bonus",
-            "Withdraws before melee combat <with [25]% chance>",
-            "Can carry [1] [Missile] units",
             "Consumes [1] [Oil]",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus",
+			"[-50]% Strength <vs [Helicopter] units>",
+			"[-1] Sight",
+            //Positive
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <when adjacent to a [Shooter] unit> <when defending>",
+			"Withdraws before melee combat <with [25]% chance>",
+			"Can carry [1] [Missile] units",
+			"Never appears as a Barbarian unit"
         ],
         "promotions": ["Artillery","Logistics"],
         "requiredTech": "Rocketry",

@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Vault Resource",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Re-educated Prisoner",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Party Unity",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Foriegn Relationship",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded"
+		]
+	}
+]
