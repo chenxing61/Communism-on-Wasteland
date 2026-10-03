@@ -19,7 +19,7 @@
             }
         ],
         "upgradesTo": "NBC Infantry",
-		"attackSound": "machinegun"
+		"attackSound": "PLA Charge"
 	},
     {
         "name": "Elite Militia",
@@ -39,7 +39,7 @@
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Rifleman",
         "replaces": "Gunman",
-        "attackSound": "shot",
+        "attackSound": "PLA Charge",
         "promotions": [
             "Forage",
             "Guerilla Warfare I"

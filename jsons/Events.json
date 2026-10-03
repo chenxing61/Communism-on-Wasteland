@@ -7,7 +7,7 @@
                 "text": "Time to plan our breakout",
                 "uniques": [
                     "Triggers a [Fate of China - Military Presence] event",
-                    "Comment [You have [10] Vault resource to spend, choose wisely to make yourself a good start.]"
+                    "Comment [You have [10] [Vault Resource] to spend, choose wisely to build a good start for yourself.]"
                 ]
             }
         ]
@@ -19,7 +19,7 @@
             {
                 "text": "We need more intelligence before we could make any decisions",
                 "uniques": [
-                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
 
@@ -30,13 +30,13 @@
             {
                 "text": "We will have to estabilish a new military force",
                 "uniques": [
-                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
 
                     "Comment [[The Underground Great Wall] Provide [1] more [Weapon]]",
                     "Comment [[Socialist Cooperative] Provide [5] more [Military] units XP in their cities]",
-                    "Gain a free [Breakout Event Flag: Army Building] [in Capital] <hidden from users>",
+                    "Gain a free [Breakout Event Flag: Army Building] [in capital] <hidden from users>",
                     "[1] free [PLA Infantry Division] units appear",
                     "[1] free [Elite Militia] units appear"
                 ]
@@ -44,11 +44,10 @@
             {
                 "text": "We can halt overspending on [Military] in order to focus on building up other aspects",
                 "uniques": [
-                    "Only available when above [2] [Vault Resource] <hidden from users>",
+                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
                     
-                    "Instantly provide [10] [Party Unity]",
                     "[1] free [PLA Infantry Division] units appear"
                 ]
             }
@@ -61,7 +60,7 @@
             {
                 "text": "We need to reclaim our land to creat a economic base and some strategic depth first and foremost. Management issue can be discussed later.",
                 "uniques": [
-                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
@@ -72,27 +71,28 @@
             {
                 "text": "We need to carefully manage production and population growth to ensure our future growth.",
                 "uniques": [
-                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
                     "Comment [[The Underground Great Wall] Provides [3] more [Happiness]]",
                     "Comment [[The Underground Great Wall] Provides [2] more [Production]]",
-                    "Gain a free [Breakout Event Flag: Careful Management] [in Capital] <hidden from users>",
+                    "Gain a free [Breakout Event Flag: Careful Management] [in capital] <hidden from users>",
+                    
                     "Adopt [Shared Vision]",
-                    "Instantly provide [10] [Party Unity]",
-                    "[+2] population [in capital]"
+                    "[1] free [Worker] units appear",
+                    "[+1] population [in capital]"
                 ]
             },
             {
                 "text": "We must focus on rebuilding out agricultural and water supply base faster than everything else",
                 "uniques": [
-                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
-                    "Gain a free [Greenhouse] [in Capital]",
-                    "Gain a free [Water Storage] [in Capital]",
+                    "Gain a free [Greenhouse] [in capital]",
+                    "Gain a free [Water Storage] [in capital]",
                     "[+3] population [in capital]"
                 ]
             }
@@ -105,36 +105,32 @@
             {
                 "text": "Focus our research efforts on adapting to the new surface condition",
                 "uniques": [
-                    "Only available when above [3] [Vault Resource] <hidden from users>",
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
-                    "Research [50]% of [Botany]",
-                    "Research [25]% of [Oceanography]",
-                    "Research [75]% of [Mining]"
+                    "Discover [Botany]",
                 ]
             },
             {
                 "text": "Focus our research efforts on recovering our industrial capability",
                 "uniques": [
-                    "Only available when above [4] [Vault Resource] <hidden from users>",
+                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
                     "Discover [Mining]",
-                    "Research [50]% of [Engineering]",
-                    "Research [25]% of [Steam Power]",
-                    "Research [25]% of [Manufacturing]"
+                    "Discover [Engineering]",
                 ]
             },
             {
                 "text": "We cannot sacrifice too much resources on the research",
                 "uniques": [
-                    "Only available when above [2] [Vault Resource] <hidden from users>",
+                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
                     "Comment [Disable the starting science debuff on every city]",
-                    "Gain a free [Breakout Event Flag: Education] [in Capital] <hidden from users>"
+                    "Gain a free [Breakout Event Flag: Education] [in capital] <hidden from users>"
                 ]
             }
         ]
@@ -149,14 +145,129 @@
                     "Gain [100] [Gold] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
                     "Gain [25] [Science] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
                     "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
-                    "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]"
+                    "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]",
+                    "Set [Party Unity] to [50]"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Revision",
-        "text": "The vault library is ",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Reforge",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Rebuild",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Reborn",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remenent - The legacy of Tian Gong",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remenent - Lost Sector",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                    "Comment [We must immediately start a printing operation.]",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Comment [Good luck.]"
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remenent - More refugees",
+        "text": "",
         "choices": [
             {
                 "text": "Re-print them!",

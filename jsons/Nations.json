@@ -21,35 +21,42 @@
 		"uniques": [
             "Gain a free [The Underground Great Wall] [in capital] <before turn number [5]> <hidden from users>",
 			"Instantly provides [10] [Vault Resource] <hidden from users>",
-			"Comment [The Legacy of the Old Revolution]",
+			"Comment [---The Legacy of the Old Revolution---]",
 			"Starts with [Writing]",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Civil Service]",
 			"Starts with [Collectivism] adopted",
+			"Comment [---The Last Surviving Modern Government---]",
+            "Cannot build [Enslaved] units <hidden from users>",
+			"Cannot build [Pit of Sacrifice] buildings <hidden from users>",
+			"[-100]% [Slave] resource production <hidden from users>",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Comment [---]",
-			"Comment [The Bloosom of the New Revolution]",
+			"Comment [--The Blossom of the New Revolution--]",
+			"Comment [Able to choose starting bonus through [Fate of China - Emergency Action] event chain]",
+			"Comment [New Mechanic: [Party Unity]]",
+			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn, It decreases when you settle new cities or lose units/cities]",
 			
-			"Triggers a [Fate of China - Revision] event <upon discovering [Record Keeping]>",
-			"Triggers a [Fate of China - Reforge] event <upon discovering [Hoplology]>",
-			"Triggers a [Fate of China - Rebuild] event <upon discovering [Laboratory]>",
-			"Triggers a [Fate of China - Reborn] event <upon discovering [Social Engineering]>",
+			"Comment [High [Party Unity] grants complete national unique buff, which can be selected via tech progression]",
+			"Comment [Medium [Party Unity] grants a baseline buff but nothing special]",
+			"Comment [Low [Party Unity] grants no buff at all]",
+
+			"Triggers a [Fate of China - Revision] event <upon discovering [Record Keeping] technology>",
+			"Triggers a [Fate of China - Reforge] event <upon discovering [Hoplology] technology>",
+			"Triggers a [Fate of China - Rebuild] event <upon discovering [Laboratory] technology>",
+			"Triggers a [Fate of China - Reborn] event <upon discovering [Social Engineering] technology>",
+
 			"Comment [---]",
-            "[+25]% XP gained from combat",
+			"[+25]% XP gained from combat",
             "[-25]% construction time for [all] improvements",
 			"Each city founded increases culture cost of policies [33]% less than normal",
 			
-
-            "Cannot build [Enslaved] units <hidden from users>",
-			"Cannot build [Pit of Sacrifice] <hidden from users>",
-			"[-100]% [Slave] resource production <hidden from users>"
-
+			
 		],
 		"cities": [
 			"Neo Yan'an",
 			"Star flame",
 			"Proletarian estate",
-			"Neo Beiping",
+			"Neo Beijing",
 			"Marx town",
 			"Engles town",
 			"Neo Komsomolsk",
@@ -62,7 +69,6 @@
            	"Neo Xi'an",
             "Neo Guangzhou",
 			"Red Dream Town"
-
 		],
 		"civilopediaText": [
 			{
