@@ -152,6 +152,25 @@
         ]
     },
     {
+        "name": "Fate of China - Realisation",
+        "text": "As we attempt to estabilish our suface life again. Human Civilization have changed all its faces to adopt to the condition and opening trade to a bunch of cannibals, mutants and worst of all, landlords, is a fearsome concept that many of us struggle to face.",
+        "choices": [
+            {
+                "text": "Pre-war culture, ideologies and moral standards should give place to pragmatic apporaches.",
+                "uniques": [
+                    "Instantly provides [10] [International Reputation]",
+                    "Comment []",
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+                    "Instantly provides [10] [Party Unity]",
+                ]
+            }
+        ]
+    },
+    {
         "name": "Fate of China - Revision",
         "text": "",
         "choices": [

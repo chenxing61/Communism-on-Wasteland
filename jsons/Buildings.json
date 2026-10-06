@@ -1,4 +1,5 @@
 [
+ ///Palace-like wonder
  {
     "name": "The Underground Great Wall",
     "isWonder": true,
@@ -59,14 +60,15 @@
         "Destroyed when the city is captured"
 	]
  },
+ ///Unique building
  {
     "name": "Socialist Cooperative",
     "uniqueTo": "United Commune of People",
     "replaces": "Food Store",
-    "cost": 35,
+    "cost": 25,
     "food": 1,
-    "cityHealth": 10,
     "uniques": [
+        "'Party Controlled'",
         "[+1 Production] per [3] population [in this city] <in cities with between [1] and [10] [Population]>",
         "[+3 Production] [in this city] <in cities with at least [10] [Population]>",
         "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
@@ -89,6 +91,7 @@
 	"happiness": 1,
     "production": 1,
 	"uniques": [
+        "'Party Controlled'",
 		"Removes extra unhappiness from annexed cities",
         "Provides [1] [Re-educated Prisoner]",
         "Unsellable"
@@ -108,6 +111,7 @@
     "maintenance": 1,
     "happiness": 1,
     "uniques": [
+        "'Party Controlled'",
         "Only available <with [Re-educated Prisoner]>",
         "Consumes [1] [Re-educated Prisoner]",
         "[+1] population [in this city]",
@@ -122,15 +126,84 @@
     "requiredTech": "Construction"
  },
  {
-    "name": "Global Liberation Command",
+    "name": "Party Branch",
+    "uniqueTo": "United Commune of People",
+    "replaces": "Shrine",
+    "cost": 40,
+    "happiness":1,
+    "cityHealth": 10,
+    "uniques": [
+        "'Party Controlled'",
+        "Only available <when above [3] [Party Unity]> <hidden from users>",
+        "Instantly consumes [3] [Party Unity]",
+        "Each city founded increases culture cost of policies [5]% less than normal <when above [33] [Party Unity]>",
+        "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+        "Destroyed when the city is captured"
+    ],
+    "requiredTech":"Secrets of the Past",
+    "civilopediaText": [
+        {
+            "text": "The party member should be spearheading the rebuild process... - Command 05 from the Socialist Authority"
+        }
+    ]
+ },
+ {
+    "name": "Party Organization",
+    "uniqueTo": "United Commune of People",
+    "replaces": "Monastery",
+    "maintenance":1,
+    "happiness":1,
+    "culture":1,
+    "uniques": [
+        "'Party Controlled'",
+        "Only available <when above [2] [Party Unity]> <hidden from users>",
+        "Instantly consumes [2] [Party Unity]",
+        "[+100]% Production when constructing [Town Hall] buildings [in this city] <when above [33] [Party Unity]>",
+        "[+100]% Production when constructing [Public School] buildings [in this city] <when above [33] [Party Unity]>",        
+        "Destroyed when the city is captured"
+    ],
+    "requiredBuilding":"Party Branch",
+    "requiredTech":"Education",
+    "civilopediaText": [
+        {
+            "text": "repersenting the most progressive culture... - Command 05 from the Socialist Authority"
+        }
+    ]
+ },
+ {
+    "name": "Party School",
+    "uniqueTo": "United Commune of People",
+    "replaces": "Megachurch",
+    "maintenance":2,
+    "percentageBonus":{"Culture":10},
+    "culture":3,
+    "science":1,
+    "uniques": [
+        "'Party Controlled'",
+        "Only available <when above [5] [Party Unity]> <hidden from users>",
+        "Instantly consumes [5] [Party Unity]",
+        "[+10]% Production when constructing ['Party Controlled'] buildings [in all cities] <when above [33] [Party Unity]>",
+        "Destroyed when the city is captured"
+    ],
+    "requiredBuilding":"Party Organization",
+    "requiredTech":"Social Engineering",
+    "civilopediaText": [
+        {
+            "text": "and dedicate themselves for improving all the other peoples' lives. - Command 05 from the Socialist Authority"
+        }
+    ]
+ },
+ ///Main Choices
+ {
+    "name": "The Great Revival of Hua Xia",
     "uniqueTo": "United Commune of People",
     "replaces": "Congress",
     "cost": 67,
     "requiredTech": "Civil Service",
     "uniques": [
         "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built <in [Capital] cities>",
         "Only available <in cities without a [Strengthened Mass Line]>",
+        "Can only be built <in [Capital] cities>",
         "[+25]% Production when constructing [Civilian] units [in all cities]",
         "[+25]% Production when constructing [Military] units [in all cities]",
         "New [Military] units start with [10] XP [in all cities]",
@@ -139,28 +212,28 @@
     ],
     "civilopediaText": [
         {
-            "text": "The wasteland is filled with scums and exploiters and enslavers, its time to shed a light upon this dark age."
+            "text": "Our great nation has stood for countless era. The sheer amount of resilient would put any bystander in awe. We will embrace our legacy and carry on."
         }
     ]
  },
  {
-    "name": "Strengthened Mass Line",
+    "name": "Painting the Globe Red",
     "uniqueTo": "United Commune of People",
     "replaces": "Council",
     "cost": 67,
     "requiredTech": "Civil Service",
     "uniques": [
+        "Only available <if [Search for Survivors] is constructed>",
+        "Only available <in cities without a [Global Liberation Command]>",
+        "Can only be built <in [Capital] cities>",
         "[+1 Production] per [4] population [in all cities]",
         "[-25]% Unhappiness from [Population] [in all cities]",
         "[+15]% Production when constructing [All] buildings [in all cities]",
-        "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built <in [Capital] cities>",
-        "Only available <in cities without a [Global Liberation Command]>",
         "Destroyed when the city is captured"
     ],
     "civilopediaText": [
             {
-                "text": "By focusing on unity, we shall stand as a new lighthouse for the working class."
+                "text": "The capitalist world order has fallen. It is the time to discard the borders and prove that the Proletariats has the future in their hand."
             }
         ]
     }
