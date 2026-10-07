@@ -11,7 +11,8 @@
                     "Consumes [1] [Weapons]"],
         "promotions": [
                     "Entrench",
-                    "Assault"
+                    "Assault",
+                    "Commissar"
         ],
         "civilopediaText": [
             {
@@ -24,26 +25,27 @@
     {
         "name": "Elite Militia",
         "uniqueTo":  "United Commune of People",
+        "replaces": "Gunman",
         "unitType": "Shooter",
         "cost": 75,
         "movement": 2,
-        "strength": 30,
+        "strength": 28,
         "range": 1,
-        "rangedStrength": 30,
+        "rangedStrength": 28,
         "interceptRange": 1,
         "uniques": [
             "Personnel",
             "Consumes [1] [Weapons]"
         ],
+        "promotions": [
+            "Forage",
+            "Guerilla Warfare I",
+            "Commissar"
+        ],
         "requiredTech": "The Wheel",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Rifleman",
-        "replaces": "Gunman",
         "attackSound": "PLA Charge",
-        "promotions": [
-            "Forage",
-            "Guerilla Warfare I"
-        ],
         "civilopediaText": [
             {
                 "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
@@ -51,10 +53,51 @@
         ]
     },
     {
+		"name": "International Brigade",
+        "uniqueTo":  "United Commune of People",
+        "cost": 80,
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 27,
+		"interceptRange": 1,
+		"uniques": [
+                    "Only available <when above [69] [International Reputation]>",
+                    "Personnel",
+                    "Comment [[[+7] Strength] and [+10%] Production Cost for each passing era]",
+                    "[+7] Strength <starting from [Rediscovering era]> <hidden from users>",
+                    "[+7] Strength <starting from [Decivilized era]> <hidden from users>",
+                    "[+7] Strength <starting from [Neofeudal era]> <hidden from users>",
+                    "[+7] Strength <starting from [Rebuilding era]> <hidden from users>",
+                    "[+7] Strength <starting from [Industrial era]> <hidden from users>",
+                    "[+7] Strength <starting from [Postmodern era]> <hidden from users>",
+                    "[+7] Strength <starting from [New Future era]> <hidden from users>",
+                    "[+7] Strength <starting from [Singularity era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Rediscovering era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Decivilized era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Neofeudal era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Rebuilding era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Industrial era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Postmodern era]> <hidden from users>",
+                    "[+10]% production cost <starting from [New Future era]> <hidden from users>",
+                    "[+10]% production cost <starting from [Singularity era]> <hidden from users>"
+                ],
+        "promotions": [
+            "Loose Formation",
+            "Sentry"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Arise, wretched of the earth! Arise, convicts of hunger! Reason thunders in its crater! This is the eruption of the end! - The Internationale"
+            }
+        ],
+		"attackSound": "PLA Charge"
+	},
+    {
         "name": "'No mercy' Cannon",
         "unitType": "Shooter",
         "cost": 50,
         "uniqueTo":  "United Commune of People",
+        "replaces": "Crossbowman",
         "movement": 2,
         "strength": 22,
         "range": 1,
@@ -65,7 +108,6 @@
             "[+100]% Strength <vs cities>"
         ],
         "requiredTech": "Steel",
-        "replaces": "Crossbowman",
         "obsoleteTech": "Rifling",
         "upgradesTo": "Gunman",
         "hurryCostModifier": 20,
@@ -78,9 +120,10 @@
     },
     {
         "name": "Red Vanguards",
+        "uniqueTo":  "United Commune of People",
+        "replaces": "Tank",
         "unitType": "Armor",
         "cost": 250,
-        "uniqueTo":  "United Commune of People",
         "movement": 4,
         "strength": 60,
         "uniques": [
@@ -98,7 +141,7 @@
         ],
         "requiredTech": "Combined Arms",
         "upgradesTo": "Modern Armor",
-        "replaces": "Tank",
+        
         "obsoleteTech": "Advanced Materials",
         "hurryCostModifier": 20,
         "attackSound": "tankshot",
@@ -110,10 +153,10 @@
     },
     {
         "name": "Wind of the East",
-        "unitType": "Siege",
-        "cost": 350,
         "uniqueTo":  "United Commune of People",
         "replaces": "Rocket Artillery",
+        "unitType": "Siege",
+        "cost": 350,
         "movement": 3,
         "strength": 35,
         "rangedStrength": 45,
