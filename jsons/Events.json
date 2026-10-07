@@ -35,8 +35,8 @@
                     "Triggers a [Fate of China - Resettlement] event",
 
                     "Comment [[The Underground Great Wall] Provide [1] more [Weapon]]",
-                    "Comment [[Socialist Cooperative] Provide [5] more [Military] units XP in their cities]",
-                    "Gain a free [Breakout Event Flag: Army Building] [in capital] <hidden from users>",
+                    "Comment [[Party Branch] Provide [5] more [Military] units XP in their cities]",
+                    "Gain a free [Breakout Event Flag- Army Building] [in capital] <hidden from users>",
                     "[1] free [PLA Infantry Division] units appear",
                     "[1] free [Elite Militia] units appear"
                 ]
@@ -77,7 +77,7 @@
 
                     "Comment [[The Underground Great Wall] Provides [3] more [Happiness]]",
                     "Comment [[The Underground Great Wall] Provides [2] more [Production]]",
-                    "Gain a free [Breakout Event Flag: Careful Management] [in capital] <hidden from users>",
+                    "Gain a free [Breakout Event Flag- Careful Management] [in capital] <hidden from users>",
                     
                     "Adopt [Shared Vision]",
                     "[1] free [Worker] units appear",
@@ -130,7 +130,7 @@
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
                     "Comment [Disable the starting science debuff on every city]",
-                    "Gain a free [Breakout Event Flag: Education] [in capital] <hidden from users>"
+                    "Gain a free [Breakout Event Flag- Education] [in capital] <hidden from users>"
                 ]
             }
         ]
@@ -158,35 +158,61 @@
             {
                 "text": "Pre-war culture, ideologies and moral standards should give place to pragmatic apporaches.",
                 "uniques": [
-                    "Instantly provides [10] [International Reputation]",
-                    "Comment [New High [Party Unity] buff:]",
+                    "Instantly consumes [5] [Party Unity]",
+                    "Instantly provides [20] [International Reputation]",
+                    "Comment [New Medium and High [International Reputation] buff:]",
+                    "Comment [[+20/+30]% [Gold] from Trade Routes]",
+                    "Gain a free [Realisation Event Flag- Focus on Trade] [in capital] <hidden from users>"
                 ]
             },
             {
-                "text": "We choose who we want to befriend",
+                "text": "Trade, although limited, must be estabilished. And we should also increase our awareness of the danger from infiltration.",
                 "uniques": [
-                    "Instantly provides [10] [Party Unity]"
+                    "Instantly provides [10] [Party Unity]",
+                    "Gain [200] [Gold] <(modified by game speed)>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-33]% enemy spy effectiveness [in all cities]]"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Revision",
-        "text": "",
+        "text": "There are many important historical documents and other knowledge in the safety confine of the [Underground Great Wall]. Preserving them is one of our top priority. But we could also gain some wisdom from our history.",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "The Cycle of Shatter and Unification. We have a destined fight.",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
+                    "Unavailable <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is not enabled> <hidden from users>",
+                    "Unavailable <if [Outlaws of the Wastes] is enabled> <if [Yánluó Palace] is constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Forbidden Palace] is constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Expansion Yuan] is constructed by anybody> <hidden from users>",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[+25/+50]% Strength <vs [Any Usurper Faction that threatens Chinese Unity] units>]",
+                    "Gain a free [Revision Event Flag- Civil War] [in capital] <hidden from users>"
+                    
                 ]
             },
             {
-                "text": "I already knew it",
+                "text": "The Cultural Excellence of our ancestors",
                 "uniques": [
-                    "Comment [Good luck.]"
-
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[-10/-20]% Unhappiness from [population] [in all cities]]",
+                    "Comment [New Medium and High [International Reputation] buff:]",
+                    "Comment [[+1/+2] [Science] and [Culture] from each Trade Route]",
+                    "Gain a free [Revision Event Flag- Digestion of the Essence] [in capital] <hidden from users>"
                 ]
-            }
+            },
+            {
+                "text": "The Bloodshed before the Dawn of the Republic",
+                "uniques": [
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+2 Production] from all ['Party Controlled'] buildings]",
+                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
+                    "Gain a free [Revision Event Flag- The Unfinished Revolution] [in capital] <hidden from users>"
+                ]
+            },
         ]
     },
     {

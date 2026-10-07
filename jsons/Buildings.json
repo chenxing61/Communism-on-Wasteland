@@ -14,8 +14,8 @@
     "uniques": [
         "Provides [1] [Power]",
         "Provides [2] [Weapons]",
-        "Provides [1] [Weapons] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
-        "[+3 Happiness] [in this city] <if [Breakout Event Flag: Careful Management] is constructed> <hidden from users>",
+        "Provides [1] [Weapons] <if [Breakout Event Flag- Army Building] is constructed> <hidden from users>",
+        "[+3 Happiness] [in this city] <if [Breakout Event Flag- Careful Management] is constructed> <hidden from users>",
         "Triggers a [Fate of China - Emergency Action] event",
         "Destroyed when the city is captured"
     ],
@@ -27,7 +27,7 @@
     ]
  },
  {
-	"name": "Breakout Event Flag: Army Building",
+	"name": "Breakout Event Flag- Army Building",
 	"cost": 10,
 	"uniques": [
 		"Unavailable <hidden from users>",
@@ -38,7 +38,7 @@
 	]
  },
  {
-	"name": "Breakout Event Flag: Careful Management",
+	"name": "Breakout Event Flag- Careful Management",
 	"cost": 10,
 	"uniques": [
 		"Unavailable <hidden from users>",
@@ -49,13 +49,82 @@
 	]
  },
  {
-	"name": "Breakout Event Flag: Education",
+	"name": "Breakout Event Flag- Education",
 	"cost": 10,
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
 		"'Flag'",
         "[+2 Science] [in all cities] <before discovering [Education]>",
+		"Will not be displayed in Civilopedia",
+        "Destroyed when the city is captured"
+	]
+ },
+ {
+	"name": "Realisation Event Flag- Focus on Trade",
+	"cost": 10,
+	"uniques": [
+		"Unavailable <hidden from users>",
+		"Unsellable",
+		"'Flag'",
+        "[+20]% [Gold] from Trade Routes <when number of [International Reputation] is between [31] and [69]>",
+        "[+30]% [Gold] from Trade Routes <when above [69] [International Reputation]>",
+		"Will not be displayed in Civilopedia",
+        "Destroyed when the city is captured"
+	]
+ },
+ {
+	"name": "Realisation Event Flag- Focus on Anti-infiltration",
+	"cost": 10,
+	"uniques": [
+		"Unavailable <hidden from users>",
+		"Unsellable",
+		"'Flag'",
+        "[-33]% enemy spy effectiveness [in all cities] <when above [69] [Party Unity]>",
+		"Will not be displayed in Civilopedia",
+        "Destroyed when the city is captured"
+	]
+ },
+ {
+	"name": "Revision Event Flag- Civil War",
+	"cost": 10,
+	"uniques": [
+		"Unavailable <hidden from users>",
+		"Unsellable",
+		"'Flag'",
+        "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when number of [Party Unity] is between [31] and [69]>",
+        "[+75]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when above [69] [Party Unity]>",
+        "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Central State] units> <when number of [Party Unity] is between [31] and [69]>",
+        "[+75]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Central State] units> <when above [69] [Party Unity]>",
+        "[+25]% Strength <if [Outlaws of the Wastes] is enabled> <vs [Celestial Collective] units> <when number of [Party Unity] is between [31] and [69]>",
+        "[+75]% Strength <if [Outlaws of the Wastes] is enabled> <vs [Celestial Collective] units> <when above [69] [Party Unity]>",
+		"Will not be displayed in Civilopedia",
+        "Destroyed when the city is captured"
+	]
+ },
+ {
+	"name": "Revision Event Flag- Digestion of the Essence",
+	"cost": 10,
+	"uniques": [
+		"Unavailable <hidden from users>",
+		"Unsellable",
+		"'Flag'",
+        "[-10]% Unhappiness from [Population] [in all cities] <when number of [Party Unity] is between [31] and [69]>",
+        "[-20]% Unhappiness from [Population] [in all cities] <when above [69] [Party Unity]>",
+        "[+1 Science, +1 Culture] from each Trade Route <when number of [Party Unity] is between [31] and [69]>",
+        "[+2 Science, +2 Culture] from each Trade Route <when above [69] [Party Unity]>",
+		"Will not be displayed in Civilopedia",
+        "Destroyed when the city is captured"
+	]
+ },
+ {
+	"name": "Revision Event Flag- The Unfinished Revolution",
+	"cost": 10,
+	"uniques": [
+		"Unavailable <hidden from users>",
+		"Unsellable",
+		"'Flag'",
+        "[+2 Production] from all ['Party Controlled'] buildings <when above [69] [Party Unity]>",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
 	]
@@ -71,7 +140,7 @@
         "'Party Controlled'",
         "[+1 Production] per [3] population [in this city] <in cities with between [1] and [10] [Population]>",
         "[+3 Production] [in this city] <in cities with at least [10] [Population]>",
-        "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+        "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag- Army Building] is constructed> <hidden from users>",
         "[25]% Food is carried over after population increases [in this city]",
         "[+1 Food] [in this city] <with [Salt]>",
         "[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
@@ -136,8 +205,8 @@
         "'Party Controlled'",
         "Only available <when above [3] [Party Unity]> <hidden from users>",
         "Instantly consumes [3] [Party Unity]",
-        "Each city founded increases culture cost of policies [5]% less than normal <when above [33] [Party Unity]>",
-        "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+        "Each city founded increases culture cost of policies [5]% less than normal <when above [30] [Party Unity]>",
+        "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag- Army Building] is constructed> <hidden from users>",
         "Destroyed when the city is captured"
     ],
     "requiredTech":"Secrets of the Past",
@@ -158,8 +227,10 @@
         "'Party Controlled'",
         "Only available <when above [2] [Party Unity]> <hidden from users>",
         "Instantly consumes [2] [Party Unity]",
-        "[+100]% Production when constructing [Town Hall] buildings [in this city] <when above [33] [Party Unity]>",
-        "[+100]% Production when constructing [Public School] buildings [in this city] <when above [33] [Party Unity]>",        
+        "[+100]% Production when constructing [Town Hall] buildings [in this city] <when above [30] [Party Unity]>",
+        "[+100]% Production when constructing [Public School] buildings [in this city] <when above [30] [Party Unity]>",
+        "All newly-trained [Military] units [in this city] receive the [Commisar] promotion <when above [30] [Party Unity]>",   
+        "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion <when above [69] [Party Unity]> <if [Revision Event Flag- The Unfinished Revolution] is constructed>",        
         "Destroyed when the city is captured"
     ],
     "requiredBuilding":"Party Branch",
@@ -182,7 +253,7 @@
         "'Party Controlled'",
         "Only available <when above [5] [Party Unity]> <hidden from users>",
         "Instantly consumes [5] [Party Unity]",
-        "[+10]% Production when constructing ['Party Controlled'] buildings [in all cities] <when above [33] [Party Unity]>",
+        "[+10]% Production when constructing ['Party Controlled'] buildings [in all cities] <when above [30] [Party Unity]>",
         "Destroyed when the city is captured"
     ],
     "requiredBuilding":"Party Organization",
