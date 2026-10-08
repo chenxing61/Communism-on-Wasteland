@@ -146,7 +146,8 @@
                     "Gain [25] [Science] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
                     "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
                     "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]",
-                    "Set [Party Unity] to [50]"
+                    "Set [Party Unity] to [50]",
+                    "Set [International Reputation] to [40]"
                 ]
             }
         ]
