@@ -28,6 +28,8 @@
 		"uniques": [
             "Gain a free [The Underground Great Wall] [in capital] <before turn number [5]> <hidden from users>",
 			"Instantly provides [10] [Vault Resource] <hidden from users>",
+			"Instantly provides [60] [Party Unity] <hidden from users>",
+			"Instantly provides [40] [International Reputation] <hidden from users>",
 			"Comment [---The Legacy of the Maytrs---]",
 			"Starts with [Writing]",
 			"Starts with [Secrets of the Past]",
@@ -83,22 +85,16 @@
 			///Implementation End
 			"Comment [High [International Reputation] increases benefits from [City-State] and enable [International Brigade] as a unique [Scraper] unit]",
 			"Comment [Allied City-States provide [Gold, Science and Culture] equal to [0/25/75]% of what they produce for themselves]",
-			///---
 			"Allied City-States provide [Gold] equal to [75]% of what they produce for themselves <when above [69] [International Reputation]> <hidden from users>",
 			"Allied City-States provide [Science] equal to [75]% of what they produce for themselves <when above [69] [International Reputation]> <hidden from users>",
 			"Allied City-States provide [Culture] equal to [75]% of what they produce for themselves <when above [69] [International Reputation]> <hidden from users>",
-			///---
 			"Comment [Medium [International Reputation] only increases some benefit from [City-State]]",
-			///---
 			"Allied City-States provide [Gold] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
 			"Allied City-States provide [Science] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
 			"Allied City-States provide [Culture] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
-			///---
-			"Comment [Low [International Reputation] increases [Unit] [Strength] by [10]% but decreases [City-State] relation and decrease espionage efficiency by [33]%]",
-			///---
+			"Comment [Low [International Reputation] increases [Unit] [Strength] by [10]% but decreases [City-State] relation and decrease espionage efficiency by [33]%",
 			"[+10]% Strength <for [All] units> <when below [31] [International Reputation]> <hidden from users>",
 			"[-33]% spy effectiveness [in all cities] <when below [31] [International Reputation]> <hidden from users>",
-			"[+33]% enemy spy effectiveness [in all cities] <when below [31] [International Reputation]> <hidden from users>",
 			"Comment [---]"
 		],
 		"cities": [
