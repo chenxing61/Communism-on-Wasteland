@@ -217,26 +217,31 @@
     },
     {
         "name": "Fate of China - Reforge",
-        "text": "",
+        "text": "Through extensive research, we have revitalised our national defense industry. However we need to construct a tactical framework for our military technology to get uses out of them.",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "Light Infantry and drones would serve as the bulk of the force to rapidly infiltrate the frontline.",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
+                    "Comment [And other units will follow through.]",
                 ]
             },
             {
-                "text": "I already knew it",
+                "text": "We may use this new found prowess to enchance our guerilla tactics to maximise destruction against the enemy attack force.",
                 "uniques": [
-                    "Comment [Good luck.]"
-
+                    "Comment [After we have weaken the enemy enough, we will be able to capture their territory without much effort.]"
+                ]
+            },
+            {
+                "text": "Re-mechanise as soon as possible.",
+                "uniques": [
+                    "Comment [Infantry Tactic is not the end all be all. We must have an armored force that can outmanuver, overwhelm and overpower our opponent quickly to minimise our losses.]"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Rebuild",
-        "text": "",
+        "text": "Now that we have a basis to conduct more research. We may choose a field to conduct our breakthrough.",
         "choices": [
             {
                 "text": "Re-print them!",
