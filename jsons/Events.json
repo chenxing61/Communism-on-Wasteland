@@ -241,10 +241,10 @@
     },
     {
         "name": "Fate of China - Rebuild",
-        "text": "Now that we have a basis to conduct more research. We may choose a field to conduct our breakthrough.",
+        "text": "Now that we have a basis to conduct more research. We may choose a field to conduct our breakthrough on recovering what has been lost.",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "Rebuild Environment",
                 "uniques": [
                     "Comment [We must immediately start a printing operation.]",
                 ]
