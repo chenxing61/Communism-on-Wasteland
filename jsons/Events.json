@@ -109,7 +109,7 @@
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
-                    "Discover [Botany]",
+                    "Discover [Botany]"
                 ]
             },
             {
@@ -120,7 +120,7 @@
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
                     "Discover [Mining]",
-                    "Discover [Engineering]",
+                    "Discover [Engineering]"
                 ]
             },
             {
@@ -129,6 +129,7 @@
                     "Only available <when above [2] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
+
                     "Comment [Disable the starting science debuff on every city]",
                     "Gain a free [Breakout Event Flag- Education] [in capital] <hidden from users>"
                 ]
@@ -146,14 +147,15 @@
                     "Gain [25] [Science] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
                     "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
                     "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]",
-                    "Set [Party Unity] to [50]"
+                    "Set [Party Unity] to [55]",
+                    "Set [International Reputation] to [40]"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Realisation",
-        "text": "As we attempt to estabilish our suface life again. Human Civilization have changed all its faces to adopt to the condition and opening trade to a bunch of cannibals, mutants and worst of all, landlords, is a fearsome concept that many of us struggle to face.",
+        "text": "As we attempt to estabilish our suface life again. Human Civilization have changed all its faces to adopt to the condition and opening trade to a bunch of cannibals, mutants and worst of all, landlords, is a fearsome concept that many of us struggle to face. An important general assembly is being held to discuss our altitude toward the wasteland.",
         "choices": [
             {
                 "text": "Pre-war culture, ideologies and moral standards should give place to pragmatic apporaches.",
@@ -178,51 +180,59 @@
     },
     {
         "name": "Fate of China - Revision",
-        "text": "There are many important historical documents and other knowledge in the safety confine of the [Underground Great Wall]. Preserving them is one of our top priority. But we could also gain some wisdom from our history.",
+        "text": "There are many important historical documents and other knowledge in the safe confine of [The Underground Great Wall]. Preserving them was one of our top priority, now that we have recovered the ability to reproduce copies, what inspiration could we take from them? People need an idea they can stay behind, Army needs a goal worth fighting for.",
         "choices": [
             {
-                "text": "The Cycle of Shatter and Unification. We have a destined fight.",
+                "text": "The Great Reunification shall continue!",
                 "uniques": [
                     "Unavailable <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
                     "Unavailable <if [Forgotten Factions for Deciv] is not enabled> <hidden from users>",
-                    "Unavailable <if [Outlaws of the Wastes] is enabled> <if [Yánluó Palace] is constructed by anybody> <hidden from users>",
-                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Forbidden Palace] is constructed by anybody> <hidden from users>",
-                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Expansion Yuan] is constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Outlaws of the Wastes] is enabled> <if [Yánluó Palace] is not constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Forbidden Palace] is not constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Expansion Yuan] is not constructed by anybody> <hidden from users>",
                     "Comment [New Medium and High [Party Unity] buff:]",
-                    "Comment [[+25/+50]% Strength <vs [Any Usurper Faction that threatens Chinese Unity] units>]",
+                    "Comment [[+25/+50]% Strength against any other self-proclaimed chinese faction]",
                     "Gain a free [Revision Event Flag- Civil War] [in capital] <hidden from users>"
-                    
                 ]
             },
             {
-                "text": "The Cultural Excellence of our ancestors",
+                "text": "We will reclaim our status as the central nation",
                 "uniques": [
                     "Comment [New Medium and High [Party Unity] buff:]",
-                    "Comment [[-10/-20]% Unhappiness from [population] [in all cities]]",
+                    "Comment [[-20/-30]% Unhappiness from [population] [in all cities]]",
                     "Comment [New Medium and High [International Reputation] buff:]",
                     "Comment [[+1/+2] [Science] and [Culture] from each Trade Route]",
                     "Gain a free [Revision Event Flag- Digestion of the Essence] [in capital] <hidden from users>"
                 ]
             },
             {
-                "text": "The Bloodshed before the Dawn of the Republic",
+                "text": "We will continue our revolutionary tradition",
                 "uniques": [
                     "Comment [New High [Party Unity] buff:]",
-                    "Comment [[+2 Production] from all ['Party Controlled'] buildings]",
+                    "Comment [[+2 Production] from all [Party Organization] buildings]",
                     "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
                     "Gain a free [Revision Event Flag- The Unfinished Revolution] [in capital] <hidden from users>"
                 ]
             },
+            {
+                "text": "We will strive to modernise our country again",
+                "uniques": [
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[+1 Science, +1 Culture] from all [Party Organization] buildings]",
+                    "Comment [Provides [1] [Power] <for every [Cities]>]",
+                    "Gain a free [Revision Event Flag- Building the new society] [in capital] <hidden from users>"
+                ]
+            }
         ]
     },
     {
         "name": "Fate of China - Reforge",
-        "text": "Through extensive research, we have revitalised our national defense industry. However we need to construct a tactical framework for our military technology to get uses out of them.",
+        "text": "Through extensive research, we have revitalised our national defense industry. However we need to construct a tactical framework for our military technology to get uses out of them. Our generals are arguing at the conference non-stop.",
         "choices": [
             {
                 "text": "Light Infantry and drones would serve as the bulk of the force to rapidly infiltrate the frontline.",
                 "uniques": [
-                    "Comment [And other units will follow through.]",
+                    "Comment [And other units will follow through.]"
                 ]
             },
             {
@@ -244,35 +254,39 @@
         "text": "Now that we have a basis to conduct more research. We may choose a field to conduct our breakthrough on recovering what has been lost.",
         "choices": [
             {
-                "text": "Rebuild Environment",
+                "text": "Environment is what we all share and can't abandon",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
                 ]
             },
             {
-                "text": "I already knew it",
+                "text": "Reinstall the industrial chains are the top priority",
                 "uniques": [
-                    "Comment [Good luck.]"
-
+                    "Comment [[-25]% construction time for [all] improvements]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China - Great Armorment",
+        "text": "",
+        "choices": [
+            {
+                "text": "Tank, Planes, Warship and Nuke.",
+                "uniques": [
+                    "Comment []"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Reborn",
-        "text": "",
+        "text": "At last, the people's republic of china rises from the ashes akin to an elegant phoneix. A nuclear war could not kill it, the brutal condition of the waste could not kill it, the treacherous reactionary force could not kill it.",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "China Stands in the Cosmos!",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
-                ]
-            },
-            {
-                "text": "I already knew it",
-                "uniques": [
-                    "Comment [Good luck.]"
-
+                    "Play [comment] sound",
+                    ""
                 ]
             }
         ]
@@ -284,13 +298,11 @@
             {
                 "text": "Re-print them!",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
                 ]
             },
             {
                 "text": "I already knew it",
                 "uniques": [
-                    "Comment [Good luck.]"
 
                 ]
             }
@@ -303,14 +315,11 @@
             {
                 "text": "Re-print them!",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
                 ]
             },
             {
                 "text": "I already knew it",
                 "uniques": [
-                    "Comment [Good luck.]"
-
                 ]
             }
         ]
@@ -322,14 +331,11 @@
             {
                 "text": "Re-print them!",
                 "uniques": [
-                    "Comment [We must immediately start a printing operation.]",
                 ]
             },
             {
                 "text": "I already knew it",
                 "uniques": [
-                    "Comment [Good luck.]"
-
                 ]
             }
         ]

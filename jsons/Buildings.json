@@ -19,7 +19,7 @@
         "Triggers a [Fate of China - Emergency Action] event",
         "Destroyed when the city is captured"
     ],
-    "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
+    "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. - Old poem from Mao Ze Dong",
     "civilopediaText": [
         {
             "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. - Old poem from Mao Ze Dong"
@@ -32,7 +32,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
 	]
@@ -43,7 +42,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
 	]
@@ -54,7 +52,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[+2 Science] [in all cities] <before discovering [Education]>",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
@@ -66,7 +63,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[+20]% [Gold] from Trade Routes <when number of [International Reputation] is between [31] and [69]>",
         "[+30]% [Gold] from Trade Routes <when above [69] [International Reputation]>",
 		"Will not be displayed in Civilopedia",
@@ -79,7 +75,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[-33]% enemy spy effectiveness [in all cities] <when above [69] [Party Unity]>",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
@@ -91,7 +86,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when number of [Party Unity] is between [31] and [69]>",
         "[+75]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when above [69] [Party Unity]>",
         "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Central State] units> <when number of [Party Unity] is between [31] and [69]>",
@@ -108,7 +102,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[-10]% Unhappiness from [Population] [in all cities] <when number of [Party Unity] is between [31] and [69]>",
         "[-20]% Unhappiness from [Population] [in all cities] <when above [69] [Party Unity]>",
         "[+1 Science, +1 Culture] from each Trade Route <when number of [Party Unity] is between [31] and [69]>",
@@ -123,7 +116,6 @@
 	"uniques": [
 		"Unavailable <hidden from users>",
 		"Unsellable",
-		"'Flag'",
         "[+2 Production] from all ['Party Controlled'] buildings <when above [69] [Party Unity]>",
 		"Will not be displayed in Civilopedia",
         "Destroyed when the city is captured"
@@ -229,7 +221,7 @@
         "Instantly consumes [2] [Party Unity]",
         "[+100]% Production when constructing [Town Hall] buildings [in this city] <when above [30] [Party Unity]>",
         "[+100]% Production when constructing [Public School] buildings [in this city] <when above [30] [Party Unity]>",
-        "All newly-trained [Military] units [in this city] receive the [Commisar] promotion <when above [30] [Party Unity]>",   
+        "All newly-trained [Military] units [in this city] receive the [Commissar] promotion <when above [30] [Party Unity]>",   
         "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion <when above [69] [Party Unity]> <if [Revision Event Flag- The Unfinished Revolution] is constructed>",        
         "Destroyed when the city is captured"
     ],
@@ -270,17 +262,15 @@
     "uniqueTo": "United Commune of People",
     "replaces": "Congress",
     "cost": 67,
-    "requiredTech": "Civil Service",
     "uniques": [
-        "Only available <if [Search for Survivors] is constructed>",
-        "Only available <in cities without a [Strengthened Mass Line]>",
+        "Only available <if [Search for Survivors] is constructed> <after adopting [Collectivism Complete]>",
+        "Only available <in cities without a [Painting the Globe Red]>",
         "Can only be built <in [Capital] cities>",
         "[+25]% Production when constructing [Civilian] units [in all cities]",
         "[+25]% Production when constructing [Military] units [in all cities]",
-        "New [Military] units start with [10] XP [in all cities]",
-        "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
         "Destroyed when the city is captured"
     ],
+    "requiredTech": "Civil Service",
     "civilopediaText": [
         {
             "text": "Our great nation has stood for countless era. The sheer amount of resilient would put any bystander in awe. We will embrace our legacy and carry on."
@@ -292,16 +282,14 @@
     "uniqueTo": "United Commune of People",
     "replaces": "Council",
     "cost": 67,
-    "requiredTech": "Civil Service",
     "uniques": [
-        "Only available <if [Search for Survivors] is constructed>",
-        "Only available <in cities without a [Global Liberation Command]>",
+        "Only available <if [Search for Survivors] is constructed> <after adopting [Collectivism Complete]>",
+        "Only available <in cities without a [The Great Revival of Hua Xia]>",
         "Can only be built <in [Capital] cities>",
-        "[+1 Production] per [4] population [in all cities]",
-        "[-25]% Unhappiness from [Population] [in all cities]",
         "[+15]% Production when constructing [All] buildings [in all cities]",
         "Destroyed when the city is captured"
     ],
+    "requiredTech": "Civil Service",
     "civilopediaText": [
             {
                 "text": "The capitalist world order has fallen. It is the time to discard the borders and prove that the Proletariats has the future in their hand."
