@@ -7,7 +7,7 @@
                 "text": "Time to plan our breakout",
                 "uniques": [
                     "Triggers a [Fate of China - Military Presence] event",
-                    "Comment [You have [10] [Vault Resource] to spend, choose wisely to build a good start for yourself.]"
+                    "Comment [You have [10] [Vault Resource] to spend, choose wisely to build a good start.]"
                 ]
             }
         ]
@@ -19,7 +19,6 @@
             {
                 "text": "We need more intelligence before we could make any decisions",
                 "uniques": [
-                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
 
@@ -30,13 +29,12 @@
             {
                 "text": "We will have to estabilish a new military force",
                 "uniques": [
-                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
 
                     "Comment [[The Underground Great Wall] Provide [1] more [Weapon]]",
                     "Comment [[Party Branch] Provide [5] more [Military] units XP in their cities]",
-                    "Gain a free [Breakout Event Flag- Army Building] [in capital] <hidden from users>",
+                    "Gain a free [Breakout Event Flag - Army Building] [in capital] <hidden from users>",
                     "[1] free [PLA Infantry Division] units appear",
                     "[1] free [Elite Militia] units appear"
                 ]
@@ -44,7 +42,6 @@
             {
                 "text": "We can halt overspending on [Military] in order to focus on building up other aspects",
                 "uniques": [
-                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
                     
@@ -60,7 +57,6 @@
             {
                 "text": "We need to reclaim our land to creat a economic base and some strategic depth first and foremost. Management issue can be discussed later.",
                 "uniques": [
-                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
@@ -71,13 +67,12 @@
             {
                 "text": "We need to carefully manage production and population growth to ensure our future growth.",
                 "uniques": [
-                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
                     "Comment [[The Underground Great Wall] Provides [3] more [Happiness]]",
                     "Comment [[The Underground Great Wall] Provides [2] more [Production]]",
-                    "Gain a free [Breakout Event Flag- Careful Management] [in capital] <hidden from users>",
+                    "Gain a free [Breakout Event Flag - Careful Management] [in capital] <hidden from users>",
                     
                     "Adopt [Shared Vision]",
                     "[1] free [Worker] units appear",
@@ -87,8 +82,7 @@
             {
                 "text": "We must focus on rebuilding out agricultural and water supply base faster than everything else",
                 "uniques": [
-                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
-                    "Instantly consumes [3] [Vault Resource]",
+                    "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Underground Research Progress] event",
 
                     "Gain a free [Greenhouse] [in capital]",
@@ -105,7 +99,7 @@
             {
                 "text": "Focus our research efforts on adapting to the new surface condition",
                 "uniques": [
-                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
+                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [3] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
@@ -115,7 +109,7 @@
             {
                 "text": "Focus our research efforts on recovering our industrial capability",
                 "uniques": [
-                    "Only available <when above [4] [Vault Resource]> <hidden from users>",
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
@@ -126,12 +120,12 @@
             {
                 "text": "We cannot sacrifice too much resources on the research",
                 "uniques": [
-                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
+                    "Only available <when above [1] [Vault Resource]> <hidden from users>",
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
                     "Comment [Disable the starting science debuff on every city]",
-                    "Gain a free [Breakout Event Flag- Education] [in capital] <hidden from users>"
+                    "Gain a free [Breakout Event Flag - Education] [in capital] <hidden from users>"
                 ]
             }
         ]
@@ -164,7 +158,7 @@
                     "Instantly provides [20] [International Reputation]",
                     "Comment [New Medium and High [International Reputation] buff:]",
                     "Comment [[+20/+30]% [Gold] from Trade Routes]",
-                    "Gain a free [Realisation Event Flag- Focus on Trade] [in capital] <hidden from users>"
+                    "Gain a free [Realisation Event Flag - Focus on Trade] [in capital] <hidden from users>"
                 ]
             },
             {
@@ -192,88 +186,138 @@
                     "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Expansion Yuan] is not constructed by anybody> <hidden from users>",
                     "Comment [New Medium and High [Party Unity] buff:]",
                     "Comment [[+25/+50]% Strength against any other self-proclaimed chinese faction]",
-                    "Gain a free [Revision Event Flag- Civil War] [in capital] <hidden from users>"
+                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
+                    "Gain a free [Revision Event Flag - Civil War] [in capital] <hidden from users>"
                 ]
             },
             {
-                "text": "We will reclaim our status as the central nation",
+                "text": "Chinese civilization will persevere.",
                 "uniques": [
                     "Comment [New Medium and High [Party Unity] buff:]",
                     "Comment [[-20/-30]% Unhappiness from [population] [in all cities]]",
                     "Comment [New Medium and High [International Reputation] buff:]",
                     "Comment [[+1/+2] [Science] and [Culture] from each Trade Route]",
-                    "Gain a free [Revision Event Flag- Digestion of the Essence] [in capital] <hidden from users>"
+                    "Gain a free [Revision Event Flag - Digestion of the Essence] [in capital] <hidden from users>"
                 ]
             },
             {
-                "text": "We will continue our revolutionary tradition",
+                "text": "This is a Protracted War against the totality of capitalism and imperialisms' wrongs.",
                 "uniques": [
                     "Comment [New High [Party Unity] buff:]",
-                    "Comment [[+2 Production] from all [Party Organization] buildings]",
-                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
-                    "Gain a free [Revision Event Flag- The Unfinished Revolution] [in capital] <hidden from users>"
+                    "Comment [[+2 Science, +2 Culture] from all [Party Organization] buildings]",
+                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance I] promotion]",
+                    "Adopt [Shared Vision]",
+                    "Gain a free [Revision Event Flag - The Unfinished Revolution] [in capital] <hidden from users>"
                 ]
             },
             {
-                "text": "We will strive to modernise our country again",
+                "text": "We will rebuild the motherland brick by brick.",
                 "uniques": [
-                    "Comment [New Medium and High [Party Unity] buff:]",
-                    "Comment [[+1 Science, +1 Culture] from all [Party Organization] buildings]",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+1 Production] from all [Party Branch] buildings]",
+                    "Comment [[+2 Production] from all [Party Organization] buildings]",
                     "Comment [Provides [1] [Power] <for every [Cities]>]",
-                    "Gain a free [Revision Event Flag- Building the new society] [in capital] <hidden from users>"
+                    "[1] free [Mounted Worker] units appear",
+                    "Gain a free [Revision Event Flag - Building the new society] [in capital] <hidden from users>"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Reforge",
-        "text": "Through extensive research, we have revitalised our national defense industry. However we need to construct a tactical framework for our military technology to get uses out of them. Our generals are arguing at the conference non-stop.",
+        "text": "Through extensive research and reconstruction, we have revitalised our national defense industry. However we need to construct a tactical framework for our military technology to get uses out of them. Our generals are arguing at the conference non-stop.",
         "choices": [
             {
                 "text": "Light Infantry and drones would serve as the bulk of the force to rapidly infiltrate the frontline.",
                 "uniques": [
-                    "Comment [And other units will follow through.]"
+                    "Comment [And other units will follow through.]",
+                    "Comment [---]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[Shooter] units gain the [Survivalism] promotion]",
+                    "Comment [[PLA Infantry Division] units gain the [Pursuit] promotion]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Reasearch Breakthrough - Combat Drone], which constructs [Ground Control Center] early but have a temporary negative effect on [Power] and [Science] production.]",
+                    "Comment [Which is a immediate consequence after selecting this choice.]",
+                    "Gain a free [Reforge Event Flag - Within the Enemy] [in capital] <hidden from users>",
+                    "Gain a free [Reasearch Breakthrough - Combat Drone] [in capital] <hidden from users>"
+                    
                 ]
             },
             {
                 "text": "We may use this new found prowess to enchance our guerilla tactics to maximise destruction against the enemy attack force.",
                 "uniques": [
-                    "Comment [After we have weaken the enemy enough, we will be able to capture their territory without much effort.]"
+                    "Comment [After we have weaken the enemy enough, we will be able to capture their territory without much effort.]",
+                    "Comment [---]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[Shooter] units gain the [Guerilla Warfare II] promotion]",
+                    "Comment [[No Mercy Cannon] units can now transform to [Artillery] at the cost of [150] [Gold]]",
+                    "Comment [---]",
+                    "[1] free [PLA Infantry Division] units appear",
+                    "Gain a free [Reforge Event Flag - Traditional Tactic] [in capital] <hidden from users>"
                 ]
             },
             {
                 "text": "Re-mechanise as soon as possible.",
                 "uniques": [
-                    "Comment [Infantry Tactic is not the end all be all. We must have an armored force that can outmanuver, overwhelm and overpower our opponent quickly to minimise our losses.]"
+                    "Comment [Infantry Tactic is not the end all be all. We must have an armored force that can outmanuver, overwhelm and overpower our opponent quickly to minimise our losses.]",
+                    "Comment [---]",
+                    "Adopt [Equipment Upgrade]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Reasearch Breakthrough - APC], which constructs a [Armour Production Line] in your capital without prerequsite technology, but have a temporary negative effect on [Power] and [Science] production.]",
+                    "Comment [Which is a immediate consequence after selecting this choice.]",
+                    "Comment [Unlocks [Experimental APC], A variant of [Armored Car] thats immediately avaliable after the breakthrough]",
+                    "Comment [Unlocks [Mechanised Infantry], A variant of [NBC Infantry] that will be unlocked at [Combined Arms]]",
+                    "Gain a free [Reforge Event Flag - Forward Research] [in capital] <hidden from users>",
+                    "Gain a free [Reasearch Breakthrough - APC] [in capital] <hidden from users>"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Rebuild",
-        "text": "Now that we have a basis to conduct more research. We may choose a field to conduct our breakthrough on recovering what has been lost.",
+        "text": "Now that we have a basis to conduct more researches. We may choose a field to conduct our breakthrough on recovering what has been lost.",
         "choices": [
             {
                 "text": "Environment is what we all share and can't abandon",
                 "uniques": [
+                    "Instantly provides [10] [International Reputation]",
                 ]
             },
             {
-                "text": "Reinstall the industrial chains are the top priority",
+                "text": "Reinstalling the industrial chains are the top priority",
                 "uniques": [
-                    "Comment [[-25]% construction time for [all] improvements]"
+                    "Comment [New High [Party Unity] buff:]"
+                ]
+            },
+            {
+                "text": "Really? Without sufficient infrastructure?",
+                "uniques": [
+                    "Comment [[-25]% construction time for [all road] improvements]",
+                    "Comment [New Medium and High [Party Unity] buff:]"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Great Armorment",
-        "text": "",
+        "text": "Finally, we have completely re-estabilished our military industry to the pre-war baseline. But there is still a critical decision to decide what spcial punsh should our army Pack.",
         "choices": [
             {
-                "text": "Tank, Planes, Warship and Nuke.",
+                "text": "Contingency Plan and Fast Deployment",
                 "uniques": [
-                    "Comment []"
+                    "Comment [Akin to the pre-war american doctrine of global presense, we must build one of our own fast reaction force.]"
+                ]
+            },
+            {
+                "text": "Automated Warfare",
+                "uniques": [
+                    "Comment [Drones, Turrets and Robot Dogs were the toys of last year. We will build a great wall of iron and circuits.]"
+                ]
+            },
+            {
+                "text": "Strategic Weaponry",
+                "uniques": [
+                    "Comment [CAS, Bomber and Missle. Pointing at our enemies]"
                 ]
             }
         ]
@@ -293,6 +337,23 @@
     },
     {
         "name": "Remenent - The legacy of Tian Gong",
+        "text": "",
+        "choices": [
+            {
+                "text": "Re-print them!",
+                "uniques": [
+                ]
+            },
+            {
+                "text": "I already knew it",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remenent - The submarine's return",
         "text": "",
         "choices": [
             {

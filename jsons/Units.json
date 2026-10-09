@@ -1,7 +1,7 @@
 [
     {
 		"name": "PLA Infantry Division",
-        "uniqueTo":  "United Commune of People",
+        "uniqueTo":  "United Commune",
 		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 35,
@@ -16,7 +16,7 @@
         ],
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We were suppose prepare even more. - Li De Sheng"
+                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We've done too few. - Li De Sheng"
             }
         ],
         "upgradesTo": "NBC Infantry",
@@ -24,7 +24,7 @@
 	},
     {
         "name": "Elite Militia",
-        "uniqueTo":  "United Commune of People",
+        "uniqueTo":  "United Commune",
         "replaces": "Gunman",
         "unitType": "Shooter",
         "cost": 75,
@@ -54,7 +54,7 @@
     },
     {
 		"name": "International Brigade",
-        "uniqueTo":  "United Commune of People",
+        "uniqueTo":  "United Commune",
         "cost": 80,
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -94,10 +94,10 @@
 	},
     {
         "name": "'No mercy' Cannon",
+        "uniqueTo":  "United Commune",
+        "replaces": "Crossbowman",
         "unitType": "Shooter",
         "cost": 50,
-        "uniqueTo":  "United Commune of People",
-        "replaces": "Crossbowman",
         "movement": 2,
         "strength": 22,
         "range": 1,
@@ -120,7 +120,7 @@
     },
     {
         "name": "Red Vanguards",
-        "uniqueTo":  "United Commune of People",
+        "uniqueTo":  "United Commune",
         "replaces": "Tank",
         "unitType": "Armor",
         "cost": 250,
@@ -153,7 +153,7 @@
     },
     {
         "name": "Wind of the East",
-        "uniqueTo":  "United Commune of People",
+        "uniqueTo":  "United Commune",
         "replaces": "Rocket Artillery",
         "unitType": "Siege",
         "cost": 350,

@@ -3,6 +3,7 @@
 		"name": "Vault Resource",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
 			"Stockpiled",
 			"Cannot be traded"
 		]
@@ -11,6 +12,7 @@
 		"name": "Re-educated Prisoner",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
 			"Cannot be traded"
 		]
 	},
@@ -18,14 +20,32 @@
 		"name": "Party Unity",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
 			"Stockpiled",
-			"Cannot be traded"
+			"Cannot be traded",
+			"Comment [Percentage Resource]",
+			"Comment [Low: [0-30], Medium: [31-69], High: [70-100]]",
+			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn, It decreases when you settle new cities or lose units/cities]"
+
 		]
 	},
 	{
 		"name": "International Reputation",
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Stockpiled",
+			"Cannot be traded",
+			"Comment [Percentage Resource]",
+			"Comment [Low: [0-30], Medium: [31-69], High: [70-100]]",
+			"Comment [It increases when you build [Wonder]s or do diplomatic actions such as allying [City-State] and [Defensive Pact], It degrades naturally ([-1] per turn) or when you declear war]"
+		]
+	},
+	{
+		"name": "Research Breakthrough Progress",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
 			"Stockpiled",
 			"Cannot be traded"
 		]
