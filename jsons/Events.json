@@ -23,7 +23,7 @@
                     "Triggers a [Fate of China - Resettlement] event",
 
                     "[1] free [Forward Observer] units appear",
-                    "[1] free [PLA Infantry Division] units appear"
+                    "[1] free [Field Army] units appear"
                 ]
             },
             {
@@ -35,7 +35,7 @@
                     "Comment [[The Underground Great Wall] Provide [1] more [Weapon]]",
                     "Comment [[Party Branch] Provide [5] more [Military] units XP in their cities]",
                     "Gain a free [Breakout Event Flag - Army Building] [in capital] <hidden from users>",
-                    "[1] free [PLA Infantry Division] units appear",
+                    "[1] free [Field Army] units appear",
                     "[1] free [Elite Militia] units appear"
                 ]
             },
@@ -45,7 +45,7 @@
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
                     
-                    "[1] free [PLA Infantry Division] units appear"
+                    "[1] free [Field Army] units appear"
                 ]
             }
         ]
@@ -76,7 +76,7 @@
                     
                     "Adopt [Shared Vision]",
                     "[1] free [Worker] units appear",
-                    "[+1] population [in capital]"
+                    "[+2] population [in capital]"
                 ]
             },
             {
@@ -124,7 +124,7 @@
                     "Instantly consumes [2] [Vault Resource]",
                     "Triggers a [Fate of China - Vault Door Opens] event",
 
-                    "Comment [Disable the starting science debuff on every city]",
+                    "Comment [Disable the starting [Science] debuff on every city before [Education]]",
                     "Gain a free [Breakout Event Flag - Education] [in capital] <hidden from users>"
                 ]
             }
@@ -234,12 +234,16 @@
                     "Comment [---]",
                     "Comment [New Medium and High [Party Unity] buff:]",
                     "Comment [[Shooter] units gain the [Survivalism] promotion]",
-                    "Comment [[PLA Infantry Division] units gain the [Pursuit] promotion]",
+                    "Comment [[Scraper] units gain the [Pursuit] promotion]",
                     "Comment [---]",
-                    "Comment [Unlocks [Reasearch Breakthrough - Combat Drone], which constructs [Ground Control Center] early but have a temporary negative effect on [Power] and [Science] production.]",
-                    "Comment [Which is a immediate consequence after selecting this choice.]",
+                    "Comment [Unlocks [Reasearch Breakthrough - Combat Drone], which constructs [Ground Control Center] early]",
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
                     "Gain a free [Reforge Event Flag - Within the Enemy] [in capital] <hidden from users>",
-                    "Gain a free [Reasearch Breakthrough - Combat Drone] [in capital] <hidden from users>"
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>",
                     
                 ]
             },
@@ -252,7 +256,7 @@
                     "Comment [[Shooter] units gain the [Guerilla Warfare II] promotion]",
                     "Comment [[No Mercy Cannon] units can now transform to [Artillery] at the cost of [150] [Gold]]",
                     "Comment [---]",
-                    "[1] free [PLA Infantry Division] units appear",
+                    "[1] free [Warfare Instructor] units appear",
                     "Gain a free [Reforge Event Flag - Traditional Tactic] [in capital] <hidden from users>"
                 ]
             },
@@ -263,12 +267,18 @@
                     "Comment [---]",
                     "Adopt [Equipment Upgrade]",
                     "Comment [---]",
-                    "Comment [Unlocks [Reasearch Breakthrough - APC], which constructs a [Armour Production Line] in your capital without prerequsite technology, but have a temporary negative effect on [Power] and [Science] production.]",
-                    "Comment [Which is a immediate consequence after selecting this choice.]",
-                    "Comment [Unlocks [Experimental APC], A variant of [Armored Car] thats immediately avaliable after the breakthrough]",
-                    "Comment [Unlocks [Mechanised Infantry], A variant of [NBC Infantry] that will be unlocked at [Combined Arms]]",
+                    "Comment [Unlocks [Reasearch Breakthrough - APC], which constructs a [Armour Production Line] in your capital without prerequsite technology]",
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [10] turns.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Comment [Unlocks [Tiger APC], A variant of [Armored Car] thats immediately avaliable after the breakthrough]",
+                    "Comment [Unlocks [PLA Mechanised Infantry Division], A variant of [NBC Infantry] that will be unlocked at [Combined Arms]]",
                     "Gain a free [Reforge Event Flag - Forward Research] [in capital] <hidden from users>",
-                    "Gain a free [Reasearch Breakthrough - APC] [in capital] <hidden from users>"
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>"
                 ]
             }
         ]
@@ -280,20 +290,31 @@
             {
                 "text": "Environment is what we all share and can't abandon",
                 "uniques": [
-                    "Instantly provides [10] [International Reputation]",
+                    "Instantly provides [20] [International Reputation]",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-33]% construction time for [Grassland] improvements]",
+                    "Comment [[-33]% construction time for [Tree plantation] improvements]",
+                    "Comment [[-25]% construction time for [Terrace farm] improvements]",
+                    "Gain a free [Rebuild Event Flag - Verdant Mountain and Azure Rivers] [in capital] <hidden from users>"
                 ]
             },
             {
                 "text": "Reinstalling the industrial chains are the top priority",
                 "uniques": [
-                    "Comment [New High [Party Unity] buff:]"
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-33]% construction time for [Borough] improvements]",
+                    "Comment [[-33]% construction time for [Borehole] improvements]",
+                    "Gain a free [Rebuild Event Flag - World Factory] [in capital] <hidden from users>"
                 ]
             },
             {
                 "text": "Really? Without sufficient infrastructure?",
                 "uniques": [
+                    "Comment [New High [Party Unity] buff:]",
                     "Comment [[-25]% construction time for [all road] improvements]",
-                    "Comment [New Medium and High [Party Unity] buff:]"
+                    "Comment [[-25]% construction time for [Borough] improvements]",
+                    "Comment [[+100]% Production when constructing [Smart Grid] buildings [in all cities]]",
+                    "Gain a free [Rebuild Event Flag - Efficiency] [in capital] <hidden from users>"
                 ]
             }
         ]

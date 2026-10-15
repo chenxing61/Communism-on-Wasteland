@@ -2,7 +2,15 @@
 	{
 		"name": "Commissar",
 		"uniques": [
-			"[+1] XP gained from combat"
+			"[+1] XP gained from combat",
+			"[This Unit] gains the [Tactic Study] status for [4] turn(s) <when adjacent to a [Warfare Instructor] unit>"
+		]
+	},
+	{
+		"name": "Tactic Study",
+		"uniques": [
+			"Ignores Zone of Control",
+			"[+25]% XP gained from combat"
 		]
 	}
 ]

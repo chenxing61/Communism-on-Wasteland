@@ -137,6 +137,72 @@
             "Destroyed when the city is captured"
         ]
     },
+    {
+        "name": "Reforge Event Flag - Within the Enemy",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Shooter] units gain the [Survivalism] promotion <when above [30] [Party Unity]>",
+            "[Scraper] units gain the [Pursuit] promotion <when above [30] [Party Unity]>",
+            "Gain a free [Reasearch Breakthrough - Combat Drone] [in capital]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reasearch Breakthrough - Combat Drone",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Reasearch Breakthrough - Combat Drone] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
+            "Gain a free [Ground Control Center] [in capital] <when below [2] [Research Breakthrough Countdown]>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reforge Event Flag - Traditional Tactic",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Shooter] units gain the [Guerilla Warfare II] promotion <when above [30] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reforge Event Flag - Forward Research",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Gain a free [Reasearch Breakthrough - APC] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reasearch Breakthrough - APC",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Reasearch Breakthrough - APC] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
+            "Gain a free [Armour Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]>",
+            "Instantly provide [1] [Armoured Car Replacement Flag]",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
     ///Unique building
     {
         "name": "Socialist Cooperative",
@@ -240,7 +306,7 @@
             "[+100]% Production when constructing [Public School] buildings [in this city] <when above [30] [Party Unity]>",
             "All newly-trained [Military] units [in this city] receive the [Commissar] promotion <when above [30] [Party Unity]>",
             "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion <when above [69] [Party Unity]> <if [Revision Event Flag - Civil War] is constructed>",
-            "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion <when above [69] [Party Unity]> <if [Revision Event Flag - The Unfinished Revolution] is constructed>",
+            "All newly-trained [relevant] units [in this city] receive the [Reconnaissance I] promotion <when above [69] [Party Unity]> <if [Revision Event Flag - The Unfinished Revolution] is constructed>",
             "Destroyed when the city is captured"
         ],
         "requiredBuilding": "Party Branch",

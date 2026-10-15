@@ -4,6 +4,7 @@
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Not shown on world screen <when below [1] [Vault Resource]>",
 			"Stockpiled",
 			"Cannot be traded"
 		]
@@ -42,10 +43,21 @@
 		]
 	},
 	{
-		"name": "Research Breakthrough Progress",
+		"name": "Research Breakthrough Countdown",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Armored Car Replacement Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
 			"Stockpiled",
 			"Cannot be traded"
 		]
