@@ -27,7 +27,7 @@
                 ]
             },
             {
-                "text": "We will have to estabilish a new military force",
+                "text": "Starting all over again to completely overhaul our military",
                 "uniques": [
                     "Instantly consumes [4] [Vault Resource]",
                     "Triggers a [Fate of China - Resettlement] event",
@@ -132,7 +132,7 @@
     },
     {
         "name": "Fate of China - Vault Door Opens",
-        "text": "After all the decisions has been set. Li De Sheng. Current Party Chairman of [The Underground Great Wall] facility let out a long sign. There are still a long way to go recovering lost territories and past glory is meaningless in the face of the brutal reality. He glimpsed at the wall behind him. Where the the photo of Marx, Engles, Lenin, Mao Ze Dong resides.",
+        "text": "After all the decisions has been set. Li De Sheng. Current Party Chairman of [The Underground Great Wall] facility let out a long sigh. There are still a long way to go recovering lost territories and past glory is meaningless in the face of the brutal reality. He glimpsed at the wall behind him. Where the the photo of Marx, Engles, Lenin abd Mao resides.",
         "choices": [
             {
                 "text": "We will get there eventually",
@@ -142,7 +142,27 @@
                     "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
                     "Comment [Every [Vault Resource] left are converted into [100] [Gold] and [25] [Science] on standard speed.]",
                     "Set [Party Unity] to [55]",
-                    "Set [International Reputation] to [40]"
+                    "Set [International Reputation] to [40]",
+                    "Triggers a [Remenent - Surface] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remenent - Surface",
+        "text": "The Vault Door slowsly opens. The sunlight leaks through the gaps of the large cog-shaped door. The air is not as dry and dusty as before. The giger counter is slient. A group of hazmat suit wearing scouts goes out to finalise something special.",
+        "choices": [
+            {
+                "text": "First Message - 205X",
+                "uniques": [
+                    "Comment [The first thing that he saw was a pile of red dirty cloth fallen on the floor outside the main entrance,]",
+                    "Comment [a worn out banner that is barely readable. It says:'Dont panick, follow instructions'.]",
+                    "Comment [There were many banners, some were still on the walls but this one is on the ground.]",
+                    "Comment [He remember it was 20 years ago. When he dragged that thing out of its storage. And half-assedly nailed it down there in a haste.]",
+                    "Comment [If not for the suit and glove on him. He could see the wrinkles on his hand.]",
+                    "Comment [And this time he nailed something right.]",
+                    "Comment ['Welcome to surface! Comerade.']",
+                    "Gain [1] [Culture] <(modified by game speed)>"
                 ]
             }
         ]
@@ -234,7 +254,7 @@
                     "Comment [---]",
                     "Comment [New Medium and High [Party Unity] buff:]",
                     "Comment [[Shooter] units gain the [Survivalism] promotion]",
-                    "Comment [[Scraper] units gain the [Pursuit] promotion]",
+                    "Comment [[Scrapper] units gain the [Pursuit] promotion]",
                     "Comment [---]",
                     "Comment [Unlocks [Reasearch Breakthrough - Combat Drone], which constructs [Ground Control Center] early]",
                     "Comment [But have a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
@@ -265,9 +285,9 @@
                 "uniques": [
                     "Comment [Infantry Tactic is not the end all be all. We must have an armored force that can outmanuver, overwhelm and overpower our opponent quickly to minimise our losses.]",
                     "Comment [---]",
-                    "Adopt [Equipment Upgrade]",
+                    "Adopt [Equipment Upgrades]",
                     "Comment [---]",
-                    "Comment [Unlocks [Reasearch Breakthrough - APC], which constructs a [Armour Production Line] in your capital without prerequsite technology]",
+                    "Comment [Unlocks [Reasearch Breakthrough - APC], which constructs a [Armor Production Line] in your capital without prerequsite technology]",
                     "Comment [But have a temporary negative effect on [Power] and [Science] production for [10] turns.]",
                     "Comment [Which is immediately active after selecting this choice.]",
                     "Comment [Unlocks [Tiger APC], A variant of [Armored Car] thats immediately avaliable after the breakthrough]",
@@ -326,49 +346,96 @@
             {
                 "text": "Contingency Plan and Fast Deployment",
                 "uniques": [
-                    "Comment [Akin to the pre-war american doctrine of global presense, we must build one of our own fast reaction force.]"
+                    "Comment [Akin to the pre-war american doctrine of global presense, we must build one of our own fast reaction force.]",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+1] Movement <for [Air] units>]",
+                    "Comment [[+1] Movement <for [Water] units>]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Qun Peng Paratrooper], A variant of [Paratrooper] that has more strength and longer dropping range.]",
+                    "Comment [Unlocks [Helix Helicopter], A variant of [Attack Helicopter] that can provide healing to nearby units, which will be unlocked at [Lasers].]",
+                    "Gain a free [Great Armorment Event Flag - Forward Research] [in capital] <hidden from users>"
                 ]
             },
             {
                 "text": "Automated Warfare",
                 "uniques": [
-                    "Comment [Drones, Turrets and Robot Dogs were the toys of last year. We will build a great wall of iron and circuits.]"
+                    "Comment [Drones, Turrets and Robot Dogs were the toys of last year. We will build a great wall of iron and circuits.]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Steel Great Wall], a land [Carrier] unit which will be unlocked at [Full-Spectrum Dominance].]",
+                    "Comment [Unlocks [Advanced Drone], it comes with the [Steel Great Wall] and acts as a futuristic upgrade for [Strike Drone]s, can intercept enemy aircrafts.]",
+                    "Gain a free [Great Armorment Event Flag - Forward Research] [in capital] <hidden from users>",
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>"
                 ]
             },
             {
                 "text": "Strategic Weaponry",
                 "uniques": [
-                    "Comment [CAS, Bomber and Missle. Pointing at our enemies]"
+                    "Comment [CAS, Bomber and Missle. Pointing at our enemies]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[Scout] units gain the [Air Link] promotion]",
+                    "Comment [[Air] units gain the [Tactical Strike] promotion]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Nuclear Cannon], A variant of [Missile Artillery] that uses tactical nuclear strike as its normal attack.]",
+                    "Comment [Unlocks [Aunty Qiu Project], A variant of [Manhattan Project] that can be built right after selecting this option.]",
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>"
                 ]
             }
         ]
     },
     {
         "name": "Fate of China - Reborn",
-        "text": "At last, the people's republic of china rises from the ashes akin to an elegant phoneix. A nuclear war could not kill it, the brutal condition of the waste could not kill it, the treacherous reactionary force could not kill it.",
+        "text": "Everything settles into place. Today the new Chinese administration led by Chairman Li has announced that the Chinese civlization has fully recovered from the nuclear war. A large parade ensues in the capital. A new national day replaces the old one which hasnt been properly celebrated in ages and A new question arises.",
         "choices": [
             {
-                "text": "China Stands in the Cosmos!",
+                "text": "What would come next?",
                 "uniques": [
-                    "Play [comment] sound",
-                    ""
+                    "Comment [We could usher in a new age of post-capitalism, we could unify the globe, so much more possibilities are in our hand now.]",
+                    "Comment [China must win.]"
                 ]
             }
         ]
     },
     {
         "name": "Remenent - The legacy of Tian Gong",
-        "text": "",
+        "text": "As the first wave of transmission has been decrypted, we have recieved a faint, heavily distorted message from a man in space.",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "Last Message - 203X",
+                "uniques": [
+                    "Comment [It feels wrong. Trillions of casualties are perishing every seconds on earth, yet I have the luxury of witnessing it from a place far far away.]",
+                    "Comment [Every nerve could be surgically removed from my body, that would not compare to the numb I feel at this moment.]",
+                    "Comment [I could simply wait for the fate to say:'As above, so below', but I have no patient.]",
+                    "Comment [The death of a man could be as light as a feather or as heavy as Mountain Tai.]",
+                    "Comment [-Unintelligible-]",
+                    "Comment [(The Documents Following these recordings are somewhat corrupted, but there are many valuable scientific dataset that recorded how the massive amount of fallout spreads through the earth's atmosphere and geography.)]",
+                    "Gain [50] [Science] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    //Unused
+    {
+        "name": "Remenent - Lost Sector",
+        "text": "We have recovered connection to other seperated parts of the [Underground Great Wall]",
+        "choices": [
+            {
+                "text": "1",
                 "uniques": [
                 ]
             },
             {
-                "text": "I already knew it",
+                "text": "2",
                 "uniques": [
-
                 ]
             }
         ]
@@ -378,48 +445,17 @@
         "text": "",
         "choices": [
             {
-                "text": "Re-print them!",
+                "text": "1",
                 "uniques": [
                 ]
             },
             {
-                "text": "I already knew it",
+                "text": "2",
                 "uniques": [
 
                 ]
             }
         ]
-    },
-    {
-        "name": "Remenent - Lost Sector",
-        "text": "",
-        "choices": [
-            {
-                "text": "Re-print them!",
-                "uniques": [
-                ]
-            },
-            {
-                "text": "I already knew it",
-                "uniques": [
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Remenent - More refugees",
-        "text": "",
-        "choices": [
-            {
-                "text": "Re-print them!",
-                "uniques": [
-                ]
-            },
-            {
-                "text": "I already knew it",
-                "uniques": [
-                ]
-            }
-        ]
-    },
+    }
+
 ]

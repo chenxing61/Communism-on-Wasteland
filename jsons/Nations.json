@@ -70,19 +70,19 @@
 			"Triggers a [Fate of China - Rebuild] event <upon discovering [Laboratory] technology> <hidden from users>",
 			"Triggers a [Fate of China - Great Armorment] event <upon discovering [Combined Arms] technology> <hidden from users>",
 			"Triggers a [Fate of China - Reborn] event <upon discovering [Social Engineering] technology> <hidden from users>",
-			"Cannot build [Armored Car] units <when above [0] [Armored Car Replacement Flag]> <hidden from users>"
+			"Cannot build [Armored Car] units <when above [0] [Armored Car Replacement Flag]> <hidden from users>",
 			///Implementation End
 			"Comment [---]",
-			"Comment [New Mechanic: [International Reputation]]",
-			"Comment [High [International Reputation] increases benefits from [City-State] and enable [International Brigade] as a unique [Scraper] unit]",
+			"Comment [New Mechanic: [International Reputation]] <Civilopedia link [Resources/International Reputation]>",
+			"Comment [High [International Reputation] increases benefits from [City-State] and enable [International Brigade] as a unique [Scrapper] unit]",
 			"Comment [Allied City-States provide [[Gold], [Science] and [Culture]] equal to [0/25/75]% of what they produce for themselves]",
 			"Comment [Medium [International Reputation] only increases some benefit from [City-State]]",
-			"Comment [Low [International Reputation] increases [Unit] [Strength] by [10]% but decreases [City-State] relation and decrease espionage efficiency by [33]%]",
+			"Comment [Low [International Reputation] increases [Unit] [Strength] by [5]% but decreases [City-State] relation and decrease espionage efficiency by [33]%]",
 			"Comment [---]",
 			///Implementation Start
 			"Instantly provides [15] [International Reputation] <upon declaring friendship> <hidden from users> <(modified by game speed)>",
 			"Instantly provides [15] [International Reputation] <upon declaring a defensive pact> <hidden from users> <(modified by game speed)>",
-			"Instantly provides [15] [International Reputation] <upon constructing [Wonder] [in all cities]> <hidden from users> <(modified by game speed)>",
+			"Instantly provides [20] [International Reputation] <upon constructing [Wonder] [in all cities]> <hidden from users> <(modified by game speed)>",
 			"Provides [1] [International Reputation] <for every [2] [[Known [{Friendly} {City-State}] Civilizations]]> <hidden from users> <(modified by game speed)>",
 			//"Instantly consumes [1] [International Reputation] <upon turn start> <hidden from users> <(modified by game speed)>",
 			"Instantly consumes [25] [International Reputation] <upon declaring war on [All] Civilizations> <hidden from users> <(modified by game speed)>",
@@ -94,9 +94,12 @@
 			"Allied City-States provide [Gold] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
 			"Allied City-States provide [Science] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
 			"Allied City-States provide [Culture] equal to [25]% of what they produce for themselves <when number of [International Reputation] is between [31] and [69]> <hidden from users>",
-			"[+10]% Strength <for [All] units> <when below [31] [International Reputation]> <hidden from users>",
+			"[+5]% Strength <for [All] units> <when below [31] [International Reputation]> <hidden from users>",
+			"[+50]% City-State Influence degradation <when below [31] [International Reputation]>  <hidden from users>",
 			"[-33]% spy effectiveness [in all cities] <when below [31] [International Reputation]> <hidden from users>",
 			///Implementation End
+			///Misc
+			"Triggers a [Remenent - The legacy of Tian Gong] event <upon constructing [Transmissions Center]> <hidden from users>"
 		],
 		"cities": [
 			"Neo Yan'an",

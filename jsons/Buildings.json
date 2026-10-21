@@ -144,7 +144,7 @@
             "Unavailable <hidden from users>",
             "Unsellable",
             "[Shooter] units gain the [Survivalism] promotion <when above [30] [Party Unity]>",
-            "[Scraper] units gain the [Pursuit] promotion <when above [30] [Party Unity]>",
+            "[Scrapper] units gain the [Pursuit] promotion <when above [30] [Party Unity]>",
             "Gain a free [Reasearch Breakthrough - Combat Drone] [in capital]",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
@@ -161,6 +161,7 @@
             "Gain a free [Ground Control Center] [in capital] <when below [2] [Research Breakthrough Countdown]>",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]
@@ -195,10 +196,11 @@
             "Unsellable",
             "Consumes [1] [Research Breakthrough Countdown]",
             "Remove [Reasearch Breakthrough - APC] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
-            "Gain a free [Armour Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]>",
-            "Instantly provide [1] [Armoured Car Replacement Flag]",
+            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]>",
+            "Instantly provides [1] [Armored Car Replacement Flag]",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]
@@ -353,8 +355,9 @@
             "Only available <in cities without a [Red Beacon of the World]>",
             "Can only be built <in [Capital] cities>",
             "Comment [Increase the limit of [Party Unity] to [150]]",
-            "Comment [Can use [Party Unity] to enact ['Propaganda'] for temporary buffs]",
+            ///"Comment [Can use [Party Unity] to enact ['Propaganda'] for temporary buffs]",
             "Gain a free [Party School] [in capital]",
+            "No damage penalty for wounded units",
             "Destroyed when the city is captured"
         ],
         "civilopediaText": [
@@ -373,8 +376,9 @@
             "Only available <in cities without a [The Great Revival of Hua Xia]>",
             "Can only be built <in [Capital] cities>",
             "Provides [1] [International Reputation]",
-            "Can spend Gold to annex or puppet a City-State that has been your Ally for [20] turns",
-            "Comment [Lowers the deduction of [Party Unity] when settling new cities]",
+            "Can spend Gold to annex or puppet a City-State that has been your Ally for [15] turns",
+            "Comment [Lowers the deduction of [Party Unity] when settling/conquering new cities]",
+            "[+1 Culture] from all ['Party Controlled'] buildings",
             "Destroyed when the city is captured"
         ],
         "civilopediaText": [

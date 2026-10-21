@@ -197,7 +197,7 @@
             "Low Tech",
             "[+50]% Strength <vs [Low Tech] units>",
             "[+100]% Strength <vs cities>",
-            "Can transform to [Artillery] <if [Reforge Event Flag - Traditional Tactic] is constructed> <cost [+150 Gold]>",
+            "Can transform to [Artillery] <if [Reforge Event Flag - Traditional Tactic] is constructed> <costs [+150 Gold] stats>",
         ],
         "requiredTech": "Steel",
         "obsoleteTech": "Rifling",
@@ -221,7 +221,7 @@
             "[-20]% Strength <vs [Armor] units>",
             "Can move after attacking",
             "No defensive terrain bonus",
-            "Only available <if [Armour Production Line] is constructed>",
+            "Only available <if [Armor Production Line] is constructed>",
             "Consumes [1] [Oil]"
         ],
         "promotions": [
