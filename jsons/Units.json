@@ -37,8 +37,7 @@
         "interceptRange": 1,
         "uniques": [
             "Personnel",
-            "Consumes [1] [Weapons]",
-            "Can upgrade to [PLA Mechanized Infantry] <after discovering [Combined Arms]> <if [Reforge Event Flag - Forward Research] is constructed> <when above [0] [Oil]>"
+            "Consumes [1] [Weapons]"
         ],
         "promotions": [
             "Entrench",
@@ -66,8 +65,7 @@
         "uniques": [
             "Personnel",
             "Only available <if [Factory] is constructed>",
-            "Consumes [1] [Weapons]",
-            "Can upgrade to [PLA Mechanized Infantry] <after discovering [Combined Arms]> <if [Reforge Event Flag - Forward Research] is constructed> <when above [0] [Oil]>"
+            "Consumes [1] [Weapons]"
         ],
         "promotions": [
             "Entrench",
@@ -211,48 +209,31 @@
         ]
     },
     {
-        "name": "Tiger APC",
+        "name": "'Tiger' APC",
         "cost": 150,
         "uniqueTo": "United Commune",
         "unitType": "Armor",
         "movement": 4,
         "strength": 45,
         "uniques": [
+            "Only available <with [Armored Car Replacement Flag]>",
+            "Only available <if [Armor Production Line] is constructed> <before discovering [Replaceable Parts]>",
+            "Only available <if [Factory] is constructed> <after discovering [Replaceable Parts]>",
             "[-20]% Strength <vs [Armor] units>",
             "Can move after attacking",
             "No defensive terrain bonus",
-            "Only available <if [Armor Production Line] is constructed>",
             "Consumes [1] [Oil]"
         ],
         "promotions": [
             "Commissar"
         ],
         "requiredTech": "Hoplology",
-        "upgradesTo": "PLA Mechanized Infantry",
+        "upgradesTo": "'Red Vanguard' CAB",
         "obsoleteTech": "Combined Arms",
         "attackSound": "tankshot"
     },
     {
-        "name": "PLA Mechanized Infantry",
-        "cost": 250,
-        "uniqueTo": "United Commune",
-        "unitType": "Armor",
-        "movement": 4,
-        "strength": 55,
-        "uniques": [
-            "Only available <if [Factory] is constructed>",
-            "Consumes [1] [Oil]",
-            "Consumes [1] [Weapons]"
-        ],
-        "promotions": [
-            "Commissar",
-            "Gas Mask"
-        ],
-        "requiredTech": "Combined Arms",
-        "attackSound": "tankshot"
-    },
-    {
-        "name": "Red Vanguards",
+        "name": "'Red Vanguard' CAB",
         "uniqueTo": "United Commune",
         "replaces": "Tank",
         "unitType": "Armor",
@@ -265,7 +246,6 @@
             "[-25]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             //Positive
-            "[+33]% Strength <when adjacent to a [Shooter] unit> <when defending>",
             "Can move after attacking",
             "Never appears as a Barbarian unit"
         ],
@@ -280,10 +260,101 @@
         "attackSound": "tankshot",
         "civilopediaText": [
             {
-                "text": "Before the world's end, the brits gave up all their tanks. I dont know what they were thinking but here we are. We have a autoloading red beast with 3 machineguns once more. - Memoir of an old soldier."
+                "text": "They said armored vehicle are dead, and then they kept developing AP rounds. - Unspecified PLA General"
             }
         ]
     },
+    {
+		"name": "Qun Peng Paratrooper",
+        "uniqueTo": "United Commune",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 43,
+		"cost": 150,
+		"requiredTech": "Flight",
+		"upgradesTo": "Jetsuit",
+		"obsoleteTech": "Avionics",
+		"uniques": [
+            "Only available <if [Great Armorment Event Flag - Global Offensive] is constructed>",
+		    "Personnel",
+			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
+			"Consumes [1] [Weapons]",
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Medic I",
+            "Commissar"],
+		"attackSound": "PLA Charge"
+	},
+    	{
+		"name": "Helix Helicopter",
+        "uniqueTo": "United Commune",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 45,
+		"rangedStrength": 62,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Lasers",
+		"upgradesTo": "VTOL Gunship",
+		"uniques": [
+            "Only available <if [Great Armorment Event Flag - Global Offensive] is constructed> <if [Aerospace Facility] is constructed>",
+			"Can only attack [Military] units",
+			"[33]% chance to intercept air attacks",
+			"[+1] Sight",
+			"Can move after attacking",
+			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Medic I","Medic II","Advanced Weapons", "Antitank Missile", "Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+    {
+		"name": "'Great Wall' Drone Host",
+        "uniqueTo": "United Commune",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Full-Spectrum Dominance",
+		"uniques": [
+            "Only available <if [Factory] is constructed> <with [Drone Host Research Flag]>",
+            "Can only attack [City center] tiles",
+			"[-25]% Strength <vs cities> <when attacking>",
+            "[+20]% Strength <when defending>",
+            "Can carry [3] [{Automated} {Air}] units",
+            "[This Unit] gains the [Drone Production] status for [2] turn(s) <for [2] movement> <when number of [['Beacon' Strike Drone] Units] is less than [[['Great Wall' Drone Host] Units]*3]>",
+			"Consumes [1] [Oil]",
+            "Consumes [2] [Aluminum]",
+			"Never appears as a Barbarian unit"
+		],
+        "promotions": ["Drone Factory"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "'Beacon' Strike Drone",
+        "uniqueTo": "United Commune",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 6,
+		"interceptRange": 4,
+		"uniques": [
+            "Unbuildable",
+			"Automated",
+			"[+4] Sight",
+            "[70]% chance to intercept air attacks",
+			"Cannot intercept [Stealth] units",
+			"Can see over obstacles"
+		],
+		"promotions": ["Automated"],
+		"attackSound": "jetgun",
+        "hurryCostModifier": 20
+	},
     {
         "name": "Wind of the East",
         "uniqueTo": "United Commune",
@@ -296,6 +367,7 @@
         "range": 3,
         "uniques": [
             "Can upgrade to [Missile Artillery]",
+            "Can upgrade to [Nuclear Cannon] <with [Nuclear Research Flag]>",
             "Can upgrade to [Gauss Cannon]",
             "Only available <if [Factory] is constructed>",
             "Consumes [1] [Oil]",
@@ -323,6 +395,31 @@
             }
         ]
     },
+	{
+		"name": "Nuclear Cannon",
+        "uniqueTo": "United Commune",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 500,
+		"uniques": [
+            "Only available <if [Automated Factory] is constructed> <with [Nuclear Research Flag]>",
+			"[-33]% Strength <when defending>",
+			"No defensive terrain bonus",
+			"[-1] Sight",
+            "Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Must set up to ranged attack",
+			"Consumes [1] [Uranium]",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech": "Nuclear Fission",
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "railgun"
+	},
     {
         "name": "Warfare Instructor",
         "uniqueTo": "United Commune",
@@ -340,5 +437,20 @@
             "Uncapturable"
         ],
         "movement": 2
-    }
+    },
+    {
+		"name": "'Kuang Biao' no.2",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 6,
+		"uniques": [
+            "Unbuildable",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	}
 ]

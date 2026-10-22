@@ -12,5 +12,14 @@
 			"Ignores Zone of Control",
 			"[+25]% XP gained from combat"
 		]
+	},
+	{
+		"name": "Drone Factory",
+		"uniques": [
+			"[1] free ['Beacon' Strike Drone] units appear <upon losing the [Drone Production] promotion>"
+		]
+	},
+	{
+		"name": "Drone Production"
 	}
 ]

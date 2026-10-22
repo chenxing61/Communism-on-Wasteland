@@ -27,28 +27,28 @@ BuildingIcons/Global Liberation Command
   index: -1
 BuildingIcons/Strengthened Mass Line
   rotate: false
-  xy: 592, 268
+  xy: 700, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Stavka of the Supreme High Command
   rotate: false
-  xy: 700, 376
+  xy: 700, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Russian Soviet Republice
   rotate: false
-  xy: 484, 268
+  xy: 592, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/United Commune
   rotate: false
-  xy: 808, 376
+  xy: 808, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -69,14 +69,14 @@ ReligionIcons/Maoism
   index: -1
 ReligionIcons/Socialism
   rotate: false
-  xy: 592, 376
+  xy: 592, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Troskysim
   rotate: false
-  xy: 700, 268
+  xy: 808, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -95,9 +95,16 @@ ResourceIcons/Party Unity
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Research Breakthrough Countdown
+  rotate: false
+  xy: 484, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Vault Resource
   rotate: false
-  xy: 808, 268
+  xy: 916, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -116,7 +123,7 @@ UnitIcons/Elite Militia
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Red Vanguards
+UnitIcons/'Red Vanguard' CAB
   rotate: false
   xy: 484, 376
   size: 100, 100
@@ -125,7 +132,7 @@ UnitIcons/Red Vanguards
   index: -1
 UnitIcons/Wind of the East
   rotate: false
-  xy: 916, 376
+  xy: 916, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

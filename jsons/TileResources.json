@@ -61,5 +61,25 @@
 			"Stockpiled",
 			"Cannot be traded"
 		]
+	},
+	{
+		"name": "Drone Host Research Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Nuclear Research Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
 	}
 ]

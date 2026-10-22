@@ -183,6 +183,8 @@
         "uniques": [
             "Unavailable <hidden from users>",
             "Unsellable",
+            "[+25]% Production when constructing [Armor] units [in all cities]<when above [30] [Party Unity]>",
+            "[+8]% Production when constructing [Armor] units [in all cities]<when above [69] [Party Unity]>",
             "Gain a free [Reasearch Breakthrough - APC] [in capital] <hidden from users>",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
@@ -195,12 +197,146 @@
             "Unavailable <hidden from users>",
             "Unsellable",
             "Consumes [1] [Research Breakthrough Countdown]",
-            "Remove [Reasearch Breakthrough - APC] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
-            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]>",
-            "Instantly provides [1] [Armored Car Replacement Flag]",
+            "Remove [Reasearch Breakthrough - APC] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Armored Car Replacement Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
             "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag - Verdant Mountain and Azure Rivers",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-33]% construction time for [Grassland] improvements <when above [69] [Party Unity]>",
+            "[-33]% construction time for [Tree plantation] improvements <when above [69] [Party Unity]>",
+            "[-25]% construction time for [Terrace farm] improvements <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag - World Factory",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-50]% construction time for [Borough] improvements <when above [69] [Party Unity]>",
+            "[-33]% construction time for [Borehole] improvements <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag - Infrastructure Speed Daemon",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-25]% construction time for [All Road] improvements <when above [69] [Party Unity]>",
+            "[-25]% construction time for [Borough] improvements <when above [69] [Party Unity]>",
+            "[+100]% Production when constructing [Smart Grid] buildings [in all cities] <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armorment Event Flag - Global Offensive",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+1] Movement <for [Air] units> <when above [69] [Party Unity]>",
+            "[+1] Movement <for [Water] units> <when above [69] [Party Unity]>",
+            "Cannot build [Paratrooper] units",
+            "Cannot build [Attack Helicopter] units",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armorment Event Flag - New Great Wall",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Gain a free [Reasearch Breakthrough - 'Great Wall' Drone Host] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reasearch Breakthrough - 'Great Wall' Drone Host",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Reasearch Breakthrough - 'Great Wall' Drone Host] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Drone Host Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armorment Event Flag - Ultimatium",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Gain a free [Reasearch Breakthrough - Aunty Qiu Project] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reasearch Breakthrough - Aunty Qiu Project",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Reasearch Breakthrough - Aunty Qiu Project] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Nuclear Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+	{
+		"name": "Aunty Qiu Project",
+        "wonderCost": 800,
+		"isNationalWonder": true,
+		"requiredTech": "Combined Arms",
+		"uniques": [
+            "Only available <with [Nuclear Research Flag]> <if [Manhattan Project] is not constructed> <hidden from users>",
+            "Cannot build [Manhattan Project] buildings <hidden from users>",
+            "Play [China Gets The Bomb] sound",
+			"Enables nuclear weapon",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried"
+		]
+	},
+    {
+        "name": "Great Armorment Event Flag - No First Use",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Population loss from nuclear attacks [-25]% [in all cities] <when above [30] [Party Unity]>",
+            "Population loss from nuclear attacks [-25]% [in all cities] <when above [69] [Party Unity]>",
+            "Damage to garrison from nuclear attacks [-25]% [in all cities] <when above [30] [Party Unity]>",
+            "Damage to garrison from nuclear attacks [-25]% [in all cities] <when above [69] [Party Unity]>",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]
@@ -355,9 +491,10 @@
             "Only available <in cities without a [Red Beacon of the World]>",
             "Can only be built <in [Capital] cities>",
             "Comment [Increase the limit of [Party Unity] to [150]]",
+            "[+10]% Strength <for [All] units> <in [Friendly land] tiles> <hidden from users>",
             ///"Comment [Can use [Party Unity] to enact ['Propaganda'] for temporary buffs]",
-            "Gain a free [Party School] [in capital]",
             "No damage penalty for wounded units",
+            "Gain a free [Party School] [in capital]",
             "Destroyed when the city is captured"
         ],
         "civilopediaText": [
@@ -378,7 +515,8 @@
             "Provides [1] [International Reputation]",
             "Can spend Gold to annex or puppet a City-State that has been your Ally for [15] turns",
             "Comment [Lowers the deduction of [Party Unity] when settling/conquering new cities]",
-            "[+1 Culture] from all ['Party Controlled'] buildings",
+            "[+1 Faith, +1 Culture] from all ['Party Controlled'] buildings <when above [30] [Party Unity]>",
+            "Gain a free [Party School] [in capital]",
             "Destroyed when the city is captured"
         ],
         "civilopediaText": [

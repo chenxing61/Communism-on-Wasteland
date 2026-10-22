@@ -99,7 +99,9 @@
 			"[-33]% spy effectiveness [in all cities] <when below [31] [International Reputation]> <hidden from users>",
 			///Implementation End
 			///Misc
-			"Triggers a [Remenent - The legacy of Tian Gong] event <upon constructing [Transmissions Center]> <hidden from users>"
+			"Triggers a [Remenent - The legacy of Tian Gong] event <upon constructing [Transmissions Center]> <hidden from users>",
+			"Triggers a [Fate of China - Upon it Again] event <upon constructing [Aunty Qiu Project]> <hidden from users>",
+			"Triggers a [Fate of China - Upon it Again] event <upon constructing [Manhattan Project]> <hidden from users>"
 		],
 		"cities": [
 			"Neo Yan'an",
