@@ -239,11 +239,11 @@
         "unitType": "Armor",
         "cost": 300,
         "movement": 4,
-        "strength": 62,
+        "strength": 64,
         "uniques": [
             "Only available <if [Factory] is constructed>",
             "Consumes [1] [Oil]",
-            "[-25]% Strength <vs cities> <when attacking>",
+            "[-10]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
             //Positive
             "Can move after attacking",
