@@ -22,10 +22,10 @@
             "Triggers a [Fate of China: Emergency Action] event",
             "Destroyed when the city is captured"
         ],
-        "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.:Old poem from Mao Zedong",
+        "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. ---Old poem from Mao Zedong",
         "civilopediaText": [
             {
-                "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.:Old poem from Mao Zedong"
+                "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. ---Old poem from Mao Zedong"
             }
         ]
     },
@@ -156,9 +156,9 @@
         "uniques": [
             "Unavailable <hidden from users>",
             "Unsellable",
-            "Consumes [1] [Research Breakthrough Countdown]",
-            "Remove [Research Breakthrough: Combat Drone] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
-            "Gain a free [Ground Control Center] [in capital] <when below [2] [Research Breakthrough Countdown]>",
+            "Instantly consumes [1] [Research Breakthrough Countdown] <upon turn start>",
+            "Remove [Research Breakthrough: Combat Drone] [in all cities] <when below [2] [Research Breakthrough Countdown]> <upon turn start> ",
+            "Gain a free [Ground Control Center] [in capital] <when below [2] [Research Breakthrough Countdown]> <upon turn start> ",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
             "Suppress warning [is both granted free and could possibly be removed by triggers]",
@@ -196,10 +196,10 @@
         "uniques": [
             "Unavailable <hidden from users>",
             "Unsellable",
-            "Consumes [1] [Research Breakthrough Countdown]",
-            "Remove [Research Breakthrough: APC] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
-            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
-            "Instantly provides [1] [Armored Car Replacement Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly consumes [1] [Research Breakthrough Countdown] <upon turn start>",
+            "Remove [Research Breakthrough: APC] [in all cities] <when below [2] [Research Breakthrough Countdown]> <upon turn start> <hidden from users>",
+            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
+            "Instantly provides [1] [Armored Car Replacement Flag] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
             "Suppress warning [is both granted free and could possibly be removed by triggers]",
@@ -277,9 +277,9 @@
         "uniques": [
             "Unavailable <hidden from users>",
             "Unsellable",
-            "Consumes [1] [Research Breakthrough Countdown]",
-            "Remove [Research Breakthrough: 'Great Wall' Drone Host] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
-            "Instantly provides [1] [Drone Host Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly consumes [1] [Research Breakthrough Countdown] <upon turn start>",
+            "Remove [Research Breakthrough: 'Great Wall' Drone Host] [in all cities] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
+            "Instantly provides [1] [Drone Host Research Flag] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
             "Suppress warning [is both granted free and could possibly be removed by triggers]",
@@ -306,9 +306,9 @@
         "uniques": [
             "Unavailable <hidden from users>",
             "Unsellable",
-            "Consumes [1] [Research Breakthrough Countdown]",
-            "Remove [Research Breakthrough: Aunty Qiu Project] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
-            "Instantly provides [1] [Nuclear Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly consumes [1] [Research Breakthrough Countdown] <upon turn start>",
+            "Remove [Research Breakthrough: Aunty Qiu Project] [in all cities] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
+            "Instantly provides [1] [Nuclear Research Flag] <when below [2] [Research Breakthrough Countdown]> <upon turn start>  <hidden from users>",
             "[-25]% [Science] [in all cities]",
             "[-25]% [Power] resource production",
             "Suppress warning [is both granted free and could possibly be removed by triggers]",
@@ -373,7 +373,7 @@
         ],
         "civilopediaText": [
             {
-                "text": "...re-establishing a basis for common ownership.:Command 05 from the Socialist Authority"
+                "text": "...re-establishing a basis for common ownership. ---Command 05 from the Socialist Authority"
             }
         ]
     },
@@ -395,7 +395,7 @@
         ],
         "civilopediaText": [
             {
-                "text": "What is meant by a dialectical approach? It means being analytical about everything, acknowledging that human beings all make mistakes and not negating a person completely just because he has made mistakes. Lenin once said that there is not a single person in the world who does not make mistakes. Everyone needs support. An able fellow needs the help of three other people, a fence needs the support of three stakes.:A Dialectical Approach to Inner-party Unity"
+                "text": "What is meant by a dialectical approach? It means being analytical about everything, acknowledging that human beings all make mistakes and not negating a person completely just because he has made mistakes. Lenin once said that there is not a single person in the world who does not make mistakes. Everyone needs support. An able fellow needs the help of three other people, a fence needs the support of three stakes. ---A Dialectical Approach to Inner-party Unity"
             }
         ],
         "hurryCostModifier": -5,
@@ -417,7 +417,7 @@
         ],
         "civilopediaText": [
             {
-                "text": "Enslavers turn people into the walking dead, our new society turns the walking dead back to people.:Propaganda material"
+                "text": "Enslavers turn people into the walking dead, our new society turns the walking dead back to people. ---Propaganda material"
             }
         ],
         "requiredTech": "Construction"
@@ -440,7 +440,7 @@
         "requiredTech": "Secrets of the Past",
         "civilopediaText": [
             {
-                "text": "The party member should be spearheading the rebuild process...:Command 05 from the Socialist Authority"
+                "text": "The party member should be spearheading the rebuild process... ---Command 05 from the Socialist Authority"
             }
         ]
     },
@@ -467,7 +467,7 @@
         "requiredTech": "Education",
         "civilopediaText": [
             {
-                "text": "representing the most progressive culture...:Command 05 from the Socialist Authority"
+                "text": "representing the most progressive culture... ---Command 05 from the Socialist Authority"
             }
         ]
     },
@@ -492,7 +492,7 @@
         "requiredTech": "Social Engineering",
         "civilopediaText": [
             {
-                "text": "and dedicate themselves to improving all the other peoples' lives.:Command 05 from the Socialist Authority"
+                "text": "and dedicate themselves to improving all the other peoples' lives. ---Command 05 from the Socialist Authority"
             }
         ]
     },

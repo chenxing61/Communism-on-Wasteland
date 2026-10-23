@@ -12,7 +12,8 @@
         "upgradesTo": "PLA Infantry",
         "requiredTech": "Rifling",
         "uniques": [
-            "Personnel"
+            "Personnel",
+            "Consumes [1] [Weapons]"
         ],
         "promotions": [
             "Entrench",
@@ -22,7 +23,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few. ---Li De Sheng"
             }
         ]
     },
@@ -49,7 +50,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few. ---Li De Sheng"
             }
         ]
     },
@@ -78,7 +79,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few. ---Li De Sheng"
             }
         ]
     },
@@ -150,7 +151,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. ---On Protracted War(1938)"
             }
         ]
     },
@@ -166,7 +167,8 @@
         "rangedStrength": 35,
         "interceptRange": 1,
         "uniques": [
-            "Personnel"
+            "Personnel",
+            "Consumes [1] [Weapons]"
         ],
         "promotions": [
             "Guerilla Warfare I",
@@ -177,7 +179,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. ---On Protracted War(1938)"
             }
         ]
     },
@@ -204,7 +206,7 @@
         "attackSound": "cannon",
         "civilopediaText": [
             {
-                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people.:On Protracted War(1938)"
+                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people. ---On Protracted War(1938)"
             }
         ]
     },
@@ -260,7 +262,7 @@
         "attackSound": "tankshot",
         "civilopediaText": [
             {
-                "text": "They said armored vehicles are dead, and then they kept developing AP rounds.:Unspecified PLA General"
+                "text": "They said armored vehicles are dead, and then they kept developing AP rounds. ---Unspecified PLA General"
             }
         ]
     },
@@ -391,7 +393,7 @@
         "attackSound": "artillery",
         "civilopediaText": [
             {
-                "text": "The eastern wind delivers fear into their heart.:Propaganda Material"
+                "text": "The eastern wind delivers fear into their heart. ---Propaganda Material"
             }
         ]
     },
@@ -428,7 +430,7 @@
         "unitType": "Civilian",
         "uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Comment [[Commissar] Units within [1] tiles gain [Tactic Study] Status for [4] turns] <Civilopedia link [Promotion/Tactic Study]>",
+            "Comment [[Commissar] Units within [1] tiles gain [Tactic Study] Status for [4] turns] <Civilopedia link [Promotions/Tactic Study]>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can instantly construct a [Settlement] improvement <by consuming this unit>",
             "Great Person - [War]",
