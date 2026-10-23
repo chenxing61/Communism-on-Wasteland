@@ -84,7 +84,7 @@
 			///Implementation Start
 			"Instantly provides [15] [International Reputation] <upon declaring friendship> <hidden from users> <(modified by game speed)>",
 			"Instantly provides [15] [International Reputation] <upon declaring a defensive pact> <hidden from users> <(modified by game speed)>",
-			"Instantly provides [20] [International Reputation] <upon constructing [Wonder] [in all cities]> <hidden from users> <(modified by game speed)>",
+			"Instantly provides [10] [International Reputation] <upon constructing [Wonder] [in all cities]> <hidden from users> <(modified by game speed)>",
 			"Provides [1] [International Reputation] <for every [2] [[Known [{Friendly} {City-State}] Civilizations]]> <hidden from users> <(modified by game speed)>",
 			//"Instantly consumes [1] [International Reputation] <upon turn start> <hidden from users> <(modified by game speed)>",
 			"Instantly consumes [25] [International Reputation] <upon declaring war on [All] Civilizations> <hidden from users> <(modified by game speed)>",
