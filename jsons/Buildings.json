@@ -1,116 +1,543 @@
 [
- {
-    "name": "The Underground Great Wall",
-    "isWonder": true,
-    "uniqueTo": "United Commune of People",
-    "specialistSlots": { "Administrator": 1 },
-    "gold": 1,
-    "production": 2,
-    "food":2,
-    "faith": 2,
-    "cityHealth": 40,
-    "cost": 1,
-    "uniques": [
-        "Provides [1] [Power]",
-        "Provides [2] [Weapons]",
-        "[+2] population [in capital]",
-        "[1] free [Civilian Convoy] units appear",
-        "[1] free [PLA Infantry Division] units appear",
-        "[1] free [Elite Militia] units appear",
-        "Gain a free [Socialist Cooperative] [in this city]",
-        "Can only be built <in [Capital] cities>",
-        "Destroyed when the city is captured"
-    ],
-    "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.",
-    "civilopediaText": [
-        {
-            "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit. - Old poem from a great person"
-        }
-    ]
- },
- {
-    "name": "Socialist Cooperative",
-    "uniqueTo": "United Commune of People",
-    "replaces": "Food Store",
-    "cost": 25,
-    "food": 1,
-    "cityHealth": 10,
-    "uniques": [
-        "[+1 Production] per [3] population [in this city]",
-        "New [Military] units start with [5] XP [in this city]",
-        "[25]% Food is carried over after population increases [in this city]",
-        "[+1 Food] [in this city] <with [Salt]>",
-        "[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
-		"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
-		"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
-        "Destroyed when the city is captured"
-    ],
-    "civilopediaText": [
-        {
-            "text": "...restabilishing a basis for common ownership. - Command 05 from the Socialist Authority"
-        }
-    ]
- },
- {
-    "name": "Liberation Camp",
-    "uniqueTo": "United Commune of People",
-    "replaces": "Work Camp",
-    "maintenance": 1,
-    "happiness": 1,
-    "uniques": [
-        "Consumes [1] [Slaves]",
-        "[+1] population [in this city]",
-        "[1] free [Worker] units appear",
-        "Only available <with [Slaves]>",
-        "Unsellable"
-    ],
-    "civilopediaText": [
-        {
-            "text": "Enslavers turn people into the walking dead, our new society turn the walking dead back to people. - Propaganda material"
-        }
-    ],
-    "requiredTech": "Construction"
- },
- {
-    "name": "Global Liberation Command",
-    "uniqueTo": "United Commune of People",
-    "replaces": "Congress",
-    "cost": 67,
-    "requiredTech": "Civil Service",
-    "uniques": [
-        "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built <in [Capital] cities>",
-        "Only available <in cities without a [Strengthened Mass Line]>",
-        "[+25]% Production when constructing [Civilian] units [in all cities]",
-        "[+25]% Production when constructing [Military] units [in all cities]",
-        "New [Military] units start with [10] XP [in all cities]",
-        "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion",
-        "Destroyed when the city is captured"
-    ],
-    "civilopediaText": [
-        {
-            "text": "The wasteland is filled with scums and exploiters and enslavers, its time to shed a light upon this dark age."
-        }
-    ]
- },
- {
-    "name": "Strengthened Mass Line",
-    "uniqueTo": "United Commune of People",
-    "replaces": "Council",
-    "cost": 67,
-    "requiredTech": "Civil Service",
-    "uniques": [
-        "[+1 Production] per [4] population [in all cities]",
-        "[-25]% Unhappiness from [Population] [in all cities]",
-        "[+15]% Production when constructing [All] buildings [in all cities]",
-        "Only available <if [Search for Survivors] is constructed>",
-        "Can only be built <in [Capital] cities>",
-        "Only available <in cities without a [Global Liberation Command]>",
-        "Destroyed when the city is captured"
-    ],
-    "civilopediaText": [
+    ///Palace-like wonder
+    {
+        "name": "The Underground Great Wall",
+        "isWonder": true,
+        "uniqueTo": "United Commune",
+        "cost": 0,
+        "production": 2,
+        "food": 2,
+        "science": 1,
+        "culture": 1,
+        "cityHealth": 40,
+        "specialistSlots": {
+            "Administrator": 1
+        },
+        "uniques": [
+            "Provides [1] [Power]",
+            "Provides [2] [Weapons]",
+            "Provides [1] [Weapons] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+            "Consumes [1] [International Reputation] <(modified by game speed)> <hidden from users>",
+            "[+3 Happiness] [in this city] <if [Breakout Event Flag: Careful Management] is constructed> <hidden from users>",
+            "Triggers a [Fate of China: Emergency Action] event",
+            "Destroyed when the city is captured"
+        ],
+        "quote": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.:Old poem from Mao Zedong",
+        "civilopediaText": [
             {
-                "text": "By focusing on unity, we shall stand as a new lighthouse for the working class."
+                "text": "Idle boast the strong pass is a wall of iron, With firm strides we are crossing its summit.:Old poem from Mao Zedong"
+            }
+        ]
+    },
+    {
+        "name": "Breakout Event Flag: Army Building",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Breakout Event Flag: Careful Management",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Breakout Event Flag: Education",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+2 Science] [in all cities] <before discovering [Education]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Realisation Event Flag: Focus on Trade",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+20]% [Gold] from Trade Routes <when number of [International Reputation] is between [31] and [69]>",
+            "[+30]% [Gold] from Trade Routes <when above [69] [International Reputation]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Realisation Event Flag: Focus on Anti-infiltration",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-33]% enemy spy effectiveness [in all cities] <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Revision Event Flag: Civil War",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when number of [Party Unity] is between [31] and [69]>",
+            "[+75]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Blue Sun] units> <when above [69] [Party Unity]>",
+            "[+25]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Central State] units> <when number of [Party Unity] is between [31] and [69]>",
+            "[+75]% Strength <if [Forgotten Factions for Deciv] is enabled> <vs [Central State] units> <when above [69] [Party Unity]>",
+            "[+25]% Strength <if [Outlaws of the Wastes] is enabled> <vs [Celestial Collective] units> <when number of [Party Unity] is between [31] and [69]>",
+            "[+75]% Strength <if [Outlaws of the Wastes] is enabled> <vs [Celestial Collective] units> <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Revision Event Flag: Digestion of the Essence",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-10]% Unhappiness from [Population] [in all cities] <when number of [Party Unity] is between [31] and [69]>",
+            "[-20]% Unhappiness from [Population] [in all cities] <when above [69] [Party Unity]>",
+            "[+1 Science, +1 Culture] from each Trade Route <when number of [Party Unity] is between [31] and [69]>",
+            "[+2 Science, +2 Culture] from each Trade Route <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Revision Event Flag: The Unfinished Revolution",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+2 Science, +2 Culture] from all [Party Organization] buildings <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Revision Event Flag: Building the new society",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+1 Production] from all [Party Branch] buildings <when above [69] [Party Unity]>",
+            "[+2 Production] from all [Party Organization] buildings <when above [69] [Party Unity]>",
+            "Provides [1] [Power] <for every [Cities]> <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reforge Event Flag: Within the Enemy",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Shooter] units gain the [Survivalism] promotion <when above [30] [Party Unity]>",
+            "[Scrapper] units gain the [Pursuit] promotion <when above [30] [Party Unity]>",
+            "Gain a free [Research Breakthrough: Combat Drone] [in capital]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Research Breakthrough: Combat Drone",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Research Breakthrough: Combat Drone] [in all cities] <when below [2] [Research Breakthrough Countdown]>",
+            "Gain a free [Ground Control Center] [in capital] <when below [2] [Research Breakthrough Countdown]>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reforge Event Flag: Traditional Tactic",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Shooter] units gain the [Guerilla Warfare II] promotion <when above [30] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Reforge Event Flag: Forward Research",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+25]% Production when constructing [Armor] units [in all cities]<when above [30] [Party Unity]>",
+            "[+8]% Production when constructing [Armor] units [in all cities]<when above [69] [Party Unity]>",
+            "Gain a free [Research Breakthrough: APC] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Research Breakthrough: APC",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Research Breakthrough: APC] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Gain a free [Armor Production Line] [in capital] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Armored Car Replacement Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag: Verdant Mountain and Azure Rivers",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-33]% construction time for [Grassland] improvements <when above [69] [Party Unity]>",
+            "[-33]% construction time for [Tree plantation] improvements <when above [69] [Party Unity]>",
+            "[-25]% construction time for [Terrace farm] improvements <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag: World Factory",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-50]% construction time for [Borough] improvements <when above [69] [Party Unity]>",
+            "[-33]% construction time for [Borehole] improvements <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Rebuild Event Flag: Infrastructure Speed Daemon",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[-25]% construction time for [All Road] improvements <when above [69] [Party Unity]>",
+            "[-25]% construction time for [Borough] improvements <when above [69] [Party Unity]>",
+            "[+100]% Production when constructing [Smart Grid] buildings [in all cities] <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armament Event Flag: Global Offensive",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[+1] Movement <for [Air] units> <when above [69] [Party Unity]>",
+            "[+1] Movement <for [Water] units> <when above [69] [Party Unity]>",
+            "Cannot build [Paratrooper] units",
+            "Cannot build [Attack Helicopter] units",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armament Event Flag: New Great Wall",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Armor] units gain the [Drone Support] promotion <if [Ground Control Center] is constructed>",
+            "Gain a free [Research Breakthrough: 'Great Wall' Drone Host] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Research Breakthrough: 'Great Wall' Drone Host",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Research Breakthrough: 'Great Wall' Drone Host] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Drone Host Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Great Armament Event Flag: Ultimatum",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "[Scout] units gain the [Air Link] promotion",
+            "[Shooter] units gain the [Air Link] promotion",
+            "Gain a free [Research Breakthrough: Aunty Qiu Project] [in capital] <hidden from users>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    {
+        "name": "Research Breakthrough: Aunty Qiu Project",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Consumes [1] [Research Breakthrough Countdown]",
+            "Remove [Research Breakthrough: Aunty Qiu Project] [in all cities] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "Instantly provides [1] [Nuclear Research Flag] <when below [2] [Research Breakthrough Countdown]> <hidden from users>",
+            "[-25]% [Science] [in all cities]",
+            "[-25]% [Power] resource production",
+            "Suppress warning [is both granted free and could possibly be removed by triggers]",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+	{
+		"name": "Aunty Qiu Project",
+        "wonderCost": 800,
+		"isNationalWonder": true,
+		"requiredTech": "Combined Arms",
+		"uniques": [
+            "Only available <with [Nuclear Research Flag]> <if [Manhattan Project] is not constructed> <hidden from users>",
+            "Cannot build [Manhattan Project] buildings <hidden from users>",
+            "Play [China Gets The Bomb] sound",
+			"Enables nuclear weapon",
+			"Triggers a global alert upon completion",
+			"Cannot be hurried"
+		]
+	},
+    {
+        "name": "Great Armament Event Flag: No First Use",
+        "cost": 10,
+        "uniques": [
+            "Unavailable <hidden from users>",
+            "Unsellable",
+            "Population loss from nuclear attacks [-25]% [in all cities] <when above [30] [Party Unity]>",
+            "Population loss from nuclear attacks [-25]% [in all cities] <when above [69] [Party Unity]>",
+            "Damage to garrison from nuclear attacks [-25]% [in all cities] <when above [30] [Party Unity]>",
+            "Damage to garrison from nuclear attacks [-25]% [in all cities] <when above [69] [Party Unity]>",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured"
+        ]
+    },
+    ///Unique building
+    {
+		"name": "Search for Lost Sector",
+        "uniqueTo": "United Commune",
+        "replaces":"Search for Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+            "Triggers a [Remnant: Lost Sector] event"
+		]
+	},
+    {
+        "name": "Socialist Cooperative",
+        "uniqueTo": "United Commune",
+        "replaces": "Food Store",
+        "cost": 25,
+        "food": 1,
+        "uniques": [
+            "'Party Controlled'",
+            "[+1 Production] per [3] population [in this city] <in cities with between [1] and [10] [Population]>",
+            "[+3 Production] [in this city] <in cities with at least [10] [Population]>",
+            "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+            "[25]% Food is carried over after population increases [in this city]",
+            "[+1 Food] [in this city] <with [Salt]>",
+            "[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+            "Destroyed when the city is captured"
+        ],
+        "civilopediaText": [
+            {
+                "text": "...re-establishing a basis for common ownership.:Command 05 from the Socialist Authority"
+            }
+        ]
+    },
+    {
+        "name": "Re-education Camp",
+        "uniqueTo": "United Commune",
+        "replaces": "Prison Camp",
+        "maintenance": 1,
+        "happiness": 1,
+        "production": 1,
+        "uniques": [
+            "'Party Controlled'",
+            "Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+            "Only available <in cities without a [Listening Post]>",
+            "Removes extra unhappiness from annexed cities",
+            "Provides [1] [Re-educated Prisoner]",
+            "Unsellable"
+        ],
+        "civilopediaText": [
+            {
+                "text": "What is meant by a dialectical approach? It means being analytical about everything, acknowledging that human beings all make mistakes and not negating a person completely just because he has made mistakes. Lenin once said that there is not a single person in the world who does not make mistakes. Everyone needs support. An able fellow needs the help of three other people, a fence needs the support of three stakes.:A Dialectical Approach to Inner-party Unity"
+            }
+        ],
+        "hurryCostModifier": -5,
+        "requiredTech": "Construction"
+    },
+    {
+        "name": "Liberation Camp",
+        "uniqueTo": "United Commune",
+        "replaces": "Work Camp",
+        "maintenance": 1,
+        "happiness": 1,
+        "uniques": [
+            "'Party Controlled'",
+            "Only available <with [Re-educated Prisoner]>",
+            "Consumes [1] [Re-educated Prisoner]",
+            "[+1] population [in this city]",
+            "[1] free [Worker] units appear",
+            "Unsellable"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Enslavers turn people into the walking dead, our new society turns the walking dead back to people.:Propaganda material"
+            }
+        ],
+        "requiredTech": "Construction"
+    },
+    {
+        "name": "Party Branch",
+        "uniqueTo": "United Commune",
+        "replaces": "Shrine",
+        "cost": 40,
+        "happiness": 1,
+        "cityHealth": 10,
+        "uniques": [
+            "'Party Controlled'",
+            "Only available <when above [3] [Party Unity]> <hidden from users>",
+            "Instantly consumes [3] [Party Unity]",
+            "Each city founded increases culture cost of policies [5]% less than normal <when above [30] [Party Unity]>",
+            "New [Military] units start with [5] XP [in this city] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Secrets of the Past",
+        "civilopediaText": [
+            {
+                "text": "The party member should be spearheading the rebuild process...:Command 05 from the Socialist Authority"
+            }
+        ]
+    },
+    {
+        "name": "Party Organization",
+        "uniqueTo": "United Commune",
+        "replaces": "Monastery",
+        "maintenance": 1,
+        "specialistSlots": {
+            "Administrator": 1
+        },
+        "uniques": [
+            "'Party Controlled'",
+            "Only available <when above [2] [Party Unity]> <hidden from users>",
+            "Instantly consumes [2] [Party Unity]",
+            "[+100]% Production when constructing [Town Hall] buildings [in this city] <when above [30] [Party Unity]>",
+            "[+100]% Production when constructing [Public School] buildings [in this city] <when above [30] [Party Unity]>",
+            "All newly-trained [Military] units [in this city] receive the [Commissar] promotion <when above [30] [Party Unity]>",
+            "All newly-trained [relevant] units [in this city] receive the [Reconnaissance III] promotion <when above [69] [Party Unity]> <if [Revision Event Flag: Civil War] is constructed>",
+            "All newly-trained [relevant] units [in this city] receive the [Reconnaissance I] promotion <when above [69] [Party Unity]> <if [Revision Event Flag: The Unfinished Revolution] is constructed>",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "Party Branch",
+        "requiredTech": "Education",
+        "civilopediaText": [
+            {
+                "text": "representing the most progressive culture...:Command 05 from the Socialist Authority"
+            }
+        ]
+    },
+    {
+        "name": "Party School",
+        "uniqueTo": "United Commune",
+        "replaces": "Megachurch",
+        "maintenance": 2,
+        "percentageBonus": {
+            "Culture": 10
+        },
+        "culture": 3,
+        "science": 1,
+        "uniques": [
+            "'Party Controlled'",
+            "Only available <when above [5] [Party Unity]> <hidden from users>",
+            "Instantly consumes [5] [Party Unity]",
+            "[+10]% Production when constructing ['Party Controlled'] buildings [in all cities] <when above [30] [Party Unity]>",
+            "Destroyed when the city is captured"
+        ],
+        "requiredBuilding": "Party Organization",
+        "requiredTech": "Social Engineering",
+        "civilopediaText": [
+            {
+                "text": "and dedicate themselves to improving all the other peoples' lives.:Command 05 from the Socialist Authority"
+            }
+        ]
+    },
+    ///Main Choices
+    {
+        "name": "The Great Revival of Hua Xia",
+        "uniqueTo": "United Commune",
+        "replaces": "Congress",
+        "cost": 67,
+        "uniques": [
+            "Only available <if [Search for Survivors] is constructed> <after adopting [Collectivism Complete]>",
+            "Only available <in cities without a [Red Beacon of the World]>",
+            "Can only be built <in [Capital] cities>",
+            "Comment [Increase the limit of [Party Unity] to [150]]",
+            "[+10]% Strength <for [All] units> <in [Friendly Land] tiles> <hidden from users>",
+            ///"Comment [Can use [Party Unity] to enact ['Propaganda'] for temporary buffs]",
+            "No damage penalty for wounded units",
+            "Gain a free [Party School] [in capital]",
+            "Destroyed when the city is captured"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Our great nation has stood for countless eras. The sheer amount of resilience would put any bystander in awe. We will embrace our legacy and carry on."
+            }
+        ]
+    },
+    {
+        "name": "Red Beacon of the World",
+        "uniqueTo": "United Commune",
+        "replaces": "Council",
+        "cost": 67,
+        "uniques": [
+            "Only available <if [Search for Survivors] is constructed> <after adopting [Collectivism Complete]>",
+            "Only available <in cities without a [The Great Revival of Hua Xia]>",
+            "Can only be built <in [Capital] cities>",
+            "Provides [1] [International Reputation]",
+            "Can spend Gold to annex or puppet a City-State that has been your Ally for [15] turns",
+            "Comment [Lowers the deduction of [Party Unity] when settling/conquering new cities]",
+            "[+1 Faith, +1 Culture] from all ['Party Controlled'] buildings <when above [30] [Party Unity]>",
+            "Gain a free [Party School] [in capital]",
+            "Destroyed when the city is captured"
+        ],
+        "civilopediaText": [
+            {
+                "text": "The capitalist world order has fallen. It is the time to discard the borders and prove that the Proletariat has the future in its hands."
             }
         ]
     }

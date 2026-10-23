@@ -1,1 +1,16 @@
-{"lastUpdated":"2023-09-19T16:10:44Z","modUrl":"https://github.com/chenxing61/Commuism-on-Wasteland","defaultBranch":"main","author":"Cx61","modSize":603,"topics":["unciv-mod","unciv-mod-modsofmods"]}
+{
+    "lastUpdated": "2023-09-19T16:10:44Z",
+    "modUrl": "https://github.com/chenxing61/Commuism-on-Wasteland",
+    "defaultBranch": "main",
+    "author": "Cx61",
+    "modSize": 603,
+    "topics": [
+        "unciv-mod",
+        "unciv-mod-modsofmods"
+    ],
+    "uniques": [
+        "Suppress warning [*contains mismatched conditional braces and may break translations.*]",
+        "Suppress warning [*and may cause translation problems*]",
+        "Suppress warning [*will cause an infinite loop for AI*]"
+    ]
+}

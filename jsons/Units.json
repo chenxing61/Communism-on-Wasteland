@@ -1,59 +1,192 @@
 [
+    ///Frontline Combat
     {
-		"name": "PLA Infantry Division",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 35,
-		"interceptRange": 1,
-		"uniques": ["Unbuildable",
-                    "Personnel",
-                    "Consumes [1] [Weapons]"],
-        "promotions": [
-                    "Entrench",
-                    "Assault"
+        "name": "Field Army",
+        "cost": 120,
+        "uniqueTo": "United Commune",
+        "replaces": "Soldier",
+        "unitType": "Scrapper",
+        "movement": 2,
+        "strength": 40,
+        "interceptRange": 1,
+        "upgradesTo": "PLA Infantry",
+        "requiredTech": "Rifling",
+        "uniques": [
+            "Personnel"
         ],
+        "promotions": [
+            "Entrench",
+            "Commissar"
+        ],
+        "hurryCostModifier": 20,
+        "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We were suppose prepare even more. - Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
             }
-        ],
-        "upgradesTo": "NBC Infantry",
-		"attackSound": "machinegun"
-	},
+        ]
+    },
     {
-        "name": "Elite Militia",
-        "unitType": "Shooter",
-        "cost": 75,
-        "uniqueTo":  "United Commune of People",
+        "name": "PLA Infantry",
+        "cost": 125,
+        "uniqueTo": "United Commune",
+        "replaces": "Infantry",
+        "unitType": "Scrapper",
         "movement": 2,
-        "strength": 30,
-        "range": 1,
-        "rangedStrength": 30,
+        "strength": 47,
         "interceptRange": 1,
         "uniques": [
             "Personnel",
             "Consumes [1] [Weapons]"
         ],
         "promotions": [
-            "Forage",
-            "Guerilla Warfare I"
+            "Entrench",
+            "Commissar"
+        ],
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "NBC Infantry",
+        "hurryCostModifier": 20,
+        "attackSound": "PLA Charge",
+        "civilopediaText": [
+            {
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
+            }
+        ]
+    },
+    {
+        "name": "NBC PLA Infantry",
+        "cost": 230,
+        "uniqueTo": "United Commune",
+        "replaces": "Infantry",
+        "unitType": "Scrapper",
+        "movement": 2,
+        "strength": 47,
+        "interceptRange": 1,
+        "uniques": [
+            "Personnel",
+            "Only available <if [Factory] is constructed>",
+            "Consumes [1] [Weapons]"
+        ],
+        "promotions": [
+            "Entrench",
+            "Commissar",
+            "Gas Mask"
+        ],
+        "requiredTech": "Plastics",
+        "upgradesTo": "Exo-Trooper",
+        "hurryCostModifier": 20,
+        "attackSound": "PLA Charge",
+        "civilopediaText": [
+            {
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
+            }
+        ]
+    },
+    {
+        "name": "International Brigade",
+        "uniqueTo": "United Commune",
+        "cost": 80,
+        "unitType": "Scrapper",
+        "movement": 2,
+        "strength": 27,
+        "interceptRange": 1,
+        "uniques": [
+            "Only available <when above [69] [International Reputation]>",
+            "Personnel",
+            "Comment [[[+5] Strength] and [+10%] Production Cost for each passing era]",
+            "[+5] Strength <starting from the [Rediscovering era]> <hidden from users>",
+            "[+5] Strength <starting from the [Decivilized era]> <hidden from users>",
+            "[+5] Strength <starting from the [Neofeudal era]> <hidden from users>",
+            "[+5] Strength <starting from the [Rebuilding era]> <hidden from users>",
+            "[+5] Strength <starting from the [Industrial era]> <hidden from users>",
+            "[+5] Strength <starting from the [Postmodern era]> <hidden from users>",
+            "[+5] Strength <starting from the [New Future era]> <hidden from users>",
+            "[+5] Strength <starting from the [Singularity era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Rediscovering era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Decivilized era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Neofeudal era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Rebuilding era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Industrial era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Postmodern era]> <hidden from users>",
+            "[+10]% production cost <starting from the [New Future era]> <hidden from users>",
+            "[+10]% production cost <starting from the [Singularity era]> <hidden from users>"
+        ],
+        "promotions": [
+            "Loose Formation",
+            "Sentry"
+        ],
+        "requiredTech": "Trade",
+        "civilopediaText": [
+            {
+                "text": "Arise, wretched of the earth! Arise, convicts of hunger! Reason thunders in its crater! This is the eruption of the end!:The Internationale"
+            }
+        ],
+        "attackSound": "PLA Charge"
+    },
+    ///Infiltration
+    {
+        "name": "Backup Militia",
+        "uniqueTo": "United Commune",
+        "replaces": "Gunman",
+        "unitType": "Shooter",
+        "cost": 60,
+        "movement": 2,
+        "strength": 28,
+        "range": 1,
+        "rangedStrength": 28,
+        "interceptRange": 1,
+        "uniques": [
+            "Personnel",
+            "Consumes [1] [Weapons]"
+        ],
+        "promotions": [
+            "Guerilla Warfare I",
+            "Commissar"
         ],
         "requiredTech": "The Wheel",
         "obsoleteTech": "Replaceable Parts",
         "upgradesTo": "Rifleman",
-        "replaces": "Gunman",
-        "attackSound": "shot",
+        "hurryCostModifier": 20,
+        "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
+            }
+        ]
+    },
+    {
+        "name": "Elite Militia",
+        "uniqueTo": "United Commune",
+        "replaces": "Rifleman",
+        "unitType": "Shooter",
+        "cost": 120,
+        "movement": 2,
+        "range": 1,
+        "strength": 35,
+        "rangedStrength": 35,
+        "interceptRange": 1,
+        "uniques": [
+            "Personnel"
+        ],
+        "promotions": [
+            "Guerilla Warfare I",
+            "Commissar"
+        ],
+        "requiredTech": "Rifling",
+        "upgradesTo": "Marksman",
+        "attackSound": "PLA Charge",
+        "civilopediaText": [
+            {
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
             }
         ]
     },
     {
         "name": "'No mercy' Cannon",
+        "uniqueTo": "United Commune",
+        "replaces": "Crossbowman",
         "unitType": "Shooter",
         "cost": 50,
-        "uniqueTo":  "United Commune of People",
         "movement": 2,
         "strength": 22,
         "range": 1,
@@ -61,80 +194,330 @@
         "uniques": [
             "Low Tech",
             "[+50]% Strength <vs [Low Tech] units>",
-            "[+100]% Strength <vs cities>"
+            "[+100]% Strength <vs cities>",
+            "Can transform to [Artillery] <if [Reforge Event Flag: Traditional Tactic] is constructed> <costs [+150 Gold] stats>",
         ],
         "requiredTech": "Steel",
-        "replaces": "Crossbowman",
         "obsoleteTech": "Rifling",
         "upgradesTo": "Gunman",
         "hurryCostModifier": 20,
         "attackSound": "cannon",
         "civilopediaText": [
             {
-                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people. - On Protracted War(1938)"
+                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people.:On Protracted War(1938)"
             }
         ]
     },
     {
-        "name": "Red Vanguards",
+        "name": "'Tiger' APC",
+        "cost": 150,
+        "uniqueTo": "United Commune",
         "unitType": "Armor",
-        "cost": 250,
-        "uniqueTo":  "United Commune of People",
         "movement": 4,
-        "strength": 60,
+        "strength": 45,
+        "uniques": [
+            "Only available <with [Armored Car Replacement Flag]>",
+            "Only available <if [Armor Production Line] is constructed> <before discovering [Replaceable Parts]>",
+            "Only available <if [Factory] is constructed> <after discovering [Replaceable Parts]>",
+            "[-20]% Strength <vs [Armor] units>",
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "Consumes [1] [Oil]"
+        ],
+        "promotions": [
+            "Commissar"
+        ],
+        "requiredTech": "Hoplology",
+        "upgradesTo": "'Red Vanguard' CAB",
+        "obsoleteTech": "Combined Arms",
+        "attackSound": "tankshot"
+    },
+    {
+        "name": "'Red Vanguard' CAB",
+        "uniqueTo": "United Commune",
+        "replaces": "Tank",
+        "unitType": "Armor",
+        "cost": 300,
+        "movement": 4,
+        "strength": 64,
         "uniques": [
             "Only available <if [Factory] is constructed>",
-            "Can move after attacking",
-            "[-25]% Strength <vs cities> <when attacking>",
-            "[+10]% Strength <when adjacent to a [Shooter] unit>",
-            "No defensive terrain bonus",
             "Consumes [1] [Oil]",
+            "[-10]% Strength <vs cities> <when attacking>",
+            "No defensive terrain bonus",
+            //Positive
+            "Can move after attacking",
             "Never appears as a Barbarian unit"
         ],
         "promotions": [
-            "Smokescreen"
+            "Smokescreen",
+            "Commissar"
         ],
         "requiredTech": "Combined Arms",
         "upgradesTo": "Modern Armor",
-        "replaces": "Tank",
         "obsoleteTech": "Advanced Materials",
         "hurryCostModifier": 20,
         "attackSound": "tankshot",
         "civilopediaText": [
             {
-                "text": "Before the world's end, the brits gave up all their tanks. I dont know what they were thinking but here we are. We have a autoloading red beast with 3 machineguns once more. - Memoir of an old soldier."
+                "text": "They said armored vehicles are dead, and then they kept developing AP rounds.:Unspecified PLA General"
             }
         ]
     },
     {
-        "name": "Wind of the East",
+		"name": "'Qun Peng' Paratrooper",
+        "uniqueTo": "United Commune",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 43,
+		"cost": 150,
+		"requiredTech": "Flight",
+		"upgradesTo": "Jetsuit",
+		"obsoleteTech": "Avionics",
+		"uniques": [
+            "Only available <if [Great Armament Event Flag: Global Offensive] is constructed>",
+		    "Personnel",
+			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
+			"Consumes [1] [Weapons]",
+			"Never appears as a Barbarian unit"
+			],
+		"promotions": ["Medic I",
+            "Commissar"],
+		"attackSound": "PLA Charge"
+	},
+    	{
+		"name": "'Helix' Helicopter",
+        "uniqueTo": "United Commune",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 45,
+		"rangedStrength": 62,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Lasers",
+		"upgradesTo": "VTOL Gunship",
+		"uniques": [
+            "Only available <if [Great Armament Event Flag: Global Offensive] is constructed> <if [Aerospace Facility] is constructed>",
+			"Can only attack [Military] units",
+			"[33]% chance to intercept air attacks",
+			"[+1] Sight",
+			"Can move after attacking",
+			"Ranged attacks may be performed over obstacles",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Medic I","Medic II","Advanced Weapons", "Antitank Missile", "Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
+    {
+		"name": "'Great Wall' Drone Host",
+        "uniqueTo": "United Commune",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Full-Spectrum Dominance",
+		"uniques": [
+            "Only available <if [Factory] is constructed> <with [Drone Host Research Flag]>",
+            "Can only attack [City center] tiles",
+			"[-25]% Strength <vs cities> <when attacking>",
+            "[+20]% Strength <when defending>",
+            "Can carry [3] [{Automated} {Air}] units",
+            "[This Unit] gains the [Drone Production] status for [2] turn(s) <for [2] movement> <when number of [['Beacon' Strike Drone] Units] is less than [[['Great Wall' Drone Host] Units]*3]>",
+			"Consumes [1] [Oil]",
+            "Consumes [2] [Aluminum]",
+			"Never appears as a Barbarian unit"
+		],
+        "promotions": ["Drone Factory"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "'Beacon' Strike Drone",
+        "uniqueTo": "United Commune",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 6,
+		"interceptRange": 4,
+		"uniques": [
+            "Unbuildable",
+			"Automated",
+			"[+4] Sight",
+            "[70]% chance to intercept air attacks",
+			"Cannot intercept [Stealth] units",
+			"Can see over obstacles"
+		],
+		"promotions": ["Automated"],
+		"attackSound": "jetgun",
+        "hurryCostModifier": 20
+	},
+    {
+        "name": "'Eastern Wind' Artillery",
+        "uniqueTo": "United Commune",
+        "replaces": "Rocket Artillery",
         "unitType": "Siege",
         "cost": 350,
-        "uniqueTo":  "United Commune of People",
-        "replaces": "Rocket Artillery",
         "movement": 3,
-        "strength": 25,
-        "rangedStrength": 40,
+        "strength": 35,
+        "rangedStrength": 45,
         "range": 3,
         "uniques": [
+            "Can upgrade to [Missile Artillery]",
+            "Can upgrade to ['Nü Wa' Nuclear Cannon] <with [Nuclear Research Flag]>",
+            "Can upgrade to [Gauss Cannon]",
             "Only available <if [Factory] is constructed>",
-            "[+100]% Strength <vs cities> <when attacking>",
-            "[-50]% Strength <vs [Helicopter] units>",
-            "[+10]% Strength <when adjacent to a [Shooter] unit>",
+            "Consumes [1] [Oil]",
             "No defensive terrain bonus",
+            "[-50]% Strength <vs [Helicopter] units>",
+            "[-1] Sight",
+            //Positive
+            "[+200]% Strength <vs cities> <when attacking>",
+            "[+50]% Strength <when adjacent to a [Shooter] unit> <when defending>",
             "Withdraws before melee combat <with [25]% chance>",
             "Can carry [1] [Missile] units",
-            "Consumes [1] [Oil]",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Artillery","Logistics"],
+        "promotions": [
+            "Artillery",
+            "Logistics",
+            "Commissar"
+        ],
         "requiredTech": "Rocketry",
         "hurryCostModifier": 20,
         "attackSound": "artillery",
         "civilopediaText": [
             {
-                "text": "Strikes fear into their heart. - Propaganda Material"
+                "text": "The eastern wind delivers fear into their heart.:Propaganda Material"
             }
         ]
-    }
+    },
+	{
+		"name": "'Nü Wa' Nuclear Cannon",
+        "uniqueTo": "United Commune",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 500,
+		"uniques": [
+            "Only available <if [Automated Factory] is constructed> <with [Nuclear Research Flag]>",
+			"[-33]% Strength <when defending>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"No defensive terrain bonus",
+			"[-1] Sight",
+            "Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Must set up to ranged attack",
+			"Consumes [1] [Uranium]",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech": "Nuclear Fission",
+		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "railgun"
+	},
+    {
+        "name": "Warfare Instructor",
+        "uniqueTo": "United Commune",
+        "replaces": "Great General",
+        "unitType": "Civilian",
+        "uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Comment [[Commissar] Units within [1] tiles gain [Tactic Study] Status for [4] turns] <Civilopedia link [Promotion/Tactic Study]>",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can instantly construct a [Settlement] improvement <by consuming this unit>",
+            "Great Person - [War]",
+            "[This Unit] gets a name from the [Warfare Instructor] group",
+            "Can be earned through combat",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 2
+    },
+    {
+		"name": "'Kuang Biao' no.2",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 6,
+		"uniques": [
+            "Unbuildable",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+    {
+		"name": "DF-41",
+        "uniqueTo": "United Commune",
+        "replaces": "Divine Spear",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1600,
+		"obsoleteTech": "The Wheel",
+		"uniques": [
+			"Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Unbuildable"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+        "name": "DFX-50",
+        "uniqueTo": "United Commune",
+        "replaces": "Tactical Nuke",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 600,
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+            "Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Consumes [1] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "DF-60",
+        "uniqueTo": "United Commune",
+        "replaces": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1000,
+		"requiredTech": "Rocketry",
+		"uniques": [
+            "Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Consumes [2] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
 ]

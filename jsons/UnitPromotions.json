@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Commissar",
+		"uniques": [
+			"[+1] XP gained from combat",
+			"[This Unit] gains the [Tactic Study] status for [4] turn(s) <when adjacent to a [Warfare Instructor] unit>"
+		]
+	},
+	{
+		"name": "Tactic Study",
+		"uniques": [
+			"Ignores Zone of Control",
+			"[+25]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Air Link",
+		"uniques": [
+			"[Target Unit] gains the [Spied On] status for [3] turn(s) <upon damaging a [Military] unit>"
+		]
+	},
+	{
+		"name": "Tactic Study",
+		"uniques": [
+			"Ignores Zone of Control",
+			"[+25]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Drone Factory",
+		"uniques": [
+			"[1] free ['Beacon' Strike Drone] units appear <upon losing the [Drone Production] status>"
+		]
+	},
+	{
+		"name": "Drone Production"
+	},
+	{
+		"name": "Spied On",
+		"uniques": [
+			"[-15]% Strength <vs [Helicopter] units>",
+			"[-15]% Strength <vs [Bomber] units>",
+			"[-15]% Strength <vs [Fighter] units>"
+		]
+	}
+]

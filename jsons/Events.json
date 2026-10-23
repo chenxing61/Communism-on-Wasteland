@@ -1,0 +1,649 @@
+[
+    {
+        "name": "Fate of China: Emergency Action",
+        "text": "The year is 2050, our glorious nation, the People's Republic of China was in a nuclear war. Luckily, our forefathers constructed a series of defences officially called 'The Third Line Construction' in the 1970s. Nicknamed [The Underground Great Wall]. It was constantly maintained and expanded under tense international conflicts up until the final moment. We have been relying on this legacy for about 20 years. Until now, the radiation level has gone down remarkably and we need to bear the responsibility of raising the red flag again.",
+        "choices": [
+            {
+                "text": "Time to plan our breakout",
+                "uniques": [
+                    "Triggers a [Fate of China: Military Presence] event",
+                    "Comment [You have [10] [Vault Resource] to spend, choose wisely to build a good start.]",
+                    "Comment [Remember, it is also an option to conserve resources, which may enable events to have more varied outcomes.]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Military Presence",
+        "text": "Most of the Military Force has either perished in nuclear attacks or is unable to contact us. Although a plan to scrape the wasteland for possible survivors is in the works, we must ensure we can protect ourselves.",
+        "choices": [
+            {
+                "text": "We need more intelligence before we can make any decisions",
+                "uniques": [
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China: Resettlement] event",
+
+                    "[1] free [Forward Observer] units appear",
+                    "[1] free [Field Army] units appear"
+                ]
+            },
+            {
+                "text": "Starting all over again to completely overhaul our military",
+                "uniques": [
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China: Resettlement] event",
+
+                    "Comment [[The Underground Great Wall] Provides [1] more [Weapon]]",
+                    "Comment [[Party Branch] Provides [5] more [Military] units XP in their cities]",
+                    "Gain a free [Breakout Event Flag: Army Building] [in capital] <hidden from users>",
+                    "[1] free [Field Army] units appear",
+                    "[1] free [Elite Militia] units appear"
+                ]
+            },
+            {
+                "text": "We can halt overspending on [Military] in order to focus on building up other aspects",
+                "uniques": [
+                    "Instantly consumes [2] [Vault Resource]",
+                    "Triggers a [Fate of China: Resettlement] event",
+                    
+                    "[1] free [Field Army] units appear"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Resettlement",
+        "text": "[The Underground Great Wall] is overflowing with refugees. We have implemented strict rationing, birth control and housing policies to keep the resource spending sustainable. Resettling the surface would alleviate most of these problems, but the problem of keeping morale, security and public safety would take a lot of our focus in the near future.",
+        "choices": [
+            {
+                "text": "We need to reclaim our land to create an economic base and some strategic depth first and foremost. Management issues can be discussed later.",
+                "uniques": [
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China: Underground Research Progress] event",
+
+                    "Adopt [Restorers]",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "We need to carefully manage production and population growth to ensure our future growth.",
+                "uniques": [
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China: Underground Research Progress] event",
+
+                    "Comment [[The Underground Great Wall] Provides [3] more [Happiness]]",
+                    "Comment [[The Underground Great Wall] Provides [2] more [Production]]",
+                    "Gain a free [Breakout Event Flag: Careful Management] [in capital] <hidden from users>",
+                    
+                    "Adopt [Shared Vision]",
+                    "[1] free [Worker] units appear",
+                    "[+2] population [in capital]"
+                ]
+            },
+            {
+                "text": "We must focus on rebuilding our agricultural and water supply base faster than everything else",
+                "uniques": [
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China: Underground Research Progress] event",
+
+                    "Gain a free [Greenhouse] [in capital]",
+                    "Gain a free [Water Storage] [in capital]",
+                    "[+3] population [in capital]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Underground Research Progress",
+        "text": "During our time underground, we still managed to preserve much knowledge about industrial production and receive data about the contaminated surface by sending drones and radio waves.",
+        "choices": [
+            {
+                "text": "Focus our research efforts on adapting to the new surface condition",
+                "uniques": [
+                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
+                    "Instantly consumes [3] [Vault Resource]",
+                    "Triggers a [Fate of China: Vault Door Opens] event",
+
+                    "Discover [Botany]"
+                ]
+            },
+            {
+                "text": "Focus our research efforts on recovering our industrial capability",
+                "uniques": [
+                    "Only available <when above [3] [Vault Resource]> <hidden from users>",
+                    "Instantly consumes [4] [Vault Resource]",
+                    "Triggers a [Fate of China: Vault Door Opens] event",
+
+                    "Discover [Mining]",
+                    "Discover [Engineering]"
+                ]
+            },
+            {
+                "text": "We cannot sacrifice too many resources on research",
+                "uniques": [
+                    "Only available <when above [1] [Vault Resource]> <hidden from users>",
+                    "Instantly consumes [2] [Vault Resource]",
+                    "Triggers a [Fate of China: Vault Door Opens] event",
+
+                    "Comment [Disable the starting [Science] debuff on every city before [Education]]",
+                    "Gain a free [Breakout Event Flag: Education] [in capital] <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Vault Door Opens",
+        "text": "After all the decisions have been set, Li De Sheng, current Party Chairman of [The Underground Great Wall] facility, let out a long sigh. There is still a long way to go to recover the lost territories, and past glory is meaningless in the face of the brutal reality. He glanced at the wall behind him, where the photo of Marx, Engels, Lenin and Mao resides.",
+        "choices": [
+            {
+                "text": "We will get there eventually",
+                "uniques": [
+                    "Gain [100] [Gold] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
+                    "Gain [25] [Science] <for every [Vault Resource]> <when above [1] [Vault Resource]> <(modified by game speed)> <hidden from users>",
+                    "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
+                    "Comment [Every [Vault Resource] left is converted into [100] [Gold] and [25] [Science] on standard speed.]",
+                    "Set [Party Unity] to [55]",
+                    "Set [International Reputation] to [40]",
+                    "Triggers a [Remnant: Surface] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "At least I still have reserved powers",
+                "uniques": [
+                    "Only available <when above [2] [Vault Resource]> <hidden from users>",
+                    "Instantly consumes [1] [Vault Resource] <for every [Vault Resource]> <hidden from users>",
+                    "Instantly provides [1] [Double Event Choice]",
+                    "Comment [By conserving enough material, you've earned a [Double Event Choice], which means in some progression events you can choose... [2] options at once.]",
+                    "Set [Party Unity] to [60]",
+                    "Set [International Reputation] to [40]",
+                    "Triggers a [Remnant: Surface] event <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remnant: Surface",
+        "text": "The Vault Door slowly opens. The sunlight leaks through the gaps of the large cog-shaped door. The air is not as dry and dusty as before. The Geiger counter is silent. A group of scouts wearing hazmat suits goes out to finalise something special.",
+        "choices": [
+            {
+                "text": "First Message: 205X",
+                "uniques": [
+                    "Comment [The first thing that he saw was a pile of dirty red cloth lying on the floor outside the main entrance,]",
+                    "Comment [a worn out banner that is barely readable. It says: 'Don't panic, follow instructions'.]",
+                    "Comment [There were many banners, some were still on the walls but this one is on the ground.]",
+                    "Comment [He remembered it was 20 years ago, when he dragged that thing out of its storage and half-assedly nailed it down there in haste.]",
+                    "Comment [If not for the suit and gloves on him, he could see the wrinkles on his hands.]",
+                    "Comment [And this time he nailed something right.]",
+                    "Comment ['Welcome to the surface! Comrade.']",
+                    "Gain [1] [Culture] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Realisation",
+        "text": "As we attempt to establish our surface life again, human civilization has changed all its faces to adapt to the conditions, and opening trade to a bunch of cannibals, mutants and, worst of all, landlords is a fearsome concept that many of us struggle to face. An important general assembly is being held to discuss our attitude toward the wasteland.",
+        "choices": [
+            {
+                "text": "Pre-war culture, ideologies and moral standards should give place to pragmatic approaches.",
+                "uniques": [
+                    "Instantly consumes [5] [Party Unity]",
+                    "Instantly provides [20] [International Reputation]",
+                    "Comment [New Medium and High [International Reputation] buff:]",
+                    "Comment [[+20/+30]% [Gold] from Trade Routes]",
+                    "Gain a free [Realisation Event Flag: Focus on Trade] [in capital] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Trade, although limited, must be established. And we should also increase our awareness of the danger from infiltration.",
+                "uniques": [
+                    "Instantly provides [10] [Party Unity]",
+                    "Gain [200] [Gold] <(modified by game speed)>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-33]% enemy spy effectiveness [in all cities]]",
+                    "Gain a free [Realisation Event Flag: Focus on Anti-infiltration] [in capital] <hidden from users>"
+                ]
+            },
+            {
+                "text": "And we can reach an equilibrium with the prior experience of building a mixed economy.",
+                "uniques": [
+                    "Only available <when above [0] [Double Event Choice]> <hidden from users>",
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Instantly provides [5] [Party Unity]",
+                    "Instantly provides [20] [International Reputation]",
+                    "Gain [200] [Gold] <(modified by game speed)>",
+                    "Comment [Gain both of the buffs above.]",
+                    "Gain a free [Realisation Event Flag: Focus on Trade] [in capital] <hidden from users>",
+                    "Gain a free [Realisation Event Flag: Focus on Anti-infiltration] [in capital] <hidden from users>"
+                ]
+            }
+
+        ]
+    },
+    {
+        "name": "Fate of China: Revision",
+        "text": "There are many important historical documents and other knowledge in the safe confines of [The Underground Great Wall]. Preserving them was one of our top priorities; now that we have recovered the ability to reproduce copies, what inspiration could we take from them? People need an idea they can get behind, the army needs a goal worth fighting for.",
+        "choices": [
+            {
+                "text": "The Great Reunification shall continue!",
+                "uniques": [
+                    "Only available <if [Revision Event Flag: Civil War] is not constructed> <hidden from users>",
+                    "Unavailable <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is not enabled> <hidden from users>",
+                    "Unavailable <if [Outlaws of the Wastes] is enabled> <if [Yánluó Palace] is not constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Forbidden Palace] is not constructed by anybody> <hidden from users>",
+                    "Unavailable <if [Forgotten Factions for Deciv] is enabled> <if [Expansion Yuan] is not constructed by anybody> <hidden from users>",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[+25/+50]% Strength against any other self-proclaimed Chinese faction]",
+                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
+                    "Gain a free [Revision Event Flag: Civil War] [in capital] <hidden from users>",
+                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Chinese civilization will persevere.",
+                "uniques": [
+                    "Only available <if [Revision Event Flag: Digestion of the Essence] is not constructed> <hidden from users>",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[-20/-30]% Unhappiness from [population] [in all cities]]",
+                    "Comment [New Medium and High [International Reputation] buff:]",
+                    "Comment [[+1/+2] [Science] and [Culture] from each Trade Route]",
+                    "Gain a free [Revision Event Flag: Digestion of the Essence] [in capital] <hidden from users>",
+                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "This is a Protracted War against the totality of capitalism and imperialism's wrongs.",
+                "uniques": [
+                    "Only available <if [Revision Event Flag: The Unfinished Revolution] is not constructed> <hidden from users>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+2 Science, +2 Culture] from all [Party Organization] buildings]",
+                    "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance I] promotion]",
+                    "Adopt [Shared Vision]",
+                    "Gain a free [Revision Event Flag: The Unfinished Revolution] [in capital] <hidden from users>",
+                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "We will rebuild the motherland brick by brick.",
+                "uniques": [
+                    "Only available <if [Revision Event Flag: Building the new society] is not constructed> <hidden from users>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+1 Production] from all [Party Branch] buildings]",
+                    "Comment [[+2 Production] from all [Party Organization] buildings]",
+                    "Comment [Provides [1] [Power] <for every [Cities]>]",
+                    "[1] free [Mounted Worker] units appear",
+                    "Gain a free [Revision Event Flag: Building the new society] [in capital] <hidden from users>",
+                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Revision:Double Choice Available",
+        "text": "",
+        "choices": [
+            {
+                "text": "We can do better",
+                "uniques": [
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Triggers a [Fate of China: Revision] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "There is still a long way ahead",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Reforge",
+        "text": "Through extensive research and reconstruction, we have revitalised our national defense industry. However, we need to construct a tactical framework to get use out of our military technology. Our generals are arguing at the conference non-stop.",
+        "choices": [
+            {
+                "text": "Light infantry and drones would serve as the bulk of the force to rapidly infiltrate the front line.",
+                "uniques": [
+                    "Only available <if [Reforge Event Flag: Within the Enemy] is not constructed> <hidden from users>",
+                    "Comment [And other units will follow through.]",
+                    "Comment [---]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[Shooter] units gain the [Survivalism] promotion]",
+                    "Comment [[Scrapper] units gain the [Pursuit] promotion]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Research Breakthrough: Combat Drone], which constructs [Ground Control Center] early]",
+                    "Comment [But has a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Gain a free [Reforge Event Flag: Within the Enemy] [in capital] <hidden from users>",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>",
+                    "Triggers a [Reforge: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                    
+                ]
+            },
+            {
+                "text": "We may use this newfound prowess to enhance our guerilla tactics to maximise destruction against enemy attack forces.",
+                "uniques": [
+                    "Only available <if [Reforge Event Flag: Traditional Tactic] is not constructed> <hidden from users>",
+                    "Comment [After we have weakened the enemy enough, we will be able to capture their territory without much effort.]",
+                    "Comment [---]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[Shooter] units gain the [Guerilla Warfare II] promotion]",
+                    "Comment [[No Mercy Cannon] units can now transform to [Artillery] at the cost of [150] [Gold]]",
+                    "Comment [---]",
+                    "[1] free [Warfare Instructor] units appear",
+                    "Gain a free [Reforge Event Flag: Traditional Tactic] [in capital] <hidden from users>",
+                    "Triggers a [Reforge: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Re-mechanise as soon as possible.",
+                "uniques": [
+                    "Only available <if [Reforge Event Flag: Forward Research] is not constructed> <hidden from users>",
+                    "Comment [Infantry tactics are not the end-all and be-all. We must have an armored force that can outmaneuver, overwhelm and overpower our opponent quickly to minimise our losses.]",
+                    "Comment [---]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [[+25/33]% Production when constructing [Armor] units [in all cities]]",
+                    "Comment [---]",
+                    "Comment [Unlocks [Research Breakthrough: APC], which constructs an [Armor Production Line] in your capital without prerequisite technology]",
+                    "Comment [But have a temporary negative effect on [Power] and [Science] production for [10] turns.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Comment [Unlocks ['Tiger' APC], a variant of [Armored Car] that is immediately available after the breakthrough]",
+                    "Gain a free [Reforge Event Flag: Forward Research] [in capital] <hidden from users>",
+                    "Comment [But has a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>",
+                    "Triggers a [Reforge: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Reforge: Double Choice Available",
+        "text": "",
+        "choices": [
+            {
+                "text": "We can do better",
+                "uniques": [
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Triggers a [Fate of China: Reforge] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "There is still a long way ahead",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Rebuild",
+        "text": "Now that we have a basis to conduct more research, we may choose a field to conduct our breakthrough on recovering what has been lost.",
+        "choices": [
+            {
+                "text": "Environment is what we all share and can't abandon",
+                "uniques": [
+                    "Only available <if [Rebuild Event Flag: Verdant Mountain and Azure Rivers] is not constructed> <hidden from users>",
+                    "Instantly provides [20] [International Reputation]",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-33]% construction time for [Grassland] improvements]",
+                    "Comment [[-33]% construction time for [Tree plantation] improvements]",
+                    "Comment [[-25]% construction time for [Terrace farm] improvements]",
+                    "Gain a free [Rebuild Event Flag: Verdant Mountain and Azure Rivers] [in capital] <hidden from users>",
+                    "Triggers a [Rebuild: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Reinstalling the industrial chains is the top priority",
+                "uniques": [
+                    "Only available <if [Rebuild Event Flag: World Factory] is not constructed> <hidden from users>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-50]% construction time for [Borough] improvements]",
+                    "Comment [[-33]% construction time for [Borehole] improvements]",
+                    "Gain a free [Rebuild Event Flag: World Factory] [in capital] <hidden from users>",
+                    "Triggers a [Rebuild: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Really? Without sufficient infrastructure?",
+                "uniques": [
+                    "Only available <if [Rebuild Event Flag: Infrastructure Speed Daemon] is not constructed> <hidden from users>",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[-25]% construction time for [All Road] improvements]",
+                    "Comment [[-25]% construction time for [Borough] improvements]",
+                    "Comment [[+100]% Production when constructing [Smart Grid] buildings [in all cities]]",
+                    "Gain a free [Rebuild Event Flag: Infrastructure Speed Daemon] [in capital] <hidden from users>",
+                    "Triggers a [Rebuild: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rebuild: Double Choice Available",
+        "text": "",
+        "choices": [
+            {
+                "text": "We can do better",
+                "uniques": [
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Triggers a [Fate of China: Rebuild] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "There is still a long way ahead",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Great Armament",
+        "text": "Finally, we have completely re-established our military industry to the pre-war baseline. But there is still a critical decision to decide what special punch our army should pack.",
+        "choices": [
+            {
+                "text": "Contingency Plan and Fast Deployment",
+                "uniques": [
+                    "Only available <if [Great Armament Event Flag: Global Offensive] is not constructed> <hidden from users>",
+                    "Comment [Akin to the pre-war American doctrine of global presence, we must build our own fast reaction force.]",
+                    "Comment [---]",
+                    "Comment [New High [Party Unity] buff:]",
+                    "Comment [[+1] Movement <for [Air] units>]",
+                    "Comment [[+1] Movement <for [Water] units>]",
+                    "Comment [---]",
+                    "Comment [Unlocks ['Qun Peng' Paratrooper], a variant of [Paratrooper] that has more strength and longer dropping range.]",
+                    "Comment [Unlocks ['Helix' Helicopter], a variant of [Attack Helicopter] that can provide healing to nearby units, which will be unlocked at [Lasers].]",
+                    "Gain a free [Great Armament Event Flag: Global Offensive] [in capital] <hidden from users>",
+                    "Triggers a [Great Armament: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Automated Warfare",
+                "uniques": [
+                    "Only available <if [Great Armament Event Flag: New Great Wall] is not constructed> <hidden from users>",
+                    "Comment [Drones, Turrets and Robot Dogs were the toys of last year. We will build a great wall of iron and circuits.]",
+                    "Comment [---]",
+                    "Comment [[Armor] units gain the [Drone Support] promotion <if [Ground Control Center] is constructed>]",
+                    "Comment [---]",
+                    "Comment [Unlocks ['Great Wall' Drone Host], a land [Carrier] for special drone units which will be unlocked at [Full-Spectrum Dominance].]",
+                    "Comment [Unlocks ['Beacon' Strike Drone], which can only be created with the ['Great Wall' Drone Host], acts as a direct upgrade for [Strike Drone]s, and can intercept enemy aircraft.]",
+                    "Gain a free [Great Armament Event Flag: New Great Wall] [in capital] <hidden from users>",
+                    "Comment [But has a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>",
+                    "Triggers a [Great Armament: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Strategic Weaponry",
+                "uniques": [
+                    "Only available <if [Great Armament Event Flag: Ultimatum] is not constructed> <hidden from users>",
+                    "Comment [CAS, Bomber and Missiles. Pointing at our enemies]",
+                    "Comment [---]",
+                    "Comment [[Scout] units gain the [Air Link] promotion]",
+                    "Comment [[Shooter] units gain the [Air Link] promotion]",
+                    "Comment [---]",
+                    "Comment [Unlocks ['Nü Wa' Nuclear Cannon], a variant of [Missile Artillery] that uses tactical nuclear strike as its normal attack.]",
+                    "Comment [Unlocks [Aunty Qiu Project], a variant of [Manhattan Project] that can be built right after selecting this option.]",
+                    "Gain a free [Great Armament Event Flag: Ultimatum] [in capital] <hidden from users>",
+                    "Comment [But has a temporary negative effect on [Power] and [Science] production for [7/10/15/20] turns according to speed.]",
+                    "Comment [Which is immediately active after selecting this choice.]",
+                    "Instantly provides [7] [Research Breakthrough Countdown] <on [Quick] game speed> <hidden from users>",
+                    "Instantly provides [10] [Research Breakthrough Countdown] <on [Standard] game speed> <hidden from users>",
+                    "Instantly provides [15] [Research Breakthrough Countdown] <on [Epic] game speed> <hidden from users>",
+                    "Instantly provides [20] [Research Breakthrough Countdown] <on [Marathon] game speed> <hidden from users>",
+                    "Triggers a [Great Armament: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Great Armament: Double Choice Available",
+        "text": "",
+        "choices": [
+            {
+                "text": "We can do better",
+                "uniques": [
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Triggers a [Fate of China: Great Armament] event <hidden from users>"
+                ]
+            },
+            {
+                "text": "There is still a long way ahead",
+                "uniques": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Upon it Again",
+        "text": "The 'confidential' arrives. One after another. Like the Mithraism worshippers building their temple underground thousands of years ago in a bygone era. The bomb successfully detonated underground. Deliberately avoiding causing more fallout on the surface. The chairman lights a cig, much like his predecessor did a century ago.",
+        "choices": [
+            {
+                "text": "If nuclear war was the ultimate evil.",
+                "uniques": [
+                    "Comment [After announcing that the nation has nuclear capabilities, he reaffirmed the stance:  'No first use' Policy will stand. Even after the disaster.]",
+                    "Comment [---]",
+                    "Comment [Mechanic: Cannot Use Nuclear Weapon when not in a war.]",
+                    "Comment [New Medium and High [Party Unity] buff:]",
+                    "Comment [Population loss from nuclear attacks [-25/50]% [in all cities]]",
+			        "Comment [Damage to garrison from nuclear attacks [-25/50]% [in all cities]]",
+                    "Instantly consumes [5] [Party Unity] <(modified by game speed)>",
+                    "Instantly provides [10] [International Reputation] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Then why did we commit it?",
+                "uniques": [
+                    "Comment [It was a simple announcement, straight to the point, but definitely a massive threat to all other parties involved.]",
+                    "Comment [---]",
+                    "[1] free ['Kuang Biao' no.2] units appear",
+                    "Instantly provides [10] [Party Unity] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Fate of China: Reborn",
+        "text": "Everything settles into place. Today the new Chinese administration led by Chairman Li has announced that the Chinese civilization has fully recovered from the nuclear war. A large parade ensues in the capital. A new national day replaces the old one which hasn't been properly celebrated in ages, and a new question arises.",
+        "choices": [
+            {
+                "text": "What would come next?",
+                "uniques": [
+                    "Only available <when below [1] [Double Event Choice]> <hidden from users>",
+                    "Comment [We could usher in a new age of post-capitalism, we could unify the globe, so much more possibilities are in our hand now.]",
+                    "Comment [China must win.]",
+                    "Comment [---]",
+                    "Instantly provides [20] [International Reputation] <(modified by game speed)>"
+                ]
+            },
+            {
+                "text": "Time to plow through all the difficulties ahead",
+                "uniques": [
+                    "Only available <when above [0] [Double Event Choice]> <hidden from users>",
+                    "Instantly consumes [1] [Double Event Choice]",
+                    "Comment [We WILL usher in a new age of post-capitalism no matter the cost.]",
+                    "Comment [China must win.]",
+                    "Comment [---]",
+                    "Empire enters golden age",
+                    "Free Great Person",
+                    "Instantly provides [20] [Party Unity] <(modified by game speed)>",
+                    "Instantly provides [20] [International Reputation] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remnant: The legacy of Tian Gong",
+        "text": "As the first wave of transmission has been decrypted, we have received a faint, heavily distorted message from a man in space.",
+        "choices": [
+            {
+                "text": "Last Message: 203X",
+                "uniques": [
+                    "Comment [It feels wrong. Trillions of casualties are perishing every seconds on earth, yet I have the luxury of witnessing it from a place far far away.]",
+                    "Comment [Every nerve could be surgically removed from my body, that would not compare to the numb I feel at this moment.]",
+                    "Comment [I could simply wait for the fate to say:'As above, so below', but I have no patient.]",
+                    "Comment [The death of a man could be as light as a feather or as heavy as Mountain Tai.]",
+                    "Comment [-Unintelligible-]",
+                    "Comment [(The documents following these recordings are somewhat corrupted, but there are many valuable scientific datasets that recorded how the massive amount of fallout spread through the earth's atmosphere and geography.)]",
+                    "Comment [---]",
+                    "Gain [50] [Science] <(modified by game speed)>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Remnant: Lost Sector",
+        "text": "We have recovered connection to other separated parts of the [Underground Great Wall]; though they struggle more than our main sector, they seem to have elected their own leader?",
+        "choices": [
+            {
+                "text": "A party without inner parties is the fantasy of an emperor",
+                "uniques": [
+                    "Comment [The Chairman praised the resourcefulness of the lost sector, which was able to self-govern and keep everyone alive under pressure, and allowed them to keep political power.]",
+                    "Comment [---]",
+                    "Instantly consumes [7] [Party Unity]",
+                    "[+1] population [in all cities]",
+			        "Free [Civilian Convoy] appears"
+
+                ]
+            },
+            {
+                "text": "This is not the time for petty power struggles",
+                "uniques": [
+                    "Comment [After long diplomatic talks, immediate aid transfers, and multiple packs of cigs spent in the meeting room, the lost sector agreed to reunite under strong pressure]",
+                    "Comment [---]",
+                    "Instantly provides [7] [Party Unity]",
+                    "Gain [-100] [Gold] <(modified by game speed)>",
+                    "[+2] population [in all cities]",
+                    "Free [Worker] appears"
+                ]
+            }
+        ]
+    },
+    //Unused
+    {
+        "name": "Remnant: The submarine's return",
+        "text": "",
+        "choices": [
+            {
+                "text": "1",
+                "uniques": [
+                ]
+            },
+            {
+                "text": "2",
+                "uniques": [
+
+                ]
+            }
+        ]
+    }
+
+]

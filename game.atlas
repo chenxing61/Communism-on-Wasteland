@@ -1,103 +1,299 @@
 
 game.png
-size: 2048, 128
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Communist Cooperative
+BuildingIcons/Aunty Qiu Project
   rotate: false
-  xy: 112, 4
+  xy: 376, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+NationIcons/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+NationPortraits/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ReligionIcons/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+UnitIcons/Circle
+  rotate: false
+  xy: 4, 34
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
 BuildingIcons/Council of People's Commissars
   rotate: false
-  xy: 220, 4
+  xy: 484, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Global Liberation Command
   rotate: false
-  xy: 436, 4
+  xy: 700, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Liberation Camp
+  rotate: false
+  xy: 808, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Party Branch
+  rotate: false
+  xy: 1024, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Party Organization
+  rotate: false
+  xy: 1132, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Party School
+  rotate: false
+  xy: 1132, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Re-education Camp
+  rotate: false
+  xy: 1240, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Beacon of the World
+  rotate: false
+  xy: 1348, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Search for Lost Sector
+  rotate: false
+  xy: 1564, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Socialist Cooperative
+  rotate: false
+  xy: 1672, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Strengthened Mass Line
   rotate: false
-  xy: 976, 4
+  xy: 1672, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Great Revival of Hua Xia
+  rotate: false
+  xy: 1780, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Stavka of the Supreme High Command
   rotate: false
-  xy: 1084, 4
+  xy: 1780, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Underground Great Wall
+  rotate: false
+  xy: 1888, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Russian Soviet Republice
   rotate: false
-  xy: 760, 4
+  xy: 1456, 268
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/United Commune
+  rotate: false
+  xy: 190, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationPortraits/新建文件夹/United Commune
+  rotate: false
+  xy: 4, 220
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 ReligionIcons/Maoism
   rotate: false
-  xy: 544, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/United Commune of People
-  rotate: false
-  xy: 544, 4
+  xy: 916, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Socialism
   rotate: false
-  xy: 868, 4
+  xy: 1564, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Troskysim
   rotate: false
-  xy: 1192, 4
+  xy: 1888, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/International Reputation
+  rotate: false
+  xy: 808, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Party Unity
+  rotate: false
+  xy: 1240, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Research Breakthrough Countdown
+  rotate: false
+  xy: 1456, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Vault Resource
+  rotate: false
+  xy: 190, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/'No mercy' Cannon
   rotate: false
-  xy: 4, 4
+  xy: 268, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/'Red Vanguard' CAB
+  rotate: false
+  xy: 268, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/'Tiger' APC
+  rotate: false
+  xy: 376, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Backup Militia
+  rotate: false
+  xy: 484, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Elite Militia
   rotate: false
-  xy: 328, 4
+  xy: 592, 376
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Field Army
+  rotate: false
+  xy: 592, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/International Brigade
+  rotate: false
+  xy: 700, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/NBC PLA Infantry
+  rotate: false
+  xy: 916, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/PLA Infantry
+  rotate: false
+  xy: 1024, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Vanguards
   rotate: false
-  xy: 652, 4
+  xy: 1348, 268
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wind of the East
   rotate: false
-  xy: 1300, 4
+  xy: 298, 160
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

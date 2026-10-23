@@ -1,0 +1,95 @@
+[
+	{
+		"name": "Vault Resource",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Not shown on world screen <when below [1] [Vault Resource]>",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Re-educated Prisoner",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Party Unity",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Stockpiled",
+			"Cannot be traded",
+			"Comment [Percentage Resource]",
+			"Comment [Low: [0-30], Medium: [31-69], High:  [70-100]]",
+			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn, It decreases when you settle/conquer new cities or lose units/cities]"
+
+		]
+	},
+	{
+		"name": "International Reputation",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+			"Stockpiled",
+			"Cannot be traded",
+			"Comment [Percentage Resource]",
+			"Comment [Low: [0-30], Medium: [31-69], High:  [70-100]]",
+			"Comment [It increases when you build [Wonder]s or do diplomatic actions such as allying [City-State] and [Defensive Pact]. It degrades naturally ([-1] per turn) or when you declare war]"
+		]
+	},
+	{
+		"name": "Research Breakthrough Countdown",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen <for [non-[United Commune]] Civilizations>",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Armored Car Replacement Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Drone Host Research Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Nuclear Research Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Double Event Choice",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	}
+]
