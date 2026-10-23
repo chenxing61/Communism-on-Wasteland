@@ -387,6 +387,9 @@
         "uniques": [
             "'Party Controlled'",
             "Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+            "Only available <in cities without a [Listening Post]>",
+            "Removes extra unhappiness from annexed cities",
             "Provides [1] [Re-educated Prisoner]",
             "Unsellable"
         ],
