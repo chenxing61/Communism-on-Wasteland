@@ -25,7 +25,7 @@
 			"Stockpiled",
 			"Cannot be traded",
 			"Comment [Percentage Resource]",
-			"Comment [Low: [0-30], Medium: [31-69], High: [70-100]]",
+			"Comment [Low: [0-30], Medium: [31-69], High:  [70-100]]",
 			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn, It decreases when you settle/conquer new cities or lose units/cities]"
 
 		]
@@ -38,8 +38,8 @@
 			"Stockpiled",
 			"Cannot be traded",
 			"Comment [Percentage Resource]",
-			"Comment [Low: [0-30], Medium: [31-69], High: [70-100]]",
-			"Comment [It increases when you build [Wonder]s or do diplomatic actions such as allying [City-State] and [Defensive Pact], It degrades naturally ([-1] per turn) or when you declear war]"
+			"Comment [Low: [0-30], Medium: [31-69], High:  [70-100]]",
+			"Comment [It increases when you build [Wonder]s or do diplomatic actions such as allying [City-State] and [Defensive Pact]. It degrades naturally ([-1] per turn) or when you declare war]"
 		]
 	},
 	{
@@ -74,6 +74,16 @@
 	},
 	{
 		"name": "Nuclear Research Flag",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Not shown on world screen",
+            "Will not be displayed in Civilopedia",
+			"Stockpiled",
+			"Cannot be traded"
+		]
+	},
+	{
+		"name": "Double Event Choice",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Not shown on world screen",

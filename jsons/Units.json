@@ -22,7 +22,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We've done too few. - Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
             }
         ]
     },
@@ -49,7 +49,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We've done too few. - Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
             }
         ]
     },
@@ -78,7 +78,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "The Third Front Project was built in prepareation of the nuclear war. And history has proved our estimation being correct. It is the prove of the self-destructive tendency of capitalism. In retrospective. We've done too few. - Li De Sheng"
+                "text": "The Third Front Project was built in preparation for the nuclear war. And history has proved our estimation correct. It is the proof of the self-destructive tendency of capitalism. In retrospect, we've done too few.:Li De Sheng"
             }
         ]
     },
@@ -118,7 +118,7 @@
         "requiredTech": "Trade",
         "civilopediaText": [
             {
-                "text": "Arise, wretched of the earth! Arise, convicts of hunger! Reason thunders in its crater! This is the eruption of the end! - The Internationale"
+                "text": "Arise, wretched of the earth! Arise, convicts of hunger! Reason thunders in its crater! This is the eruption of the end!:The Internationale"
             }
         ],
         "attackSound": "PLA Charge"
@@ -150,7 +150,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
             }
         ]
     },
@@ -177,7 +177,7 @@
         "attackSound": "PLA Charge",
         "civilopediaText": [
             {
-                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers. - On Protracted War(1938)"
+                "text": "...but as far as the relation between the main forces and the guerrilla units is concerned, the former are on the interior lines while the latter are on the exterior lines, presenting a remarkable spectacle of pincers around the enemy. The same can be said of the relationship between the various guerrilla areas. From its own viewpoint each guerrilla area is on interior lines and the other areas are on exterior lines; together they form many battle fronts, which hold the enemy in pincers.:On Protracted War(1938)"
             }
         ]
     },
@@ -195,7 +195,7 @@
             "Low Tech",
             "[+50]% Strength <vs [Low Tech] units>",
             "[+100]% Strength <vs cities>",
-            "Can transform to [Artillery] <if [Reforge Event Flag - Traditional Tactic] is constructed> <costs [+150 Gold] stats>",
+            "Can transform to [Artillery] <if [Reforge Event Flag: Traditional Tactic] is constructed> <costs [+150 Gold] stats>",
         ],
         "requiredTech": "Steel",
         "obsoleteTech": "Rifling",
@@ -204,7 +204,7 @@
         "attackSound": "cannon",
         "civilopediaText": [
             {
-                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people. - On Protracted War(1938)"
+                "text": "The contest of strength is not only a contest of military and economic power, but also a contest of human power and morale. Military and economic power is necessarily wielded by people.:On Protracted War(1938)"
             }
         ]
     },
@@ -239,7 +239,7 @@
         "unitType": "Armor",
         "cost": 300,
         "movement": 4,
-        "strength": 60,
+        "strength": 62,
         "uniques": [
             "Only available <if [Factory] is constructed>",
             "Consumes [1] [Oil]",
@@ -260,12 +260,12 @@
         "attackSound": "tankshot",
         "civilopediaText": [
             {
-                "text": "They said armored vehicle are dead, and then they kept developing AP rounds. - Unspecified PLA General"
+                "text": "They said armored vehicles are dead, and then they kept developing AP rounds.:Unspecified PLA General"
             }
         ]
     },
     {
-		"name": "Qun Peng Paratrooper",
+		"name": "'Qun Peng' Paratrooper",
         "uniqueTo": "United Commune",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -275,7 +275,7 @@
 		"upgradesTo": "Jetsuit",
 		"obsoleteTech": "Avionics",
 		"uniques": [
-            "Only available <if [Great Armorment Event Flag - Global Offensive] is constructed>",
+            "Only available <if [Great Armament Event Flag: Global Offensive] is constructed>",
 		    "Personnel",
 			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
 			"Consumes [1] [Weapons]",
@@ -286,7 +286,7 @@
 		"attackSound": "PLA Charge"
 	},
     	{
-		"name": "Helix Helicopter",
+		"name": "'Helix' Helicopter",
         "uniqueTo": "United Commune",
 		"unitType": "Helicopter",
 		"movement": 6,
@@ -298,7 +298,7 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "VTOL Gunship",
 		"uniques": [
-            "Only available <if [Great Armorment Event Flag - Global Offensive] is constructed> <if [Aerospace Facility] is constructed>",
+            "Only available <if [Great Armament Event Flag: Global Offensive] is constructed> <if [Aerospace Facility] is constructed>",
 			"Can only attack [Military] units",
 			"[33]% chance to intercept air attacks",
 			"[+1] Sight",
@@ -356,7 +356,7 @@
         "hurryCostModifier": 20
 	},
     {
-        "name": "Wind of the East",
+        "name": "'Eastern Wind' Artillery",
         "uniqueTo": "United Commune",
         "replaces": "Rocket Artillery",
         "unitType": "Siege",
@@ -367,7 +367,7 @@
         "range": 3,
         "uniques": [
             "Can upgrade to [Missile Artillery]",
-            "Can upgrade to [Nuclear Cannon] <with [Nuclear Research Flag]>",
+            "Can upgrade to ['Nü Wa' Nuclear Cannon] <with [Nuclear Research Flag]>",
             "Can upgrade to [Gauss Cannon]",
             "Only available <if [Factory] is constructed>",
             "Consumes [1] [Oil]",
@@ -391,12 +391,12 @@
         "attackSound": "artillery",
         "civilopediaText": [
             {
-                "text": "The eastern wind delivers fear into their heart. - Propaganda Material"
+                "text": "The eastern wind delivers fear into their heart.:Propaganda Material"
             }
         ]
     },
 	{
-		"name": "Nuclear Cannon",
+		"name": "'Nü Wa' Nuclear Cannon",
         "uniqueTo": "United Commune",
 		"unitType": "Siege",
 		"movement": 2,
@@ -407,6 +407,7 @@
 		"uniques": [
             "Only available <if [Automated Factory] is constructed> <with [Nuclear Research Flag]>",
 			"[-33]% Strength <when defending>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
             "Nuclear weapon of Strength [1]",
@@ -430,7 +431,7 @@
             "Comment [[Commissar] Units within [1] tiles gain [Tactic Study] Status for [4] turns] <Civilopedia link [Promotion/Tactic Study]>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
             "Can instantly construct a [Settlement] improvement <by consuming this unit>",
-            "Great Person - [War]",
+            "Great Person:[War]",
             "[This Unit] gets a name from the [Warfare Instructor] group",
             "Can be earned through combat",
             "Unbuildable",
@@ -452,5 +453,71 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
-	}
+	},
+    {
+		"name": "DF-41",
+        "uniqueTo": "United Commune",
+        "replaces": "Divine Spear",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1600,
+		"obsoleteTech": "The Wheel",
+		"uniques": [
+			"Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Unbuildable"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+        "name": "DFX-50",
+        "uniqueTo": "United Commune",
+        "replaces": "Tactical Nuke",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 600,
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+            "Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Consumes [1] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "DF-60",
+        "uniqueTo": "United Commune",
+        "replaces": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1000,
+		"requiredTech": "Rocketry",
+		"uniques": [
+            "Only available <if [Manhattan Project] is constructed> <if [Aunty Qiu Project] is not constructed>",
+            "Only available <if [Manhattan Project] is not constructed> <if [Aunty Qiu Project] is constructed>",
+            "Cannot attack <when not at war> <if [Great Armament Event Flag: No First Use] is constructed>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Consumes [2] [Uranium]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
 ]
