@@ -238,7 +238,7 @@
                     "Comment [[+25/+50]% Strength against any other self-proclaimed Chinese faction]",
                     "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance III] promotion]",
                     "Gain a free [Revision Event Flag: Civil War] [in capital] <hidden from users>",
-                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                    "Triggers a [Revision: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
                 ]
             },
             {
@@ -250,7 +250,7 @@
                     "Comment [New Medium and High [International Reputation] buff:]",
                     "Comment [[+1/+2] [Science] and [Culture] from each Trade Route]",
                     "Gain a free [Revision Event Flag: Digestion of the Essence] [in capital] <hidden from users>",
-                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                    "Triggers a [Revision: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
                 ]
             },
             {
@@ -262,7 +262,7 @@
                     "Comment [All newly-trained [relevant] units [in cities with a [Party Organization]] receive the [Reconnaissance I] promotion]",
                     "Adopt [Shared Vision]",
                     "Gain a free [Revision Event Flag: The Unfinished Revolution] [in capital] <hidden from users>",
-                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                    "Triggers a [Revision: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
                 ]
             },
             {
@@ -275,13 +275,13 @@
                     "Comment [Provides [1] [Power] <for every [2] [Cities]>]",
                     "[1] free [Mounted Worker] units appear",
                     "Gain a free [Revision Event Flag: Building the new society] [in capital] <hidden from users>",
-                    "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
+                    "Triggers a [Revision: Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
                 ]
             }
         ]
     },
     {
-        "name": "Revision:Double Choice Available",
+        "name": "Revision: Double Choice Available",
         "text": "",
         "choices": [
             {
