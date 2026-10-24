@@ -26,7 +26,7 @@
 			"Cannot be traded",
 			"Comment [Percentage Resource]",
 			"Comment [Low: [0-30], Medium: [31-69], High:  [70-100]]",
-			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn, It decreases when you settle/conquer new cities or lose units/cities]"
+			"Comment [It increases every turn by [1] + [Completed Policy branches] per turn when [Happiness] is positive, it decreases when you settle/conquer new cities or lose units/cities]"
 
 		]
 	},
