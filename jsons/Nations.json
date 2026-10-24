@@ -61,7 +61,6 @@
 			///Implementation Start
 			"Provides [1] [Party Unity] <for every [[Completed Policy branches] + 1]> <while the empire is happy> <hidden from users> <(modified by game speed)>",
 			"Instantly consumes [10] [Party Unity] <upon founding a city> <hidden from users> <(modified by game speed)>",
-			"Instantly consumes [5] [Party Unity] <upon conquering a city> <hidden from users> <(modified by game speed)>",
 			"Instantly consumes [5] [Party Unity] <upon losing a city> <hidden from users> <(modified by game speed)>",
 			"Instantly consumes [2] [Party Unity] <upon losing a [All] unit> <hidden from users> <(modified by game speed)>",
 			"Set [Party Unity] to [0] <upon turn start> <when below [0] [Party Unity]> <hidden from users>",
