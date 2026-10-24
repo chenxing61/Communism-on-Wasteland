@@ -6,7 +6,7 @@
         "uniqueTo": "United Commune",
         "cost": 0,
         "production": 2,
-        "food": 2,
+        "food": 3,
         "science": 1,
         "culture": 1,
         "cityHealth": 40,
@@ -17,7 +17,7 @@
             "Provides [1] [Power]",
             "Provides [2] [Weapons]",
             "Provides [1] [Weapons] <if [Breakout Event Flag: Army Building] is constructed> <hidden from users>",
-            "Consumes [1] [International Reputation] <(modified by game speed)> <hidden from users>",
+            "Consumes [1] [International Reputation] <hidden from users>",
             "[+3 Happiness] [in this city] <if [Breakout Event Flag: Careful Management] is constructed> <hidden from users>",
             "Triggers a [Fate of China: Emergency Action] event",
             "Destroyed when the city is captured"
@@ -68,6 +68,7 @@
             "Unsellable",
             "[+20]% [Gold] from Trade Routes <when number of [International Reputation] is between [31] and [69]>",
             "[+30]% [Gold] from Trade Routes <when above [69] [International Reputation]>",
+            "[+1] [Food] [in all cities] <when above [31] [International Reputation]>",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]
@@ -132,7 +133,7 @@
             "Unsellable",
             "[+1 Production] from all [Party Branch] buildings <when above [69] [Party Unity]>",
             "[+2 Production] from all [Party Organization] buildings <when above [69] [Party Unity]>",
-            "Provides [1] [Power] <for every [Cities]> <when above [69] [Party Unity]>",
+            "Provides [1] [Power] <for every [2] [Cities]> <when above [69] [Party Unity]>",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]

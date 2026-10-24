@@ -191,6 +191,7 @@
                     "Instantly provides [20] [International Reputation]",
                     "Comment [New Medium and High [International Reputation] buff:]",
                     "Comment [[+20/+30]% [Gold] from Trade Routes]",
+                    "Comment [[+1] [Food] [in all cities]]",
                     "Gain a free [Realisation Event Flag: Focus on Trade] [in capital] <hidden from users>"
                 ]
             },
@@ -271,7 +272,7 @@
                     "Comment [New High [Party Unity] buff:]",
                     "Comment [[+1 Production] from all [Party Branch] buildings]",
                     "Comment [[+2 Production] from all [Party Organization] buildings]",
-                    "Comment [Provides [1] [Power] <for every [Cities]>]",
+                    "Comment [Provides [1] [Power] <for every [2] [Cities]>]",
                     "[1] free [Mounted Worker] units appear",
                     "Gain a free [Revision Event Flag: Building the new society] [in capital] <hidden from users>",
                     "Triggers a [Revision:Double Choice Available] event <when above [0] [Double Event Choice]> <hidden from users>"
