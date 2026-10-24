@@ -68,7 +68,7 @@
             "Unsellable",
             "[+20]% [Gold] from Trade Routes <when number of [International Reputation] is between [31] and [69]>",
             "[+30]% [Gold] from Trade Routes <when above [69] [International Reputation]>",
-            "[+1] [Food] [in all cities] <when above [31] [International Reputation]>",
+            "[+1 Food] [in all cities] <when above [31] [International Reputation]>",
             "Will not be displayed in Civilopedia",
             "Destroyed when the city is captured"
         ]
